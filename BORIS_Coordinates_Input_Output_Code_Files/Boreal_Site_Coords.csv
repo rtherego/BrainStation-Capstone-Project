@@ -1,0 +1,219 @@
+,SITE_ID,LATITUDE,LONGITUDE,LOCATION_DESCR
+627,NSA-OBS-99OBS-TGB12-CON01,55.88007,-98.48139,TGB-12 SOil Carbon measurement site.
+628,NSA-OBS-9OBS1-TGB12-CON01,55.88007,-98.48139,Old Black Spruce
+629,NSA-OBS-9OBS2-TGB12-CON01,55.88007,-98.48139,TGB12 measurement site near Old Black Spruce
+630,NSA-OBS-FCA01-FORCN-1FCAN,55.88329,-98.47756,TE-OBS Plot 1
+631,NSA-OBS-FCA01-FORCN-2FCAN,55.88316,-98.47574,TE-OBS Plot2
+632,NSA-OBS-FCA01-FORCN-3FCAN,55.88304,-98.47415,TE-OBS Plot3
+633,NSA-OBS-FLXTR-9TE02-FLR01,55.88007,-98.48139,TE-02 Foliage respiration measurement site near the NSA-OBS Flux Tower.
+634,NSA-OBS-FLXTR-9TE02-RTR01,55.88007,-98.48139,TE-02 Root respiration measurement site near the NSA-OBS Flux Tower.
+635,NSA-OBS-FLXTR-9TE02-SAP01,55.88007,-98.48139,TE-02 Sapwood measurement site near the NSA-OBS Flux Tower.
+636,NSA-OBS-FLXTR-9TE02-WDR01,55.88007,-98.48139,TE-02 Wood respiration measurement site near the NSA-OBS Flux Tower.
+637,NSA-OBS-FLXTR-9TE02-WRC01,55.88007,-98.48139,TE-02 Continuous wood respiration measurement site near the NSA-OBS Flux Tower.
+638,NSA-OBS-FLXTR-9TE04-BAG01,55.88007,-98.48139,TE-04 branch bag measurement site near the NSA-OBS Flux Tower.
+639,NSA-OBS-FLXTR-9TE04-GSE01,55.88007,-98.48139,TE-04 gas exchange measurement site near the NSA-OBS Flux Tower.
+640,NSA-OBS-FLXTR-9TE06-ALM01,55.88007,-98.48139,TE-06 Allometry measurement site near the NSA-OBS Flux Tower.
+641,NSA-OBS-FLXTR-9TE06-BIO01,55.88007,-98.48139,TE-06 biomass measurement site near the NSA-OBS Flux Tower.
+642,NSA-OBS-FLXTR-9TE06-NPP01,55.88007,-98.48139,TE-06 NPP measurement site near the NSA-OBS Flux Tower.
+643,NSA-OBS-FLXTR-9TE06-WRP01,55.88007,-98.48139,TE-06 water potential measurement site near the NSA-OBS Flux Tower.
+644,NSA-OBS-FLXTR-9TE07-TRE01,55.88007,-98.48139,TE-07 tree ring density measurement site near the NSA Old Black Spruce Flux Tower.
+645,NSA-OBS-FLXTR-9TE09-BCA01,55.88007,-98.48139,TE-09 Biochemistry measurement site near the NSA-OBS Flux Tower.
+646,NSA-OBS-FLXTR-9TE09-BCP01,55.88007,-98.48139,TE-09 biochemistry measurement site near the NSA-OBS Flux Tower.
+647,NSA-OBS-FLXTR-9TE09-CHL01,55.88007,-98.48139,TE-09 Chlorophyll sampling site near the NSA-OBS Flux Tower.
+648,NSA-OBS-FLXTR-9TE09-GSE01,55.88007,-98.48139,TE-09 branch sampling site near the NSA-OBS flux tower.
+649,NSA-OBS-FLXTR-9TE09-NPH01,55.88007,-98.48139,TE-09 nitrogen and photosynthesis measurement site near the NSA-OBS flux tower.
+650,NSA-OBS-FLXTR-9TE09-PHR01,55.88007,-98.48139,TE-09 photo response data collection site near the NSA-OBS flux tower.
+651,NSA-OBS-FLXTR-9TE09-PRN01,55.88007,-98.48139,TE-09 PAR and Nitrogen measurement site near the NSA-OBS flux tower.
+652,NSA-OBS-FLXTR-9TE20-SOL01,55.88007,-98.48139,TE-20 soil pit 1 measurement site near the NSA-OBS Flux Tower.
+653,NSA-OBS-FLXTR-9TE20-SOL02,55.88007,-98.48139,TE-20 soil pit 2 measurement site near the NSA-OBS Flux Tower.
+654,NSA-OBS-FLXTR-9TE20-SOL03,55.88007,-98.48139,TE-20 soil pit 3 measurement site near the NSA-OBS Flux Tower.
+655,NSA-OBS-FLXTR-9TE20-SOL04,55.88007,-98.48139,TE-20 soil pit 4 measurement site near the NSA-OBS Flux Tower.
+656,NSA-OBS-FLXTR-9TE20-SOL05,55.88007,-98.48139,TE-20 soil pit 5 measurement site near the NSA-OBS Flux Tower.
+657,NSA-OBS-FLXTR-9TE20-SOL06,55.88007,-98.48139,TE-20 soil pit 6 measurement site near the NSA-OBS Flux Tower.
+658,NSA-OBS-FLXTR-9TE20-SOL07,55.88007,-98.48139,TE-20 soil pit 7 measurement site near the NSA-OBS Flux Tower.
+659,NSA-OBS-FLXTR-9TE21-MET01,55.88007,-98.48139,TE-21 Meteorological measurement site near the NSA-OBS Flux Tower.
+660,NSA-OBS-FLXTR-9TE23-HPH01,55.88007,-98.48139,TE-23 hemispherical photo measurement site near the NSA-OBS Flux Tower.
+661,NSA-OBS-FLXTR-9TE23-MSM01,55.88007,-98.48139,TE-23 mapplot summary measurement site near the NSA-OBS Flux Tower.
+662,NSA-OBS-FLXTR-9TE23-MST01,55.88007,-98.48139,TE-23 mapplot site data measurement site near the NSA-OBS Flux Tower.
+663,NSA-OBS-FLXTR-9TF03-FLX01,55.88007,-98.48139,TF-03 measurement site at the NSA Old Black Spruce Flux Tower
+664,NSA-OBS-FLXTR-9TF03-FLX10,55.88007,-98.48139,TF-03 Collar 10 measurement site at the NSA Old Black Spruce Flux Tower
+665,NSA-OBS-FLXTR-9TF03-FLXC1,55.88007,-98.48139,TF-03 Collar 1 measurement site at the NSA Old Black Spruce Flux Tower
+666,NSA-OBS-FLXTR-9TF03-FLXC2,55.88007,-98.48139,TF-03 Collar 2 measurement site at the NSA Old Black Spruce Flux Tower
+667,NSA-OBS-FLXTR-9TF03-FLXC3,55.88007,-98.48139,TF-03 Collar 3 measurement site at the NSA Old Black Spruce Flux Tower
+668,NSA-OBS-FLXTR-9TF03-FLXC4,55.88007,-98.48139,TF-03 Collar 4 measurement site at the NSA Old Black Spruce Flux Tower
+669,NSA-OBS-FLXTR-9TF03-FLXC5,55.88007,-98.48139,TF-03 Collar 5 measurement site at the NSA Old Black Spruce Flux Tower
+670,NSA-OBS-FLXTR-9TF03-FLXC6,55.88007,-98.48139,TF-03 Collar 6 measurement site at the NSA Old Black Spruce Flux Tower
+671,NSA-OBS-FLXTR-9TF03-FLXC7,55.88007,-98.48139,TF-03 Collar 7 measurement site at the NSA Old Black Spruce Flux Tower
+672,NSA-OBS-FLXTR-9TF03-FLXC8,55.88007,-98.48139,TF-03 Collar 8 measurement site at the NSA Old Black Spruce Flux Tower
+673,NSA-OBS-FLXTR-9TF03-FLXC9,55.88007,-98.48139,TF-03 Collar 9 measurement site at the NSA Old Black Spruce Flux Tower
+674,NSA-OBS-FLXTR-FLX01-FLX01,55.88007,-98.48139,FLX-01 measurement site at the NSA Old Black Spruce Flux Tower
+675,NSA-OBS-FLXTR-HYD01-SHP01,55.88007,-98.48139,HYD-01 soil hydraulic properties measurement site near the NSA OBS flux tower.
+676,NSA-OBS-FLXTR-HYD01-SMT01,55.88007,-98.48139,NSA OBS Soil Moisture TDR Rod #1 located 25 m from tower at N 37 E (true)
+677,NSA-OBS-FLXTR-HYD01-SMT02,55.88007,-98.48139,"NSA OBS Soil Moisture TDR Rod #2, located 35 m from tower at N 37 E (true)"
+678,NSA-OBS-FLXTR-HYD01-SMT03,55.88007,-98.48139,NSA OBS Soil Moisture TDR Rod #3 located 45 m from tower at N 37 E (true)
+679,NSA-OBS-FLXTR-HYD01-SMT04,55.88007,-98.48139,NSA OBS Soil Moisture TDR Rod #4 located 55 m from tower at N 37 E (true)
+680,NSA-OBS-FLXTR-HYD01-SMT11,55.88007,-98.48139,NSA OBS Soil Moisture Automated TDR Rod #1 in 1996.
+681,NSA-OBS-FLXTR-HYD01-SMT12,55.88007,-98.48139,NSA OBS Soil Moisture Automated TDR Rod #2 in 1996.
+682,NSA-OBS-FLXTR-HYD01-SMT13,55.88007,-98.48139,NSA OBS Soil Moisture Automated TDR Rod #3 in 1996.
+683,NSA-OBS-FLXTR-HYD01-SMT14,55.88007,-98.48139,NSA OBS Soil Moisture Automated TDR Rod #4 in 1996.
+684,NSA-OBS-FLXTR-HYD01-SMT15,55.88007,-98.48139,NSA OBS Soil Moisture Automated TDR Rod #5 in 1996.
+685,NSA-OBS-FLXTR-HYD01-SMT16,55.88007,-98.48139,NSA OBS Soil Moisture Automated TDR Rod #6 in 1996.
+686,NSA-OBS-FLXTR-HYD01-SMT17,55.88007,-98.48139,NSA OBS Soil Moisture Automated TDR Rod #7 in 1996.
+687,NSA-OBS-FLXTR-HYD01-SMT18,55.88007,-98.48139,NSA OBS Soil Moisture Automated TDR Rod #8 in 1996.
+688,NSA-OBS-FLXTR-HYD01-UCP01,55.88007,-98.48139,NSA OBS (post-1994) Under Canopy Precipitation gauges located near the flux tower.
+689,NSA-OBS-FLXTR-HYD03-CND01,55.8801,-98.48027,"CO2 flux, HYD-3 canopy density measurement site near the NSA-OBS flux tower."
+690,NSA-OBS-FLXTR-HYD03-CND02,55.8801,-98.48027,HYD-3 Canopy Density Measurement area near the NSA-OBS flux tower.
+691,NSA-OBS-FLXTR-HYD03-CND03,55.8801,-98.48027,"CO2 flux,HYD-3 canopy density measurement site at a short young black spruce stand near the NSA-OBS flux tower."
+692,NSA-OBS-FLXTR-HYD03-SHT01,55.8801,-98.48027,HYD03 snow temp site near the NSA-OBS flux tower.
+693,NSA-OBS-FLXTR-HYD03-SWE01,55.8801,-98.48027,"OBS, site near radiometers"
+694,NSA-OBS-FLXTR-HYD08-MOS01,55.88007,-98.48139,"HYD-08 moss monitoring Plot 1, near the NSA-OBS Flux Tower."
+695,NSA-OBS-FLXTR-HYD08-MOS02,55.88007,-98.48139,"HYD-08 moss monitoring Plot 2, near the NSA-OBS Flux Tower."
+696,NSA-OBS-FLXTR-HYD08-TFL01,55.88007,-98.48139,HYD-08 throughfall measurement site near the NSA Old Black Spruce Flux Tower.
+697,NSA-OBS-FLXTR-RSS03-MMR01,55.88007,-98.48139,The helicopter measurements were taken while hovering above the NSA Old Black Spruce Flux Tower
+698,NSA-OBS-FLXTR-RSS03-SE501,55.88007,-98.48139,The helicopter measurements were taken while hovering above the NSA Old Black Spruce Flux Tower
+699,NSA-OBS-FLXTR-RSS03-SPH01,55.88007,-98.48139,The helicopter measurements were taken while hovering above the NSA Old Black Spruce Flux Tower
+700,NSA-OBS-FLXTR-RSS07-EFL01,55.88007,-98.48139,"Effective LAI transect near the NSA Old Black Spruce Flux Tower, see documentation for transect measurement details."
+701,NSA-OBS-FLXTR-RSS07-LAI01,55.88007,-98.48139,LAI/FPAR measurement site along the RSS-07 transect near the NSA Old Black Spruce Flux Tower.
+702,NSA-OBS-FLXTR-RSS17-DIE01,55.88007,-98.48139,The RSS-17 dielectric constant measurement site at the NSA Old Black Spruce Flux Tower.
+703,NSA-OBS-FLXTR-RSS17-SST01,55.88007,-98.48139,RSS-17 soil and stem temperature measurement site at the NSA Old Black Spruce Flux Tower.
+704,NSA-OBS-FLXTR-RSS19-URF01,55.88007,-98.48139,NSA OBS flux tower where RSS19 made understory reflectance measurements along the RSS07 LAI transect
+705,NSA-OBS-FLXTR-RSS20-BRF01,55.88007,-98.48139,The POLDER RSS20 measurements were taken from the helicopter above the NSA Old Black Spruce Flux Tower site.
+706,NSA-OBS-FLXTR-TGB01-FLX01,55.88007,-98.48139,TGB-01 flux site near the NSA Old Black Spruce Flux Tower
+707,NSA-OBS-FLXTR-TGB01-SPR01,55.88007,-98.48139,"TGB-01 soil profile site near the NSA Old Black Spruce Flux Tower, OBS1 DATA"
+708,NSA-OBS-FLXTR-TGB01-SPR02,55.88007,-98.48139,"TGB-01 soil profile site near the NSA Old Black Spruce Flux Tower, OBS3 DATA"
+709,NSA-OBS-FLXTR-TGB01-SPR03,55.88007,-98.48139,"TGB-01 soil profile site near the NSA Old Black Spruce Flux Tower, OBS5 DATA"
+710,NSA-OBS-FLXTR-TGB01-SPR04,55.88007,-98.48139,"TGB-01 soil profile site near the NSA Old Black Spruce Flux Tower, OBS7 DATA"
+711,NSA-OBS-FLXTR-TGB01-SPR05,55.88007,-98.48139,"TGB-01 soil profile site near the NSA Old Black Spruce Flux Tower, OBS9 DATA"
+712,NSA-OBS-FLXTR-TGB01-SPR06,55.88007,-98.48139,"TGB-01 soil profile site near the NSA Old Black Spruce Flux Tower, OBS11 DATA"
+713,NSA-OBS-FLXTR-TGB01-SPR07,55.88007,-98.48139,"TGB-01 soil profile site near the NSA Old Black Spruce Flux Tower, OBS-amb DATA"
+714,NSA-OBS-FLXTR-TGB03-FLX01,55.88007,-98.48139,TGB-03 flux measurement location near the NSA Old Black Spruce Flux Tower
+715,NSA-OBS-FLXTR-TGB06-CON01,55.88007,-98.48139,TGB-06 CH4 concentration measurement site near the NSA Old Black Spruce Flux Tower.
+716,NSA-OBS-FLXTR-TGB12-CON01,55.88007,-98.48139,NSA Old Black Spruce Flux Tower
+717,NSA-OBS-FLXTR-TGB12-FLX01,55.88007,-98.48139,TGB-12 CO2 flux measurement site at the NSA Old Black Spruce Flux Tower.
+718,NSA-OBS-FLXTR-TGB12-IST01,55.88007,-98.48139,NSA Old Black Spruce Flux Tower
+719,NSA-OBS-FLXTR-TGB12-IST02,55.88007,-98.48139,NSA Old Black Spruce Flux Tower
+720,NSA-OBS-FLXTR-TGB12-RDN01,55.88007,-98.48139,TGB-12 222Radon measurement site at the NSA Old Black Spruce Flux Tower.
+721,NSA-OBS-FLXTR-TGB12-STM01,55.88007,-98.48139,NSA Old Black Spruce Flux Tower
+722,NSA-OBS-OBS11-TGB12-CON01,55.88007,-98.48139,Old Black Spruce
+723,NSA-OBS-OBSF3-TGB12-CON01,55.88007,-98.48139,Old Black Spruce
+724,NSA-OBS-OBSF4-TGB12-CON01,55.88007,-98.48139,Old Black Spruce
+725,NSA-OBS-OBSP9-TGB12-CON01,55.88007,-98.48139,Old Black Spruce
+1759,SSA-OBS-FCA01-FORCN-1POMX,53.88334,-106.12276,POM-OBS Plot 1
+1760,SSA-OBS-FCA01-FORCN-2POMX,53.88317,-106.12362,POM-OBS Plot2
+1761,SSA-OBS-FCA02-FORCN-1FCAN,53.9886,-105.11789,TE-OBS Plot 1
+1762,SSA-OBS-FCA02-FORCN-2FCAN,53.9887,-105.11714,TE-OBS Plot2
+1763,SSA-OBS-FCA02-FORCN-3FCAN,53.98873,-105.11562,TE-OBS Plot3
+1764,SSA-OBS-FLXTR-9TE01-FLX01,53.98717,-105.11779,TE-01 CH4 and CO2 flux measurement site near the SSA Old Black Spruce Flux Tower.
+1765,SSA-OBS-FLXTR-9TE01-SOL01,53.98717,-105.11779,TE-01 soil pit 1 measurement site near the SSA-OBS Flux Tower.
+1766,SSA-OBS-FLXTR-9TE01-SOL21,53.98717,-105.11779,TE-01 soil pit 2-1 measurement site near the SSA-OBS Flux Tower.
+1767,SSA-OBS-FLXTR-9TE01-SOL22,53.98717,-105.11779,TE-01 soil pit 2-2 measurement site near the SSA-OBS Flux Tower.
+1768,SSA-OBS-FLXTR-9TE01-SOL23,53.98717,-105.11779,TE-01 soil pit 2-3 measurement site near the SSA-OBS Flux Tower.
+1769,SSA-OBS-FLXTR-9TE01-SOL31,53.98717,-105.11779,TE-01 soil pit 3-1 measurement site near the SSA-OBS Flux Tower.
+1770,SSA-OBS-FLXTR-9TE01-SOL32,53.98717,-105.11779,TE-01 soil pit 3-2 measurement site near the SSA-OBS Flux Tower.
+1771,SSA-OBS-FLXTR-9TE01-SOL33,53.98717,-105.11779,TE-01 soil pit 3-3 measurement site near the SSA-OBS Flux Tower.
+1772,SSA-OBS-FLXTR-9TE01-SOL34,53.98717,-105.11779,TE-01 soil pit 3-4 measurement site near the SSA-OBS Flux Tower.
+1773,SSA-OBS-FLXTR-9TE04-GSE01,53.98717,-105.11779,TE-04 gas exchange measurement site near the SSA-OBS Flux Tower.
+1774,SSA-OBS-FLXTR-9TE05-AIS01,53.98717,-105.11779,TE-05 air stable isotope measurement site near the SSA Old Black Spruce Flux Tower.
+1775,SSA-OBS-FLXTR-9TE05-CO2P1,53.98717,-105.11779,TE-05 CO2 profile measurement site near the SSA Old Black Spruce Flux Tower.
+1776,SSA-OBS-FLXTR-9TE05-LCI01,53.98717,-105.11779,TE-05 leaf carbon isotope measurement site near the SSA Old Black Spruce Flux Tower.
+1777,SSA-OBS-FLXTR-9TE05-LGS01,53.98717,-105.11779,TE-05 leaf gas exchange measurement site near the SSA Old Black Spruce Flux Tower
+1778,SSA-OBS-FLXTR-9TE05-MET01,53.98717,-105.11779,TE-05 meterological measurement site near the SSA Old Black Spruce Flux Tower
+1779,SSA-OBS-FLXTR-9TE05-SXC01,53.98717,-105.11779,TE-05 soil gas exchange measurement site near the SSA Old Black Spruce Flux Tower.
+1780,SSA-OBS-FLXTR-9TE05-TRC01,53.98717,-105.11779,TE-05 Tree Ring measurement site near the SSA Old Black Spruce Flux Tower.
+1781,SSA-OBS-FLXTR-9TE06-ALM01,53.98717,-105.11779,TE-06 Allometry measurement site near the SSA-OBS Flux Tower.
+1782,SSA-OBS-FLXTR-9TE06-AMV01,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect B site near the SSA-OBS flux tower.
+1783,SSA-OBS-FLXTR-9TE06-AMV02,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at Plot 3 site near the SSA-OBS flux tower.
+1784,SSA-OBS-FLXTR-9TE06-AMV03,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at Plot 1 site near the SSA-OBS flux tower.
+1785,SSA-OBS-FLXTR-9TE06-BIO01,53.98717,-105.11779,TE-06 biomass measurement site near the SSA-OBS Flux Tower.
+1786,SSA-OBS-FLXTR-9TE06-NPP01,53.98717,-105.11779,TE-06 NPP measurement site near the SSA-OBS Flux Tower.
+1787,SSA-OBS-FLXTR-9TE06-PMV01,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-100 site near the SSA-OBS flux tower.
+1788,SSA-OBS-FLXTR-9TE06-PMV02,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-102 site near the SSA-OBS flux tower.
+1789,SSA-OBS-FLXTR-9TE06-PMV03,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-105 site near the SSA-OBS flux tower.
+1790,SSA-OBS-FLXTR-9TE06-PMV04,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-107 site near the SSA-OBS flux tower.
+1791,SSA-OBS-FLXTR-9TE06-PMV05,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-112 site near the SSA-OBS flux tower.
+1792,SSA-OBS-FLXTR-9TE06-PMV06,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-115 site near the SSA-OBS flux tower.
+1793,SSA-OBS-FLXTR-9TE06-PMV07,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-50 site near the SSA-OBS flux tower.
+1794,SSA-OBS-FLXTR-9TE06-PMV08,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-52 site near the SSA-OBS flux tower.
+1795,SSA-OBS-FLXTR-9TE06-PMV09,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-55 site near the SSA-OBS flux tower.
+1796,SSA-OBS-FLXTR-9TE06-PMV10,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-57 site near the SSA-OBS flux tower.
+1797,SSA-OBS-FLXTR-9TE06-PMV11,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-60 site near the SSA-OBS flux tower.
+1798,SSA-OBS-FLXTR-9TE06-PMV12,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-62 site near the SSA-OBS flux tower.
+1799,SSA-OBS-FLXTR-9TE06-PMV13,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-65 site near the SSA-OBS flux tower.
+1800,SSA-OBS-FLXTR-9TE06-PMV14,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-67 site near the SSA-OBS flux tower.
+1801,SSA-OBS-FLXTR-9TE06-PMV15,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-70 site near the SSA-OBS flux tower.
+1802,SSA-OBS-FLXTR-9TE06-PMV16,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-72 site near the SSA-OBS flux tower.
+1803,SSA-OBS-FLXTR-9TE06-PMV17,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-75 site near the SSA-OBS flux tower.
+1804,SSA-OBS-FLXTR-9TE06-PMV18,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-77 site near the SSA-OBS flux tower.
+1805,SSA-OBS-FLXTR-9TE06-PMV19,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-80 site near the SSA-OBS flux tower.
+1806,SSA-OBS-FLXTR-9TE06-PMV20,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-82 site near the SSA-OBS flux tower.
+1807,SSA-OBS-FLXTR-9TE06-PMV21,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-85 site near the SSA-OBS flux tower.
+1808,SSA-OBS-FLXTR-9TE06-PMV22,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-87 site near the SSA-OBS flux tower.
+1809,SSA-OBS-FLXTR-9TE06-PMV23,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-90 site near the SSA-OBS flux tower.
+1810,SSA-OBS-FLXTR-9TE06-PMV24,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-92 site near the SSA-OBS flux tower.
+1811,SSA-OBS-FLXTR-9TE06-PMV25,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-95 site near the SSA-OBS flux tower.
+1812,SSA-OBS-FLXTR-9TE06-PMV26,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at the Transect b-97 site near the SSA-OBS flux tower.
+1813,SSA-OBS-FLXTR-9TE06-PMV27,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at Plot1 site near the SSA-OBS flux tower.
+1814,SSA-OBS-FLXTR-9TE06-PMV28,53.98717,-105.11779,TE-06 multiband vegetation imager data measurement site at Plot3 site near the SSA-OBS flux tower.
+1815,SSA-OBS-FLXTR-9TE06-WRP01,53.98717,-105.11779,TE-06 water potential measurement site near the SSA-OBS Flux Tower.
+1816,SSA-OBS-FLXTR-9TE07-SAP01,53.98717,-105.11779,TE-07 tree sapflow measurement site near the SSA-OBS Flux Tower.
+1817,SSA-OBS-FLXTR-9TE07-TRE01,53.98717,-105.11779,TE-07 tree ring density measurement site near the SSA Old Black Spruce Flux Tower.
+1818,SSA-OBS-FLXTR-9TE10-LCH01,53.98717,-105.11779,TE-10 leaf chemistry measurements were taken near the OBS flux tower.
+1819,SSA-OBS-FLXTR-9TE10-LFO01,53.98717,-105.11779,TE-10 leaf optical properties were taken near the OBS flux tower.
+1820,SSA-OBS-FLXTR-9TE10-LGS01,53.98717,-105.11779,TE-10 leaf gas exchange measurements were taken near the SSA-OBS flux tower.
+1821,SSA-OBS-FLXTR-9TE10-LPR01,53.98717,-105.11779,TE-10 leaf photo response measurements were taken near the OBS flux tower.
+1822,SSA-OBS-FLXTR-9TE12-LGS01,53.98717,-105.11779,TE-12 leaf gas exchange measurement site near the SSA Old Black Spruce Flux Tower.
+1823,SSA-OBS-FLXTR-9TE12-LOP01,53.98717,-105.11779,TE-12 leaf optical properties measurement site near the SSA Old Black Spruce Flux Tower.
+1824,SSA-OBS-FLXTR-9TE12-PAR01,53.98717,-105.11779,TE-12 incoming PAR measurement site near the SSA Old Black Spruce Flux Tower.
+1825,SSA-OBS-FLXTR-9TE12-SGY01,53.98717,-105.11779,TE-12 shoot geometry measurement site near the SSA Old Black Spruce Flux Tower.
+1826,SSA-OBS-FLXTR-9TE12-WRP01,53.98717,-105.11779,TE-12 water potential measurement site near the SSA Old Black Spruce Flux Tower.
+1827,SSA-OBS-FLXTR-9TE21-MET01,53.98717,-105.11779,TE-21 Meteorological measurement site near the SSA-OBS Flux Tower.
+1828,SSA-OBS-FLXTR-9TE23-HPH01,53.98717,-105.11779,TE-23 Hemispherical Photo measurement site near the SSA-OBS Flux Tower.
+1829,SSA-OBS-FLXTR-9TE23-MSM01,53.98717,-105.11779,TE-23 mapplot summary measurement site near the SSA-OBS Flux Tower.
+1830,SSA-OBS-FLXTR-9TE23-MST01,53.98717,-105.11779,TE-23 mapplot site data measurement site near the SSA-OBS Flux Tower.
+1831,SSA-OBS-FLXTR-9TF07-FLX01,53.98717,-105.11779,TF-07 flux measurements made from the SSA Old Black Spruce Flux Tower.
+1832,SSA-OBS-FLXTR-9TF08-CEILO,53.98717,-105.11779,TF-08 ceilometer measurement site at the SSA Old Black Spruce Flux Tower.
+1833,SSA-OBS-FLXTR-9TF09-FLX01,53.98717,-105.11779,TF-09 measurements made from the SSA Old Black Spruce TF-09 Flux Tower.
+1834,SSA-OBS-FLXTR-9TF09-FLX02,53.98717,-105.11779,TF-09 branch bag measurements from the SSA Old Black Spruce TE Tower.
+1835,SSA-OBS-FLXTR-HYD01-SHP01,53.98717,-105.11779,HYD-01 soil hydraulic properties measurement site near the SSA OBS flux tower.
+1836,SSA-OBS-FLXTR-HYD01-SMT01,53.98717,-105.11779,SSA OBS Soil Moisture Manual TDR Rod #1 located 45 m from flux tower along N 60 E
+1837,SSA-OBS-FLXTR-HYD01-SMT02,53.98717,-105.11779,SSA OBS Soil Moisture Manual TDR Rod #2 located 50 m from flux tower along N 60 E
+1838,SSA-OBS-FLXTR-HYD01-SMT03,53.98717,-105.11779,SSA OBS Soil Moisture Manual TDR Rod #3 located 55 m from flux tower along N 60 E
+1839,SSA-OBS-FLXTR-HYD01-SMT11,53.98717,-105.11779,SSA OBS Soil Moisture Manual TDR Rod #1-1 in 1996
+1840,SSA-OBS-FLXTR-HYD01-SMT12,53.98717,-105.11779,SSA OBS Soil Moisture Manual TDR Rod #1-2 in 1996
+1841,SSA-OBS-FLXTR-HYD01-SMT13,53.98717,-105.11779,SSA OBS Soil Moisture Manual TDR Rod #1-3 in 1996
+1842,SSA-OBS-FLXTR-HYD01-SMT14,53.98717,-105.11779,SSA OBS Soil Moisture Manual TDR Rod #1-4 in 1996
+1843,SSA-OBS-FLXTR-HYD01-SMT15,53.98717,-105.11779,SSA OBS Soil Moisture Manual TDR Rod #1-5 in 1996
+1844,SSA-OBS-FLXTR-HYD01-SMT21,53.98717,-105.11779,SSA OBS Soil Moisture Manual TDR Rod #2-1 in 1996
+1845,SSA-OBS-FLXTR-HYD01-SMT22,53.98717,-105.11779,SSA OBS Soil Moisture Manual TDR Rod #2-2 in 1996
+1846,SSA-OBS-FLXTR-HYD01-SMT23,53.98717,-105.11779,SSA OBS Soil Moisture Manual TDR Rod #2-3 in 1996
+1847,SSA-OBS-FLXTR-HYD01-SMT24,53.98717,-105.11779,SSA OBS Soil Moisture Manual TDR Rod #2-4 in 1996
+1848,SSA-OBS-FLXTR-HYD01-SMT25,53.98717,-105.11779,SSA OBS Soil Moisture Manual TDR Rod #2-5 in 1996
+1849,SSA-OBS-FLXTR-HYD03-FLX01,53.98717,-105.11779,SSA Old Black Spruce Sub-Canopy Meteorological Site
+1850,SSA-OBS-FLXTR-HYD03-SCM01,53.98717,-105.11779,SSA Old Black Spruce Sub-canopy Meteorological site.
+1851,SSA-OBS-FLXTR-HYD03-SCR01,53.98717,-105.11779,SSA Old Black Spruce Sub-canopy Radiation site.
+1852,SSA-OBS-FLXTR-HYD03-SDP01,53.98717,-105.11779,HYD-03 Snow depth site near the SSA-OBS flux tower.
+1853,SSA-OBS-FLXTR-HYD03-SPT01,53.98717,-105.11779,HYD-03 Snow pit site near the SSA-OBS flux tower.
+1854,SSA-OBS-FLXTR-HYD03-STD01,53.98717,-105.11779,HYD-03 stem density measurement site near the SSA Old Black Spruce Flux Tower.
+1855,SSA-OBS-FLXTR-HYD08-GPR01,53.98717,-105.11779,HYD-08 gross precipitation site near the SSA Old Black Spruce Flux Tower.
+1856,SSA-OBS-FLXTR-HYD08-MDW01,53.98717,-105.11779,HYD-08 moss dry weights measurement site near the SSA Old Black Spruce Flux Tower.
+1857,SSA-OBS-FLXTR-HYD08-MOS01,53.98717,-105.11779,HYD-08 moss monitoring site near the SSA Old Black Spruce Flux Tower.
+1858,SSA-OBS-FLXTR-HYD08-TFL01,53.98717,-105.11779,HYD-08 throughfall measurement site near the SSA Old Black Spruce Flux Tower.
+1859,SSA-OBS-FLXTR-RSS01-PRB01,53.98717,-105.11779,RSS-01 PARABOLA measurement site near the SSA Old Black Spruce Flux Tower.
+1860,SSA-OBS-FLXTR-RSS02-BRF01,53.98717,-105.11779,The BRDF values are derived from ASAS measurements taken from the C130 platform above the SSA Old Black Spruce Flux Tower site.
+1861,SSA-OBS-FLXTR-RSS03-MMR01,53.98717,-105.11779,The helicopter measurements were taken while hovering above the SSA Old Black Spruce Flux Tower
+1862,SSA-OBS-FLXTR-RSS03-SE501,53.98717,-105.11779,The helicopter measurements were taken while hovering above the SSA Old Black Spruce Flux Tower
+1863,SSA-OBS-FLXTR-RSS03-SPH01,53.98717,-105.11779,The helicopter measurements were taken while hovering above the SSA Old Black Spruce Flux Tower
+1864,SSA-OBS-FLXTR-RSS07-EFL01,53.98717,-105.11779,"Effective LAI transect near the SSA Old Black Spruce Flux Tower, see documentation for transect measurement details."
+1865,SSA-OBS-FLXTR-RSS07-LAI01,53.98717,-105.11779,LAI/FPAR measurement site along the RSS-07 transect near the SSA Old Black Spruce Flux Tower
+1866,SSA-OBS-FLXTR-RSS17-DIE01,53.98717,-105.11779,The RSS-17 dielectric constant measurement site at the SSA-OBS Flux Tower.
+1867,SSA-OBS-FLXTR-RSS17-SST01,53.98717,-105.11779,RSS-17 stem temperature measurement site near the SSA-OBS Flux Tower.
+1868,SSA-OBS-FLXTR-RSS17-XYL01,53.98717,-105.11779,RSS-17 xylem flux measurement site near the SSA-OBS Flux Tower.
+1869,SSA-OBS-FLXTR-RSS18-SPH01,53.98717,-105.11779,location of RSS-18 sunphotometer measurements at SSA-OBS tower site
+1870,SSA-OBS-FLXTR-RSS19-URF01,53.98717,-105.11779,SSA Old Black Spruce Flux Tower where RSS19 made understory reflectance measurements along RSS07  LAI transect
+1871,SSA-OBS-FLXTR-RSS20-BRF01,53.98717,-105.11779,The RSS20 POLDER measurements taken from the C130 platform above the SSA Old Black Spruce Flux Tower site.
+1872,SSA-OBS-FLXTR-TGB08-CON01,53.98717,-105.11779,A TGB-08 site near the SSA Old Black Spruce Flux Tower
+1873,SSA-OBS-FLXTR-TGB09-CON01,53.98717,-105.11779,TGB-09 NMHC measurement site near the SSA Old Black Spruce Flux Tower.
+1874,SSA-OBS-FLXTR-TGB09-FLX01,53.98717,-105.11779,TGB-09 non-methane hydrocarbon site near SSA Old Black Spruce Flux Tower
+1875,SSA-OBS-FLXTR-TGB09-MIX01,53.98717,-105.11779,TGB-09 mixing ratio site near SSA Old Black Spruce Flux Tower
+1876,SSA-OBS-FLXTR-TGB10-HCR01,53.98717,-105.11779,TGB-10 biogenic VOC measurement site near the SSA Old Black Spruce Flux Tower.
+1877,SSA-OBS-HYD03-HYD03-SWE01,53.98717,-105.11779,HYD-03 measured snow properties near SSA-OBS site.

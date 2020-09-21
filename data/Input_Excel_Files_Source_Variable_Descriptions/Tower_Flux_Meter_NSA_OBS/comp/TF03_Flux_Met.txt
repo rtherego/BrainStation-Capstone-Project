@@ -1,0 +1,703 @@
+BOREAS TF-03 NSA-OBS Tower Flux, Meteorological, and Soil Temperature Data.
+
+Summary
+
+The BOREAS TF-03 team collected tower flux, surface meterological, and soil 
+temperature data at the BOREAS NSA-OBS site continuously from the March 1994 
+through October 1996.  The data are available in tabular ASCII files.
+
+Table of Contents
+
+   *  1 Data Set Overview
+   *  2 Investigator(s)
+   *  3 Theory of Measurements
+   *  4 Equipment
+   *  5 Data Acquisition Methods
+   *  6 Observations
+   *  7 Data Description
+   *  8 Data Organization
+   *  9 Data Manipulations
+   *  10 Errors
+   *  11 Notes
+   *  12 Application of the Data Set
+   *  13 Future Modifications and Plans
+   *  14 Software
+   *  15 Data Access
+   *  16 Output Products and Availability
+   *  17 References
+   *  18 Glossary of Terms
+   *  19 List of Acronyms
+   *  20 Document Information
+
+1. Data Set Overview
+
+1.1 Data Set Identification
+
+BOREAS TF-03 NSA-OBS Tower Flux, Meteorological, and Soil Temperature Data
+
+1.2 Data Set Introduction
+
+Continuous eddy-correlation flux measurements of sensible heat, latent heat, CO2, 
+and momentum fluxes were made at the BOReal Ecosystem-Atmosphere Study (BOREAS) 
+Northern Study Area (NSA) Old Black Spruce (OBS) site from March 1994 to October 
+1996.
+
+1.3 Objective/Purpose
+
+The principal objective was to determine directly the net ecosystem exchange of 
+CO2 and the surface energy budget over diurnal, seasonal, and annual time scales 
+and to couple these observations with a comprehensive characterization of the 
+physical environment (Photosynthetically Active Radiation (PAR), soil 
+temperature, etc.).  In addition, CO2 and water vapor concentration throughout 
+the forest column were measured.  This suite of long-term measurements should 
+provide information to assess the effect of seasons and seasonal changes on the 
+carbon balance of the forest.  Determination of the boundary layer CO2 
+concentration anomaly can also be determined, and thus the effect of the forest 
+on the boundary layer CO2 concentration can be studied.  
+
+1.4 Summary of Parameters
+
+Latent heat flux, sensible heat flux, carbon dioxide flux, momentum flux, CO2 
+profile, water vapor profile, air temperature profile, net radiation, incident 
+Photosynthetic Photon Flux Density (PPFD), reflected PPFD, below-canopy PPFD, 
+wind speed and direction, soil temperature, precipitation amount.
+
+1.5 Discussion
+
+Eddy-correlation flux measurements for CO2 and H2O were made at the northern 
+black spruce site from the late summer of 1993 through the fall of 1996. The 
+principal objective was to directly determine the net ecosystem exchange of CO2, 
+and the surface energy budget over diurnal, seasonal and annual time scales and 
+to couple these observations with a comprehensive characterization of the 
+physical environment (PAR, soil temperature, etc.). A low-power automated array 
+was installed to measure eddy fluxes and forest column content of CO2, sensible 
+heat, and water vapor; soil temperatures and moisture; and incident and 
+intercepted PAR. The system was operated continuously from installation in 
+September 1993 to October 1994 (with some gaps). Additionally, measurements of 
+the flux of CO2 from the soil were made during the summer of 1994 using an array 
+of automated open chambers. Among other things, these long-term measurements 
+should allow assessment of the importance of winter respiration and assimilation 
+during transitional periods to the annual carbon balance of the boreal forest. 
+
+1.6 Related Data Sets
+
+Tower flux measurements made at other sites:
+BOREAS TF-09 NSA OJP Tower Flux, Meteorological, and Soil Temperature Data
+BOREAS TF-09 SSA OBS Tower Flux, Meteorological, and Soil Temperature Data
+BOREAS TF-10 NSA Fen and YJP Flux, Meteorological, and Soil Temperature Data
+
+Other measurements made at the NSA-OBS site:
+BOREAS TGB-01 NSA CH4 and CO2 Chamber Flux Data
+BOREAS TE-06 Forest Biophysical Measurements
+BOREAS TE-09 NSA Photosynthetic Response Data
+
+2. Investigator(s)
+
+2.1 Investigator(s) Name and Title
+
+Wofsy, S.C., M.L. Goulden, B.C. Daube, J.W. Munger, Song-Miao Fan, D.J. Sutton, 
+D.J., A. Bazzaz
+Harvard University
+Cambridge, MA
+
+2.2 Title of Investigation
+
+Eddy Correlation Flux Measurements of CO2 for BOREAS
+
+2.3 Contact Information
+
+Contact 1    
+---------
+Dr. Doug Sutton
+Cambridge, MA
+(617) 496-4571
+djs@io.harvard.edu
+
+Contact 2 
+---------
+Dr. Mike Goulden        
+Earth System Science
+University of California
+Irvine, CA
+(714) 824-1983
+(714) 824-3256 (fax)
+mgoulden@uci.edu
+
+Contact 3
+---------
+Steven Wofsy
+Harvard University
+Cambridge, MA 
+(617) 495-4566
+(617) 495-9837 (fax)
+scw@io.harvard.edu
+
+Contact 4
+-------------
+K. Fred Huemmrich
+University of Maryland
+NASA GSFC
+Greenbelt, MD 
+(301) 286-4862
+(301) 286-0239 (fax)
+Karl.Huemmrich@gsfc.nasa.gov
+
+
+3. Theory of Measurements
+
+Most investigations of forest CO2 exchange have relied on models to extrapolate 
+short-term gas-exchange measurements made with small chambers.  This approach has 
+contributed greatly to understanding, but uncertainties are inevitable when 
+small-scale observations are aggregated to whole ecosystems, and short-term data 
+to annual balances.  An alternative approach, used here, was to use the eddy 
+covariance technique over a complete growing season to directly measure the net 
+exchange of CO2 between the atmosphere and a patch of forest several hectares in 
+size.
+
+4. Equipment
+
+4.1 Sensor/Instrument Description
+
+4.1.1 Collection Environment
+
+The measurements were made at a remote (50 km from the nearest town and 5 km from 
+the nearest road), old (70-90 years) black spruce site.  The coverage was 
+relatively homogeneous, and the trees were approximately 10 m tall. The ground 
+cover was primarily feather moss mixed with some lower-level areas of sphagnum 
+bog.  The data were collected continuously through several years; therefore the 
+full range of boreal weather conditions was experienced including temperature 
+ranges between 30 and -40 degrees C.  
+
+4.1.2 Source/Platform
+
+The instruments were supported on a 31-m-tall Rohn 25-G triangular cross section 
+communications tower.
+
+Summary of Eddy Correlation System used by Harvard:
+
+Vertical and horizontal velocity sensor    3-axis ATI sonic with Kaimel probe
+Temperature sensor                         ATI virtual temperature
+Moisture sensor                            LiCor 6262 Infrared Gas Analyzer
+                                           (IRGA)
+CO2 sensor                                 LiCor 6262 IRGA
+Sensor height above ground                 29 m
+Sampling rate                              4 Hz
+
+Vertical wind speed             ATI sonic anemometer   
+Horizontal wind speed           ATI sonic anemometer   Met One spinning cup
+Wind direction                  ATI sonic anemometer   Met One sensor
+Temperature                     ATI sonic anemometer
+CO2                             LiCor 6262
+H2O                             LiCor 6262
+Inlet Filter                    Gelman Zeflour 3 µm pores, 4 x 50 mm diameter
+Tubing                          0.64" ID high-density polyethylene 
+                                50 meters long
+                                (replaced May 1996 with PFA Teflon)
+Pumps                           KNF Neuberger K022 ANA pumps
+Data logger                     Campbell Scientific CR10
+Pressure and flow controllers   MKS Instruments
+
+4.1.3 Source/Platform Mission Objectives
+
+The tower was erected to support instruments above the forest canopy to collect 
+flux data at NSA-OBS.
+
+4.1.4 Key Variables
+
+Eddy-correlation measurements of latent heat flux, sensible heat flux, CO2 flux, 
+and momentum flux.  Profiles of CO2, water vapor, and air temperature.  Incident, 
+reflected, and below-canopy PPFD.  Wind speed and direction, soil temperature, 
+precipitation.
+
+4.1.5 Principles of Operation
+
+Sonic Anemometer:
+Three-dimensional orthogonal wind velocities (u, v, and w) and virtual 
+temperature (Tv) were measured with a sonic anemometer (Applied Technology, 
+Boulder, CO).  The path length between transducers was 0.15 m.  The sensor 
+software corrected for transducer shadowing effects (see Kaimal et al., 1990).  
+Virtual temperature heat flux was converted to sensible heat flux using 
+algorithms described by Kaimal and Gaynor (1991) and Schotanus et al. (1983).
+
+Infrared Absorption Spectrometer:
+Water vapor and CO2 concentrations were measured with an open-path infrared 
+absorption spectrometer.
+
+4.1.6 Sensor/Instrument Measurement Geometry
+
+The sonic anemometer was located at a height of 29-m on a 31-m triangular- cross-
+section radio tower (Rohn 25-G).  The tubing inlet for the air sample was located 
+0.5-m below the sonic anemometer. The LiCor sensors were placed in a climate-
+controlled hut 20-m northeast of the tower.  The air was drawn down the tower at 
+18 standard liters per minute.  The air was passed through a thermostated block 
+to stabilize the temperature and drawn through the LiCor at 4 standard liters per 
+minute.  Pressure was controlled in the cell of the LiCor at 53 kPa. 
+
+Air temperature profiles were measured at 27.0 m, 8.2 m, and 1.15 m above ground 
+level.  Relative humidity was measured at 27.0 m.  Wind speed and direction were 
+measured at 29.6 m.  The sonic anemometer was mounted at 29 m. Under-canopy PPFD 
+sensor arrays were placed at ground level.  Soil temperature probes were placed 
+at depths of 1 cm, 5 cm, 10 cm, 20 cm, 50 cm, and 100 cm.  Soil heat flux plates 
+were at depths of 1 cm, 5 cm, and 10 cm.
+
+4.1.7 Manufacturer of Sensor/Instrument
+
+Sonic anemometer: Applied Technologies, 6395 Gunpark, Boulder, CO.
+
+CO2 and H2O sensor: LiCor, P.O. Box 4425, Lincoln, NE.
+
+Data logging systems: Campbell Scientific Instruments, P.O. Box
+551, Logan, UT 84321 and others.
+
+Pressure and Flow Control: MKS Instruments, Andover, MA.
+
+4.2 Calibration
+
+4.2.1 Specifications
+
+Sonic anemometer: Supplied by the manufacturer.  Instrument zeros and maintenance 
+performed at least twice per year.
+
+CO2 sensor: Calibrated every 3 hours by standard addition of 4% CO2 at 40 and 80 
+standard milliliters per minute for 2 minutes 15-m below the sample inlet on 
+tower.  Zero datum for the LiCor IRGA was achieved by passing sample air through 
+a column of soda lime for 2 minutes.
+
+H2O sensor: Calibrated every few months using a LiCor dew point generator.  
+Calibration was checked by comparison with a Vaisala probe on the tower.  Zero 
+information was recorded every 3 hours by passing sample air through a column of 
+magnesium perchlorate for 2 minutes.
+
+CO2 concentration calibration: Used an independent LiCor 6262 IGA and two span 
+gases (~340 ppm and ~420 ppm).  These gas samples are traceable to the 1993 
+Scripps-World Meteorological Organization (WMO) standard.  Calibrations were done 
+every 3 hours by passing each of the gases through the LiCor IGA at 1.25 standard 
+liters per minute for 2 minutes.  Zero information was achieved by the same 
+method as that used for the the eddy CO2-sensor.
+
+4.2.1.1 Tolerance
+
+Not known.
+
+4.2.2 Frequency of Calibration
+
+Sonic anemometer: Instrument zeros and maintenance performed at least twice per 
+year.
+
+CO2 sensor: Calibrated every 3 hours by standard addition of 4% CO2 at 40 and 80 
+standard milliliters per minute for 2 minutes 15-m below the sample inlet on 
+tower.
+
+H2O sensor: Calibrated every few months using LiCor dew point generator.  Zero 
+information is recorded every 3 hours by passing sample air through a column of 
+magnesium perchlorate for 2 minutes.
+
+CO2 concentration calibration: Calibrations are done every 3 hours by passing 
+each of the gas samples through the LiCor at 1.25 standard liters per minute for 
+2 minutes.
+
+4.2.3 Other Calibration Information
+
+Not known.
+
+5. Data Acquisition Methods
+
+Data for flux measurements were continuously recorded at 4 Hz while other 
+parameters were recorded at 0.5 Hz.  The data were stored on a PC and collected 
+twice per week.  The delay time between the wind speed and concentration 
+measurement was calculated at 5.5 seconds.  The time constant for response time 
+of the instrument to a change in the mixing ratio of the air sample was 
+determined to be 0.6 seconds for CO2 and 1.25 seconds for H2O.  The difference in 
+time was due to adsorption of H2O to the tubing.  The response-time corrections 
+typically were 5 to 10% during the day and 15 to 25% at night.  An averaging time 
+of 30 minutes was used and a linear least-squares regression was used to detrend 
+the flux data.
+
+
+6. Observations
+
+6.1 Data Notes
+
+None available.
+
+6.2 Field Notes
+
+Notable data gaps occurred in May 1994, when an error was introduced into the 
+data acquisition code; August 1994, when the sonic anemometer was damaged twice 
+by lightning; fall 1994, when the generator failed repeatedly; June 1995, when 
+computer disks failed twice; and November 1995, when the sonic anemometer failed 
+with the onset of cold temperatures.
+
+7. Data Description
+
+7.1 Spatial Characteristics
+
+7.1.1 Spatial Coverage
+
+All data were collected at the BOREAS NSA OBS site.  The site is located at 
+latitude 55.88007° N, longitude 98.48139° W, and elevation of 259 m.
+
+7.1.2 Spatial Coverage Map
+
+Not applicable.
+
+7.1.3 Spatial Resolution
+
+The data represent point source measurements taken at the given location. The 
+location and size of the footprint from which the measurements were made varied 
+with ambient meteorological conditions.
+
+7.1.4 Projection
+
+Not applicable.
+
+7.1.5 Grid Description
+
+Not applicable.
+
+7.2 Temporal Characteristics
+
+7.2.1 Temporal Coverage
+
+Measurements are available from 16-Mar-1994 through 31-Oct-1996.  Valid 
+measurements are available 72% of the time.  Notable gaps occurred in May 1994, 
+August 1994, fall 1994, June 1995, and November 1995.
+
+7.2.2 Temporal Coverage Map
+
+All data were collected at the NSA-OBS site.
+
+7.2.3 Temporal Resolution
+
+Data for flux measurements were continuously recorded at 4 Hz while other 
+parameters were recorded at 0.5 Hz.  The delay time between the wind speed and 
+concentration measurement was calculated at 5.5 seconds.  The time constant for 
+response time of the instrument to a change in the mixing ratio of the air sample 
+was determined to be 0.6 seconds for CO2 and 1.25 seconds for H2O.  The 
+difference in time was due to adsorption of H2O to the tubing.  The response-time 
+corrections typically were 5 to 10% during the day and 15 to 25% at night.  An 
+averaging time of 30 minutes was used and a linear least-squares regression was 
+used to detrend the flux data.
+
+7.3 Data Characteristics
+
+Data characteristics are defined in the companion data definition file 
+(tf3tflxd.def).
+
+7.4 Sample Data Record
+
+Sample data format shown in the companion data definition file (tf3tflxd.def).
+
+8. Data Organization
+
+8.1 Data Granularity
+
+All of the NSA-OBS Tower Flux, Meteorological, and Soil Temperature data are 
+contained in one dataset.
+
+8.2 Data Format
+
+The data file contains numerical and character fields of varying length separated 
+by commas.  The character fields are enclosed with single apostrophe marks.  
+There are no spaces between the fields.  Sample data records are shown in the 
+companion data definition file (tf3tflxd.def).
+
+9. Data Manipulations
+
+9.1 Formulae
+
+None.
+
+9.1.1 Derivation Techniques and Algorithms
+
+None.
+
+9.2 Data Processing Sequence
+
+9.2.1 Processing Steps
+
+BORIS staff processed these data by:
+
+1) Reviewing the initial data files and loading them online for BOREAS team 
+access.
+2) Designing relational data base tables to inventory and store the data.
+3) Loading the data into the relational data base tables.
+4) Working with the team to document the data set.
+5) Extracting the data into logical files.
+
+9.2.2 Processing Changes
+
+None.
+
+9.3 Calculations
+
+9.3.1 Special Corrections/Adjustments
+
+The sonic anemometer developed problems with spiking occasionally, caused either 
+by precipitation or by malfunctioning transducers.  Processing code was adapted 
+to determine the number of spikes in each interval and to recalculate the 
+turbulent fluxes after filtering out spikes.
+
+9.3.2 Calculated Variables
+
+None.
+
+9.4 Graphs and Plots
+
+None.
+
+10. Errors
+
+10.1 Sources of Error
+
+Errors in flux measurements may be associated with wind from behind the tower, 
+calm conditions, and the damping of high-frequency fluctuations.  The sonic 
+anemometer developed problems with spiking occasionally caused either by 
+precipitation or by malfunctioning transducers.
+
+10.2 Quality Assessment
+
+10.2.1 Data Validation by Source
+
+Raw flux data were examined for errors associated with wind from behind the 
+tower, calm conditions, and the damping of high-frequency fluctuations, and for 
+intervals with malfunctioning instruments.  These periods were excluded or the 
+errors were corrected.
+
+10.2.2 Confidence Level/Accuracy Judgment
+
+None given.
+
+10.2.3 Measurement Error for Parameters
+
+None given.
+
+10.2.4 Additional Quality Assessments
+
+None given.
+
+10.2.5 Data Verification by Data Center
+
+Data were examined to check for spikes, values that are four standard deviations 
+from the mean, long periods of constant values, and missing data.
+
+11. Notes
+
+11.1 Limitations of the Data
+
+None given.
+
+11.2 Known Problems with the Data
+
+CO2 fluxes may be underestimated when the friction velocity is less than 0.2 
+m/sec.  The closed-path IRGA and long sampling tube resulted in an 
+underestimation of water vapor and CO2 flux because of the damping of high-
+frequency fluctuations.
+
+11.3 Usage Guidance
+
+None given.
+
+11.4 Other Relevant Information
+
+None given.
+
+12. Application of the Data Set
+
+This suite of long-term measurements should provide information to assess the 
+effect of seasons and seasonal changes on the carbon balance of the forest.  
+Determination of the boundary layer CO2 concentration anomaly can also be 
+determined, and thus the effect of the forest on the boundary layer CO2 
+concentration can be studied.
+
+13. Future Modifications and Plans
+
+Under separate funding, flux data continued to be collected beyond 31-Oct-1996. 
+Contact personnel at Harvard University about these data.
+
+14. Software
+
+14.1 Software Description
+
+None given.
+
+14.2 Software Access
+
+None given.
+
+15. Data Access
+
+15.1 Contact Information
+
+Ms. Beth Nelson
+BOREAS Data Manager
+NASA GSFC
+Greenbelt, MD 
+(301) 286-4005
+(301) 286-0239 (fax)
+Elizabeth.Nelson@gsfc.nasa.gov
+
+15.2 Data Center Identification
+
+See Section 15.1.
+
+15.3 Procedures for Obtaining Data
+
+Users may place requests by telephone, electronic mail, or fax.
+
+15.4 Data Center Status/Plans
+
+These data are available from the Earth Observing System Data and Information 
+System (EOSDIS) Oak Ridge National Laboratory (ORNL) Distributed Active Archive 
+Center (DAAC).
+
+The BOREAS contact at ORNL is:
+
+ORNL DAAC User Services
+Oak Ridge National Laboratory
+(865) 241-3952
+ornldaac@ornl.gov
+ornl@eos.nasa.gov
+
+16. Output Products and Availability
+
+16.1 Tape Products
+
+None.
+
+16.2 Film Products
+
+None.
+
+16.3 Other Products
+
+The data are available as tabular American Standard Code for Information 
+Interchange (ASCII) text files.
+
+17. References
+
+17.1 Platform/Sensor/Instrument/Data Processing Documentation
+
+LI-COR 1991. LI-6262 CO2/H2O analyzer operating and service manual. Publ. 9003-
+59, Linclon,NE.
+
+17.2 Journal Articles and Study Reports
+
+Goulden, M.L., B.C. Daube, S.M. Fan, D.J. Sutton, A. Bazzaz, J.W. Munger, and 
+S.C. Wofsy. 1997. Physiological responses of a black spruce forest to weather, 
+Journal of Geophysical Research 102 (D24):28987,28996.
+
+Kaimal, J.C. and J.E. Gaynor. 1991. Another look at sonic thermometry. Boundary 
+Layer Meteorology. 56:401-410.
+
+Kaimal, J.C., J.E. Gaynor, H.A. Zimmerman, and G.A. Zimmerman. 1990. Minimizing 
+flow distortion errors in a sonic anemometer. Boundary Layer Meteorology. 53:103-
+115.
+
+Schotanus, P., F.T.M. Nieuwstadt, and H.A.R. De Bruin. 1983. Temperature 
+measurement with a sonic anemometer and its application to heat and moisture 
+fluxes.  Boundary-Layer Meteorology. 26: 81-93.
+
+Sellers, P. and F. Hall. 1994. Boreal Ecosystem-Atmosphere Study: Experiment 
+Plan. Version 1994-3.0, NASA BOREAS Report (EXPLAN 94). 
+
+Sellers, P. and F. Hall. 1996. Boreal Ecosystem-Atmosphere Study: Experiment 
+Plan. Version 1996-2.0, NASA BOREAS Report (EXPLAN 96).
+
+Sellers, P. and F. Hall. 1997. BOREAS Overveiw Paper. JGR Special Issue. 
+
+Sellers, P., F. Hall, and K.F. Huemmrich. 1996. Boreal Ecosystem-Atmosphere 
+Study: 1994 Operations. NASA BOREAS Report (OPS DOC 94). 
+
+Sellers, P., F. Hall, and K.F. Huemmrich. 1997. Boreal Ecosystem-Atmosphere 
+Study: 1996 Operations. NASA BOREAS Report (OPS DOC 96).
+ 
+Sellers, P., F. Hall, H. Margolis, B. Kelly, D. Baldocchi, G. den Hartog, J. 
+Cihlar, M.G. Ryan, B. Goodison, P. Crill, K.J. Ranson, D. Lettenmaier, and D.E. 
+Wickland. 1995. The boreal ecosystem-atmosphere study (BOREAS): an overview and 
+early results from the 1994 field year. Bulletin of the American Meteorological 
+Society. 76(9):1549-1577. 
+
+Sellers, P.J., F.G. Hall, R.D. Kelly, A. Black, D. Baldocchi, J. Berry, M. Ryan, 
+K.J. Ranson, P.M. Crill, D.P. Lettenmaier, H. Margolis, J. Cihlar, J. Newcomer, 
+D. Fitzjarrald, P.G. Jarvis, S.T. Gower, D. Halliwell, D. Williams, B. Goodison, 
+D.E. Wickland, and F.E. Guertin. 1997. BOREAS in 1997: Experiment overview, 
+scientific results, and future directions. Journal of Geophysical Research. 
+102(D24):28731-28770.
+
+17.3 Archive/DBMS Usage Documentation
+
+None.
+
+18. Glossary of Terms
+
+None.
+
+19. List of Acronyms
+    ASCII   - American Standard Code for Information Interchange
+    BOREAS  - BOReal Ecosystem-Atmosphere Study
+    BORIS   - BOREAS Information System
+    DAAC    - Distributed Active Archive Center
+    EOS     - Earth Observing System
+    EOSDIS  - EOS Data and Information System
+    GMT     - Greenwich Mean Time
+    GSFC    - Goddard Space Flight Center
+    IRGA    - Infrared Gas Analyzer
+    NASA    - National Aeronautics and Space Administration
+    NSA     - Northern Study Area
+    OBS     - Old Black Spruce
+    ORNL    - Oak Ridge National Laboratory
+    PANP    - Prince Albert National Park
+    PAR     - Photosynthetically Active Radiation
+    SSA     - Southern Study Area
+    PPFD    - Photosynthetic Photon Flux Density
+    URL     - Uniform Resource Locator
+    WMO     - World Meteorological Organization
+
+20. Document Information
+
+20.1 Document Revision Date
+
+     Written: 07-Jul-1995
+     Revised: 05-Jun-1998
+
+20.2 Document Review Date(s)
+
+     BORIS Review: 19-May-1998
+     Science Review: 
+
+20.3 Document ID
+
+20.4 Citation
+
+Goulden, M. L., Daube, B. C., Fan, S. M., Sutton, D. J., Bazzaz, A., Munger, J. 
+W., and Wofsy, S. C. (1997), Physiological responses of a black spruce forest to 
+weather, Journal of Geophysical Research, 102 (D24):28987,28996.
+
+20.5 Document Curator
+
+20.6 Document URL
+
+
+Keywords
+
+BLACK SPRUCE
+TOWER FLUX
+METEOROLOGY
+SENSIBLE HEAT FLUX
+LATENT HEAT FLUX
+CARBON DIOXIDE FLUX
+CARBON DIOXIDE CONCENTRATION
+PHOTOSYNTHETIC PHOTON FLUX DENSITY
+PHOTOSYNTHETICALLY ACTIVE RADIATION
+PPFD
+PAR
+NET RADIATION
+AIR TEMPERATURE
+SOIL TEMPERATURE
+VAPOR PRESSURE
+WIND SPEED
+RAINFALL
+
+TF03_Flux_Met.doc
+06/11/98

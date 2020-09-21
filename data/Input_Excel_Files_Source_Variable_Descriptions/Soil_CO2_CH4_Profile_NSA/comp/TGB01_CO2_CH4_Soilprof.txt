@@ -1,0 +1,750 @@
+BOREAS TGB-01 Soil CH4 and CO2 Profile Data from NSA Tower Sites
+
+Summary:
+
+The BOREAS TGB-01 team made numerous measurements of trace gas concentrations 
+and fluxes at various NSA sites.  This data set contains methane (CH4) and 
+carbon dioxide (CO2) concentrations in soil profiles from the NSA-OJP, NSA-OBS, 
+NSA-YJP, and NSA-BP sites during the period of 23-May to 20-Sep-1994.  The soil 
+gas sampling profiles of CH4 and CO2 were completed to quantify controls on CO2 
+and CH4 fluxes in the boreal forest.  The data are provided in tabular ASCII 
+files.
+
+Table of Contents
+   *  1. Data Set Overview
+   *  2. Investigator(s)
+   *  3. Theory of Measurements
+   *  4. Equipment
+   *  5. Data Acquisition Methods
+   *  6. Observations
+   *  7. Data Description
+   *  8. Data Organization
+   *  9. Data Manipulations
+   *  10. Errors
+   *  11. Notes
+   *  12. Application of the Data Set
+   *  13. Future Modifications and Plans
+   *  14. Software
+   *  15. Data Access
+   *  16. Output Products and Availability
+   *  17. References
+   *  18. Glossary of Terms
+   *  19. List of Acronyms
+   *  20. Document Information
+
+1. Data Set Overview
+
+1.1 Data Set Identification
+
+BOREAS TGB-01 Soil CH4 and CO2 profiles from NSA OJP, YJP, and OBS
+
+1.2 Data Set Introduction
+
+The Trace Gas Biogeochemistry (TGB)-01 team took soil gas profiles at the BOReal 
+Ecosystem Atmosphere Study (BOREAS) Northern Study Area (NSA) Old Jack Pine 
+(OJP), Young Jack Pine (YJP), Old Black Spruce (OBS), and Beaver Pond (BP) sites 
+during the growing season of 1994.  Some of the soil samplers were placed in the 
+ground during the summer of 1993 to ensure equilibration.  Portable samplers 
+were used at sites where no permanent soil gas samplers were installed.  The 
+soil gas samples were analyzed for CO2 and CH4.  At some of the OBS and BP 
+sites, the soil/peat was saturated. At these sites, water samples were taken and 
+analyzed for CH4 and CO2.
+
+1.3 Objective/Purpose
+
+Soil gas sampling profiles of CH4 and CO2 were completed to quantify controls on 
+CO2 and CH4 fluxes in the boreal forest.
+
+1.4 Summary of Parameters
+
+The data contain measurements of the soil pore concentrations of CH4 and CO2.  
+The data were measured at the soil surface and at different depths (5-93 cm 
+below the surface) at the various locations.  Most of the profiles correspond 
+with collar flux measurements.
+
+1.5 Discussion
+
+The soil gas profiles were taken at varying depths from 0 to 93 cm below the 
+surface, where the surface (0 cm) is designated as the top of the vegetated 
+ground cover.  At some sites, groups of samplers were permanently embedded in 
+the ground to ensure consistency of sampling location.  The OBS site was divided 
+into two different sets of data; one with aluminum chambers, and one with 
+plastic chambers.  The OBS site where Patrick Crill (TGB-01) measured fluxes 
+with aluminum chambers and collars had permanent samplers associated with each 
+aluminum collar flux measurement.  The OBS site where Dean Moosavi (TGB-01) 
+measured fluxes with plastic chambers and collars had soil gas profiles taken 
+with a portable sipper associated with each of the plastic collar flux 
+measurements.  Moosavi also measured the BP site fluxes, and the associated 
+profiles were measured with a portable sipper.  The OJP site had a nest of 
+permanent sippers associated with each aluminum flux collar.  The YJP site had 
+only one nest of permanent sippers; therefore, it was to be associated with all 
+aluminum collar flux measurements at that site.
+
+1.6 Related Data Sets
+
+BOREAS TGB-01 CO2 and CH4 Chamber Flux Data over the NSA
+BOREAS TGB-03 CO2 and CH4 Chamber Flux Data over the NSA
+BOREAS TGB-03 Soil CO2 and CH4 Profile Data over the NSA
+BOREAS TGB-05 CO2 and CH4 Chamber Flux Data over the NSA
+
+2. Investigator(s)
+
+2.1 Investigator(s) Name and Title
+
+Dr. Patrick M. Crill
+Research Associate Professor
+University of New Hampshire
+
+2.2 Title of Investigation
+
+Magnitude and Control of Trace Gas Exchange in Boreal Ecosystems
+
+2.3 Contact Information
+
+     Contact 1
+     Dr. Patrick M. Crill
+     Institute for the Study of Earth, Oceans, and Space
+     Complex Systems Research Center
+     University of New Hampshire
+     Durham, NH 
+     (603) 862-3519
+     (603) 862-0188 (fax)
+
+     Contact 2
+     Sadredin (Dean) C. Moosavi
+     Graduate Student
+     Institute for the Study of Earth, Oceans, and Space
+     Complex Systems Research Center
+     University of New Hampshire
+     Durham, NH 
+     (603) 862-2927
+     (603) 862-0188 (fax)
+
+     Contact 3
+     Ruth K. Varner
+     Research Scientist
+     Institute for the Study of Earth, Oceans, and Space
+     Complex Systems Research Center
+     University of New Hampshire
+     Durham, NH 
+     (603) 862-2939
+     (603) 862-0188 (fax)
+
+     Contact 4
+     Sara K, Golightley
+     Raytheon STX Corporation
+     NASA/GSFC
+     Greenbelt, MD 
+     (301) 286-2624
+     sgolight@pop900.gsfc.nasa.gov
+
+3. Theory of Measurements
+
+CH4 and CO2 measurements of soil pore gas and/or water can provide constraints 
+and implications for flux controls at the surface (Crill, 1991). The profile 
+measurements will enable the scientist to determine if the uptake/flux is 
+occurring in a particular soil depth range.
+
+4. Equipment
+
+4.1 Sensor/Instrument Description
+
+Shimadzu GC-14A, FID and TCD
+
+CO2 was quantified with a Shimadzu GC-14A Gas Chromatograph (GC) with a thermal 
+conductivity detector (TCD) operated at 70 degrees C after separation on a 
+HayeSepQ column at 40 degrees C using ultrapure (99.999%) He as a carrier gas 
+flowing at 30 mL/min.  CH4 was quantified with a Shimadzu GC-14A or a Shimadzu 
+GC-MINI2 with a flame ionization detector (FID) operated at 125 degrees C after 
+separation on a HayeSepQ column at 40 degrees C using ultrapure (99.999%) N2  as 
+a carrier gas flowing at 30 mL/min.   Analog signals (0-1 V) from the detectors 
+were digitized at 10 Hertz (Hz) with a Hewlett Packard (HP) 35000D A/D board and 
+quantified and logged using HP ChemStation software.
+
+4.1.1 Collection Environment
+
+Samples were collected under ambient conditions.
+
+4.1.2 Source/Platform
+
+Soil and water.
+
+4.1.3 Source/Platform Mission Objectives
+
+The mission objective was to quantify the CO2 and CH4 soil profile 
+concentrations present in the boreal forest NSA.  
+
+4.1.4 Key Variables
+
+CH4 and CO2 concentrations were the key variables measured at different depths 
+in the soil or peat profile.
+
+4.1.5 Principles of Operation
+
+The Shimadzu GC-14A is equipped with a hydrogen FID and a TCD.  The FID is used 
+to measure CH4, while the TCD is used to quantify CO2.  The FID uses a hydrogen 
+flame in an air atmosphere to burn components as they exit the column.  In the 
+flame, carbon-carbon bonds are fragmented so that various organic ions and free 
+electrons exist.  Application of a voltage across a collector electrode over the 
+flame causes an ion current to flow, which is amplified and then measured as the 
+output signal. The TCD elutes CO2 by flowing a sample in a helium carrier gas 
+past metallic filaments with current flowing through them.  The sample 
+components with lower thermal conductivity than the helium carrier gas raise the 
+filament temperature when they pass through.  The signal output from the TCD is 
+a measurement of the change in filament resistance caused by the temperature 
+rise.  The signal output from both the FID and TCD is for a data processor, 
+integrator, recorder, or computer (Instruction Manual: GC-14A; Shimadzu 
+Corporation, Kyoto, Japan). The GC-MINI2 was equipped with a FID and operated in 
+the same manner as the GC-14A FID.
+
+4.1.6 Sensor/Instrument Measurement Geometry
+
+Not applicable.
+
+4.1.7 Manufacturer of Sensor/Instrument
+
+Manufacturer of GC-14A FID/TCD and GC-MINI2
+Shimadzu Scientific Instruments, Inc.
+7102 Riverwood Drive
+Columbia, MD 21046
+(410) 381-1227
+
+The investigator manufactured the samplers. 
+
+4.2 Calibration
+
+Signal peaks from the detectors were quantified with working standards 
+calibrated against Canadian AES (Canadian Atmospheric Environment Services) 
+certified primary standards acquired by the BOREAS project and a CO2/ CH4 
+standard of Niwot Ridge air prepared by National Oceans and Atmospheric 
+Administration (NOAA) Climate Monitoring and Diagnostics Laboratory (CMDL). 
+
+4.2.1 Specifications
+
+None given.
+
+4.2.1.1 Tolerance
+
+The sensitivity of the TCD is approximately 6,000 mV mL/mg.  The FID's maximum 
+sensitivity is 3*10-12 grams/second for diphenyl.
+
+4.2.2 Frequency of Calibration
+
+The instrument was calibrated on a daily basis.  Standards were run generally 
+before and after samples on a given day of analysis.
+
+4.2.3 Other Calibration Information
+
+Signal peaks from the detectors were quantified with working standard calibrated 
+against Canadian Atmospheric Environment Services (AES) certified primary 
+standards acquired by the BOREAS project and a CO2/CH4 standard of Niwot Ridge 
+air prepared by the National Oceanic and Atmospheric Administration (NOAA) 
+Climate Monitoring and Diagnostics Laboratory (CMDL).
+
+5. Data Acquisition Methods
+
+Soil profile samples were taken from different depths at the YJP, OJP lichen and 
+moss, and OBS (Patrick Crill) sites with soil gas samplers (sippers) installed 
+in August 1993.  The sippers are fabricated from 50 cm of high-efficiency 
+stainless steel 1/8-inch tubing with small holes drilled along the last 10 cm.  
+A hole was dug in the ground, and the stainless steel tubing was placed 
+horizontally in the soil profile.  Polypropylene tubing attached the steel 
+tubing to the surface, and allowed for sampling.  The polypropylene tubing was 
+fitted with a polycarbonate/nylon stopcock at the surface.  Soil air was sampled 
+using the polycarbonate/nylon stopcock and 60-mL polypropylene syringes.  A 
+portable soil gas sipper was used at the OBS (Dean Moosavi), BP, and the OJP 
+sites.  It was constructed with the same materials as the installed sippers. 
+Prior to sampling, 10 mL of soil air was discarded to avoid contamination from 
+ambient air.  After discarding the initial 10 mL of soil air, a 30-mL soil air 
+sample was taken.  The syringes were fitted with rubber bands to prevent any 
+leaking in of ambient air and were transported to the lab for analysis on the 
+GC-14A FID/TCD and/or the MINI-2 FID.
+
+In some cases when the soil/peat was saturated, the samples were taken as water 
+samples. Prior to sampling, 10 mL of soil pore water was discarded to avoid 
+contamination from ambient air.  After the initial 10 mL of soil pore water was 
+discarded, a 30-mL soil pore water sample was taken.  In the lab, the syringes 
+were filled to 60 mL with ultra high-purity nitrogen.  The syringes were shaken 
+for 2 minutes to allow the dissolved CH4 and CO2 to enter the air space.  This 
+method is described by McAuliffe, 1971.  The air in the syringe was then removed 
+from the 60-mL syringe with a 10-mL glass syringe and run on the GC-14A FID/TCD 
+and/or the MINI-2 FID.  
+
+6. Observations
+
+6.1 Data Notes
+
+No major problems with GC.
+
+6.2 Field Notes
+
+For the soil profiles completed with the aluminum chamber fluxes (Patrick 
+Crill):
+20Jun94 - OBS, soil profile at collars OBS 5 and OBS 6; couldn't draw the 30-cm 
+sample.
+27Jun94 - OBS, soil profile at collars OBS 5 and OBS 6; couldn't draw the 30-cm 
+or 25-cm samples.
+04Jul94 - Figured out that there is permafrost at collars OBS 5 and OBS 6 at 25-
+30 cm.
+04Jul94 - No 30-cm sample at collars OBS 7 and OBS 8.
+04Jul94 - No 30-cm sample at collars OBS 9 and OBS 10.
+10Jul94 - No 30-cm sample at YJP; too rocky.
+16Jul94 - No 25- or 30-cm samples at YJP; too rocky.
+20Jul94 - Permafrost at OBS collar 5 at 25 and 30 cm; permafrost at OBS collar 9 
+at 20, 25, and 30 cm.
+23Jul94 - No profile samples for YJP 3.
+26Jul94 - OBS 5 has permafrost below 15-cm; no 20-, 25-, or 30-cm samples.
+30Jul94 - No profile samples at YJP 1 or YJP 3.
+01Aug94 - OBS 5 still has permafrost below 20 cm.
+07Aug94 - No profile samples after 15 cm at YJP 1; no profile samples for YJP 3.
+08Aug94 - OBS 5 has permafrost below 25 cm.
+14Aug94 - All profiles complete from OBS; no permafrost at 5 anymore!
+30Aug94 - OBS 5 and OBS 6 show water at 20 cm in soil profile.
+30Aug94 - OBS 9 and OBS 10 show water at 30 cm in soil profile.
+
+For the soil profiles completed with the plastic chamber fluxes (Dean Moosavi):
+16May94 - OJP moss site profile frozen at 13- and 24-cm depths.
+19May94 - BP profiles: collar 19 frozen below 25 cm; collar 21 frozen below 10 
+cm; collar 27 frozen below 20 cm.
+20May94 - OBS collar 6 frozen below 10 cm; OBS collar 8 frozen below 20 cm.
+22May94 - OJP moss profile frozen at 13 and 24 cm.
+25May94 - OBS collar 9 frozen below 15 cm; OBS collar 8 frozen below 25 cm; OBS 
+collar 6 frozen below 15 cm; OBS collar 1 profile frozen below 20 cm.
+26May94 - BP collar 22 frozen below 10 cm; BP collar 19 frozen below 10 cm; the 
+pond and mire sites had water at the surface, so the entire profiles were water 
+samples.
+27May94 - OBS lichen site profile frozen below 15 cm; OBS water site profile 
+frozen below 15 cm; OBS coast profile frozen below 15 cm; OBS collars 13-16 were 
+water profiles.
+31May94 - BP lichen profile frozen below 15 cm; the pond and mire sites had 
+water at the surface, so the entire profiles were water samples.
+01Jun94 - OBS lichen profile frozen below 20 cm; OBS lichen profile frozen below 
+20 cm; OBS collars 13-16 profiles were water samples below 5 cm. 
+04Jun94 - OBS coast profile frozen below 20 cm; OBS water profile frozen below 
+25 cm.
+08Jun94 - OBS coast profile frozen below 20 cm; OBS moss profile frozen below 25 
+cm; OBS lichen profile frozen below 25 cm; OBS 13-16 profiles were water samples 
+below 5 cm. 
+10Jun94 - BP lichen profile frozen below 33 cm; BP moss profile frozen below 25 
+cm.
+16Jun94 - BP collars 21-24 had water below 10 cm; BP collars 25-28 had water 
+throughout the profile; BP collars 29-32 had water throughout the profile.
+20Jun94 - OBS moss profile frozen below 25 cm; OBS coast profile frozen below 25 
+cm; OBS collars 1-4 had water below 25 cm; OBS collars 5-8 had water below 25 
+cm; OBS collars 9-12 had water below 30 cm; OBS collars 13-16 had water 
+throughout the profile.
+21Jun94 - BP lichen profile frozen below 30 cm; BP collars 21-24 had water below 
+10 cm; BP collars 25-28 had water throughout the profile; BP collars 29-32 had 
+water throughout the profile.
+28Jun94 - OBS collars 9-12 had water below 20 cm; OBS collars 13-16 had water 
+throughout the profile.
+30Jun94 - BP collars 25-28 had water below 10 cm; BP collars 29-32 had water 
+below 10 cm.
+04Jul94 - OBS collars 9-12 had water below 20 cm; OBS collars 13-16 had water 
+throughout the profile.
+08Jul94 - BP collars 21-24 had water below 15 cm; BP collars 25-28 had water 
+throughout the profile; BP collars 29-32 had water throughout the profile.
+13Jul94 - OBS collars 9-12 had water below 25 cm; OBS collars 13-16 had water 
+throughout the profile.
+14Jul94 - BP collars 21-24 had water below 10 cm; BP collars 25-28 had water 
+throughout the profile; BP collars 29-32 had water throughout the profile.
+18Jul94 - BP collars 21-24 had water below 10 cm; BP collars 25-28 had water 
+throughout the profile; BP collars 29-32 had water throughout the profile.
+20Jul94 - OBS collars 9-12 had water below 25 cm; OBS collars 13-16 had water 
+throughout the profile.
+25Jul94 - BP collars 21-24 had water below 10 cm; BP collars 25-28 had water 
+throughout the profile; BP collars 29-32 had water throughout the profile.
+27Jul94 - OBS collars 9-12 had water below 30 cm; OBS collars 13-16 had water 
+throughout the profile.
+01Aug94 - OBS collars 9-12 had water below 30 cm; OBS collars 13-16 had water 
+throughout the profile.
+02Aug94 - BP collars 21-24 had water below 10 cm; BP collars 25-28 had water 
+throughout the profile; BP collars 29-32 had water throughout the profile.
+23Aug94 - BP collars 21-24 had water below 20 cm; BP collars 25-28 had water 
+throughout the profile; BP collars 29-32 had water throughout the profile.
+30Aug94 - OBS collars 9-12 had water below 25 cm; OBS collars 13-16 had water 
+below 10 cm.
+31Aug94 - BP collars 21-24 had water below 20 cm; BP collars 25-28 had water 
+throughout the profile; BP collars 29-32 had water throughout the profile.
+05Sep94 - BP collars 21-24 had water below 15 cm; BP collars 25-28 had water 
+throughout the profile; BP collars 29-32 had water throughout the profile.
+06Sep94 - OBS collars 9-12 had water below 25 cm; OBS collars 13-16 had water 
+below 10 cm. 
+12Sep94 - OBS collars 13-16 had water below 10 cm. 
+13Sep94 - BP collars 25-28 had water throughout the profile; BP collars 29-32 
+had water throughout the profile.
+
+7. Data Description
+
+7.1 Spatial Characteristics
+
+7.1.1 Spatial Coverage
+
+For the data collected with the aluminum chamber fluxes (Patrick Crill):
+
+The OJP collars and profile sampling sites were located as follows:
+Moss collars were approximately northwest of the tower;  the profile corral was 
+located a few meters south of the collars (55.9287o N, 98.6248o W).
+
+The OJP lichen collars were due west of the tower; the profile trench was 
+located about 1 m southeast of the collars (55.9280o N, 98.62481o W).
+
+The YJP collars were located southeast of the tower; the gas profile corral was 
+located approximately 1 m west of the collars (55.9286o N, 98.62019o W).
+
+The OBS collars were located along a low to high moisture gradient from the 
+lichen to the feather moss, the fen rim, and ending at the fen site.  The lichen 
+and feather moss collars were located along the boardwalk approximately 200 m 
+northeast of the tower. The fen rim and fen site collars were located due east 
+of the lichen and feather moss sites about 150 m and 200 m, respectively.
+
+For the soil profile data completed with the plastic chamber fluxes (Dean 
+Moosavi):
+
+The OBS collars and profile sampling sites were located as follows:  
+The OBS sampling collars were located along a moisture gradient from feather 
+moss and lichen sites to the fen rim site and ending with the fen sites.  The 
+transect ran approximately east to west and was located about 200 m northeast of 
+the tower at the OBS site (55.88007o N, 55.88007o W).
+
+The BP collars and profile sampling sites were located as follows:  
+The BP sampling sites were located along a low to high moisture gradient that 
+began with the upland lichen site, then the sphagnum moss site, the mire site 
+and ending at the pond site. The transect runs approximately north to south and 
+is about 60 m from the BP tower (55.8422o N, 98.02747o W).
+
+Global Positioning System (GPS) measurements were taken at the sampling sites 
+but the data were not retrievable.
+
+7.1.2 Spatial Coverage Map
+
+Not available.
+
+7.1.3 Spatial Resolution
+
+Four collars were placed in the ground for each biome type.  They were 
+approximately 1 to 2 m apart depending on the site specifics.  The collar_type 
+in Section 7.3.3 refers to the dominant vegetation in the collars.
+
+7.1.4 Projection
+
+Not applicable.
+
+7.1.5 Grid Description
+
+Not applicable.
+
+7.2 Temporal Characteristics
+
+7.2.1 Temporal Coverage
+
+Data were collected from 16-May to 20-Sep-1994.
+
+7.2.2 Temporal Coverage Map
+
+Not available.
+
+7.2.3 Temporal Resolution
+
+The soil profiles were taken approximately every 7 days beginning 16-May-1994 
+and ending 13-Sep-1994.
+
+7.3 Data Characteristics
+
+Data characteristics are defined in the companion data definition file 
+(tgb1ccsd.def).
+
+7.4 Sample Data Record
+
+Sample data format shown in the companion data definition file (tgb1ccsd.def).
+
+8. Data Organization
+
+8.1 Data Granularity
+
+All of the Soil CH4 and CO2 Profile Data from NSA Tower Sites are contained in 
+one dataset.
+
+8.2 Data Format(s)
+
+The data files contain numerical and character fields of varying length 
+separated by commas. The character fields are enclosed with  a single apostrophe 
+marks. There are no spaces between the fields.  Sample data records are shown in 
+the companion data definition files (tgb1ccsd.def).
+
+
+9. Data Manipulations
+
+9.1 Formulae
+Rf = Cstd / Astd
+Cs = Rf * As
+
+Rf = Response factor
+Astd  = Average of 10 standard peak areas
+Cstd  = Concentration of the standard
+Cs = Concentration of the sample
+As = Peak area of sample
+
+CH4 and CO2 concentrations were calculated from the average of 10 peak areas of 
+known CH4 and CO2 standards.  The response factor was calculated as the 
+concentration of the known standard divided by the average of 10 standard peak 
+areas.  The peak area of the unknown sample was multiplied by the response 
+factor.
+
+9.1.1 Derivation Techniques and Algorithms
+
+Not applicable.
+
+9.2 Data Processing Sequence
+
+9.2.1 Processing Steps
+
+The peak areas were taken directly from the HP ChemStation reports from the GC.   
+They were entered into spreadsheets, and the concentrations were calculated 
+using the formulas in Section 9.1.1.
+
+9.2.2 Processing Changes
+
+Not applicable.
+
+9.3 Calculations
+
+9.3.1 Special Corrections/Adjustments
+
+None given.
+
+9.3.2 Calculated Variables
+
+Not applicable.
+
+9.4 Graphs and Plots
+
+None given.
+
+10. Errors
+
+10.1 Sources of Error
+
+Sampling error when pulling the syringe samples could include:
+
+1.  Sampling too rapidly, causing the air/water sample to be taken from the 
+vertical direction rather than from the depth at which the sampler was located.
+2. Not flushing the line before sampling , which could cause dilution of the 
+sample with air/water from the last sampling time.
+3. Not completely closing the syringes or allowing them to come open during 
+transport, causing dilution from ambient air.  (Errors such as this would have 
+been written down in the lab/field books, and those data therefore would have 
+been edited out.)
+
+The analytical precision of the GC's is: 0.2% for CH4 and 1% for CO2.
+
+10.2 Quality Assessment
+
+10.2.1 Data Validation by Source
+
+None given.
+
+10.2.2 Confidence Level/Accuracy Judgment
+
+None given.
+
+10.2.3 Measurement Error for Parameters
+
+The analytical precision of the GC's is: 0.2% for CH4 and 1% for CO2.
+
+10.2.4 Additional Quality Assessments
+
+None given.
+
+10.2.5 Data Verification by Data Center
+
+Data were examined for general consistency and clarity.
+
+11. Notes
+
+11.1 Limitations of the Data
+
+The analytical precision of the GC's is: 0.2% for CH4 and 1% for CO2.
+
+11.2 Known Problems with the Data
+
+None overall; see notes under Section 6 and Section 10.
+
+11.3 Usage Guidance
+
+None given.
+
+11.4 Other Relevant Information
+
+None given.
+
+12. Application of the Data Set
+
+This data set may be used in comparison with the chamber flux data to determine 
+the controls on fluxes from these various environments.
+
+13. Future Modifications and Plans
+
+None.
+
+14. Software
+
+14.1 Software Description
+
+HP ChemStation.
+
+14.2 Software Access
+
+Contact Hewlett Packard.
+
+15. Data Access
+
+15.1 Contact Information
+
+Ms. Beth Nelson
+BOREAS Data Manager
+NASA GSFC
+Greenbelt, MD
+(301) 286-4005
+(301) 286-0239 (fax)
+beth@ltpmail.gsfc.nasa.gov
+
+15.2 Data Center Identification
+
+See Section 15.1.
+
+15.3 Procedures for Obtaining Data
+
+Users may place requests by telephone, electronic mail, or fax.
+
+15.4 Data Center Status/Plans
+
+These data are available from the Earth Observing System Data and Information 
+System (EOSDIS), Oak Ridge National Laboratory (ORNL), Distributed Active 
+Archive Center (DAAC). The BOREAS contact at ORNL is: 
+
+ORNL DAAC User Services
+Oak Ridge National Laboratory
+(865) 241-3952
+ornldaac@ornl.gov
+ornl@eos.nasa.gov
+
+16. Output Products and Availability
+
+16.1 Tape Products
+
+None
+.
+16.2  Film Products
+
+None.
+
+16.3  Other Products
+
+Tabular American Standard Code for Information Interchange (ASCII) file.
+
+17. References
+
+17.1 Platform/Sensor/Instrument/Data Processing Documentation
+
+Instruction Manual: GC-14A. Shimadzu Corporation, Kyoto, Japan.
+
+17.2 Journal Articles and Study Reports
+
+Crill, P.M. 1991. Seasonal patterns of methane uptake and carbon dioxide release 
+by a temperate woodland, Global Biogeochemical Cycles, 5 (4), 319-334.
+
+McAuliffe, C.C. 1971. Gas chromatographic determination of solutes by multiple 
+phase equilibration, Chem. Technol., 1, 46-51.
+
+Sellers, P. and F. Hall. 1994. Boreal Ecosystem-Atmosphere Study: Experiment 
+Plan. Version 1994-3.0, NASA BOREAS Report (EXPLAN 94). 
+
+Sellers, P. and  F. Hall. 1996. Boreal Ecosystem-Atmosphere Study: Experiment 
+Plan. Version 1996-2.0, NASA BOREAS Report (EXPLAN 96). 
+
+Sellers, P. and F. Hall. 1997. BOREAS Overview Paper. JGR Special Issue (1997).
+
+Sellers, P., F. Hall, and K.F. Huemmrich. 1996. Boreal Ecosystem-Atmosphere 
+Study: 1994 Operations. NASA BOREAS Report (OPS DOC 94). 
+
+Sellers, P., F. Hall, and K.F. Huemmrich. 1997. Boreal Ecosystem-Atmosphere 
+Study: 1996 Operations. NASA BOREAS Report (OPS DOC 96). 
+
+Sellers, P., F. Hall, H. Margolis, B. Kelly, D. Baldocchi, G. den Hartog, J. 
+Cihlar, M.G. Ryan, B. Goodison, P. Crill, K.J. Ranson, D. Lettenmaier, and D.E. 
+Wickland. 1995. The boreal ecosystem-atmosphere study (BOREAS): an overview and 
+early results from the 1994 field year. Bulletin of the American Meteorological 
+Society. 76(9):1549-1577. 
+
+17.3 Archive/DBMS Usage Documentation
+
+None given.
+
+18. Glossary of Terms
+
+None given.
+
+19. List of Acronyms
+
+    AES     - Atmospheric Environment Services
+    ASCII   - American Standard Code for Information Interchange
+    BOREAS  - BOReal Ecosystem-Atmosphere Study
+    BORIS   - BOREAS Information System
+    BP      - Beaver Pond 
+    CMDL    - Climate Monitoring and Diagnostics Laboratory
+    CGR     - Certified by Group
+    CPI     - Checked by PI
+    CPI-??? - CPI but questionable
+    DAAC    - Distributed Active Archive Center
+    ECD     - Electron Capture Detector
+    EOS     - Earth Observing System
+    EOSDIS  - EOS Data and Information System
+    FID     - Flame Ionization Detector
+    GC      - Gas Chromatograph
+    GSFC    - Goddard Space Flight Center
+    GPS     - Global Positioning System
+    HP      - Hewlett Packard
+    NASA    - National Aeronautics and Space Administration
+    NOAA    - National Oceanic and Atmospheric Administration
+    NSA     - Northern Study Area
+    OBS     - Old Black Spruce
+    OJP     - Old Jack Pine
+    ORNL    - Oak Ridge National Laboratory
+    PANP    - Prince Albert National Park
+    PRE     - Preliminary
+    SSA     - Southern Study Area
+    TCD     - Thermal Conductivity Detector
+    TGB     - Trace Gas Biogeochemistry
+    URL     - Uniform Resource Locator
+    YJP     - Young Jack Pine
+
+20. Document Information
+
+20.1 Document Revision Date
+
+     Written:
+     Last Updated:  20-Jul-1998.
+
+20.2 Document Review Date(s)
+
+     BORIS Review:  6-Oct-1997
+     Science Review:
+
+20.3 Document ID
+
+20.4 Citation
+
+20.5 Document Curator
+
+20.6 Document URL
+
+Keywords
+
+CH4 Concentration
+CO2 Concentration
+Soil Profile
+
+TGB01_CO2_CH4_Soilprof.doc
+Page 4 of 14
+05/26/98

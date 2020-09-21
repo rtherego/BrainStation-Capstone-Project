@@ -1,0 +1,679 @@
+
+BOREAS TF-09 SSA-OBS Tower Flux, Meteorological, and Soil Temperature Data
+
+7.3 Data Characteristics for Flux Data Files (Soil Temperature below)
+
+7.3.1 Parameter/Variable
+
+The parameters contained in the flux data files on the CD-ROM are:
+
+         Column Name
+------------------------------
+SITE_NAME
+SUB_SITE
+DATE_OBS
+TIME_OBS
+SENSIBLE_HEAT_FLUX_ABV_CNPY
+CALC_SENSIBLE_HEAT_FLUX
+LATENT_HEAT_FLUX_ABV_CNPY
+CALC_LATENT_HEAT_FLUX
+NET_RAD_ABV_CNPY
+SOIL_HEAT_FLUX_7CM
+CO2_FLUX_ABV_CNPY
+CALC_CO2_FLUX
+CO2_CONC_ABV_CNPY
+CO2_STORAGE
+DOWN_PPFD_ABV_CNPY
+UP_PPFD_ABV_CNPY
+WIND_DIR_ABV_CNPY
+WIND_SPEED_ABV_CNPY
+FRICTION_VELOC_ABV_CNPY
+MOMENTUM_FLUX_ABV_CNPY
+SDEV_U_WIND_SPEED
+SDEV_V_WIND_SPEED
+SDEV_W_WIND_SPEED
+H2O_FLUX_ABV_CNPY
+CALC_H2O_FLUX
+AIR_TEMP_150CM
+AIR_TEMP_350CM
+AIR_TEMP_650CM
+AIR_TEMP_950CM
+AIR_TEMP_1250CM
+AIR_TEMP_18M
+AIR_TEMP_ABV_CNPY
+NET_RAD_BELOW_CNPY
+SOIL_TEMP_25MM
+SOIL_TEMP_5CM
+SOIL_TEMP_10CM
+SOIL_TEMP_20CM
+SOIL_TEMP_50CM
+SOIL_TEMP_100CM
+VAPOR_PRESS_ABV_CNPY
+VAPOR_PRESS_BELOW_CNPY
+RAINFALL
+DOWN_SOLAR_RAD_ABV_CNPY
+UP_SOLAR_RAD_ABV_CNPY
+CO2_CONC_50CM
+CO2_CONC_150CM
+CO2_CONC_300CM
+CO2_CONC_350CM
+CO2_CONC_600CM
+CO2_CONC_650CM
+CO2_CONC_950CM
+CO2_CONC_1200CM
+CO2_CONC_1250CM
+CO2_CONC_1800CM
+H2O_CONC_50CM
+H2O_CONC_150CM
+H2O_CONC_350CM
+H2O_CONC_650CM
+H2O_CONC_950CM
+H2O_CONC_1250CM
+H2O_CONC_1800CM
+H2O_CONC_ABV_CNPY
+CRTFCN_CODE
+REVISION_DATE
+
+
+
+7.3.2 Variable Description/Definition
+
+The descriptions of the parameters contained in the flux data files on
+the CD-ROM are:
+
+         Column Name                             Description
+------------------------------ ------------------------------------------------
+SITE_NAME                      The identifier assigned to the site by BOREAS, 
+                               in the format SSS-TTT-CCCCC, where SSS identifies
+                               the portion of the study area: NSA, SSA, REG, 
+                               TRN, and TTT identifies the cover type for the 
+                               site, 999 if unknown, and CCCCC is the identifier
+                               for site, exactly what it means will vary with 
+                               site type.
+SUB_SITE                       The identifier assigned to the sub-site by 
+                               BOREAS, in the format GGGGG-IIIII, where GGGGG is
+                               the group associated with the sub-site 
+                               instrument, e.g. HYD06 or STAFF, and IIIII is the 
+                               identifier for sub-site, often this will refer to 
+                               an instrument.
+DATE_OBS                       The date on which the data were collected.
+TIME_OBS                       The Greenwich Mean Time (GMT) of the start of the
+                               data collection.
+SENSIBLE_HEAT_FLUX_ABV_CNPY    The sensible heat flux measured above the canopy.
+CALC_SENSIBLE_HEAT_FLUX        The sensible heat flux measured above the canopy
+                               Data on calm nights have been adjusted. Gaps in
+                               the eddy flux measurements have been filled in
+                               using regression equations of eddy flux against
+                               meteorological variables.
+LATENT_HEAT_FLUX_ABV_CNPY      The latent heat flux measured above the canopy.
+CALC_LATENT_HEAT_FLUX          The latent heat flux measured above the canopy.
+                               Data on calm nights has been adjusted. Gaps in 
+                               the eddy flux measurements have been filled in 
+                               using regression equations of eddy flux against
+                               meteorological variables.
+NET_RAD_ABV_CNPY               The net radiation measured above the canopy.
+SOIL_HEAT_FLUX_7CM             The soil heat flux measured at 7 cm depth.
+CO2_FLUX_ABV_CNPY              The carbon dioxide flux measured above the 
+                               canopy.
+CALC_CO2_FLUX                  The carbon dioxide flux measured above the 
+                               canopy.
+                               Data on calm nights have been adjusted. Gaps
+                               in the eddy flux measurements have been filled in
+                               using regression equations of eddy flux against
+                               meteorological variables.
+CO2_CONC_ABV_CNPY              The carbon dioxide concentration measured above
+                               the canopy.
+CO2_STORAGE                    The storage term of carbon dioxide under the eddy
+                               flux system.
+DOWN_PPFD_ABV_CNPY             The incoming photosynthetic photon flux density
+                               measured above the canopy.
+UP_PPFD_ABV_CNPY               The reflected photosynthetic photon flux density
+                               measured above the canopy.
+WIND_DIR_ABV_CNPY              The wind direction measured above the canopy.
+WIND_SPEED_ABV_CNPY            The wind speed measured above the canopy.
+FRICTION_VELOC_ABV_CNPY        The friction velocity above the canopy.
+MOMENTUM_FLUX_ABV_CNPY         The momentum flux measured above the canopy.
+SDEV_U_WIND_SPEED              Standard deviation of the streamwise wind speed.
+SDEV_V_WIND_SPEED              Standard deviation of the lateral wind speed.
+SDEV_W_WIND_SPEED              Standard deviation of the vertical wind speed.
+H2O_FLUX_ABV_CNPY              The water vapor flux measured above the canopy.
+CALC_H2O_FLUX                  The water vapor flux measured above the canopy.
+                               Data on calm nights have been adjusted. Gaps in
+                               the eddy flux measurements have been filled in 
+                               using regression equations of eddy flux against 
+                               meteorological variables.
+AIR_TEMP_150CM                 The air temperature measured at 1.5 meters above
+                               the ground.
+AIR_TEMP_350CM                 The air temperature measured at 3.5 meters above
+                               the ground.
+AIR_TEMP_650CM                 The air temperature measured at 6.5 meters above
+                               the ground.
+AIR_TEMP_950CM                 The air temperature measured at 9.5 meters above
+                               the ground.
+AIR_TEMP_1250CM                The air temperature measured at 12.5 meters above
+                               the ground.
+AIR_TEMP_18M                   The air temperature measured at 18 meters above
+                               the ground.
+AIR_TEMP_ABV_CNPY              The air temperature measured above the canopy.
+NET_RAD_BELOW_CNPY             The net radiation measured below the canopy.
+SOIL_TEMP_25MM                 The soil temperature recorded at 25 mm in depth.
+SOIL_TEMP_5CM                  Soil temperature measured at a depth of 5 cm.
+SOIL_TEMP_10CM                 Soil temperature at 10 cm depth.
+SOIL_TEMP_20CM                 Soil temperature at 20 cm depth.
+SOIL_TEMP_50CM                 Soil temperature measured at 50 cm depth.
+SOIL_TEMP_100CM                The soil temperature recorded at 1 m in depth.
+VAPOR_PRESS_ABV_CNPY           The vapor pressure measured above the canopy.
+VAPOR_PRESS_BELOW_CNPY         The vapor pressure measured below the canopy.
+RAINFALL                       The amount of rainfall in this 30 minute period
+                               measured above the canopy.
+DOWN_SOLAR_RAD_ABV_CNPY        The downward (incoming) solar radiation measured
+                               above the canopy.
+UP_SOLAR_RAD_ABV_CNPY          The reflected (outgoing) solar radiation measured
+                               above the canopy.
+CO2_CONC_50CM                  The carbon dioxide concentration measured at 50
+                               cm above the ground.
+CO2_CONC_150CM                 The carbon dioxide concentration measured at 1.5
+                               m above the ground.
+CO2_CONC_300CM                 The carbon dioxide concentration measured at 3 m
+                               above the ground.
+CO2_CONC_350CM                 The carbon dioxide concentration measured at 3.5
+                               m above the ground.
+CO2_CONC_600CM                 The carbon dioxide concentration measured at 6 m
+                               above the ground.
+CO2_CONC_650CM                 The carbon dioxide concentration measured at 6.5
+                               m above the ground.
+CO2_CONC_950CM                 The carbon dioxide concentration measured at 9.5
+                               m above the ground.
+CO2_CONC_1200CM                The carbon dioxide concentration measured at 12
+                               m above the ground.
+CO2_CONC_1250CM                The carbon dioxide concentration measured at 12.
+                               5 m above the ground.
+CO2_CONC_1800CM                The carbon dioxide concentration measured at 18
+                               m above the ground.
+H2O_CONC_50CM                  The water vapor concentration measured at 50 cm
+                               above the ground.
+H2O_CONC_150CM                 The water vapor concentration measured at 1.5 m
+                               above the ground.
+H2O_CONC_350CM                 The water vapor concentration measured at 3.5 m
+                               above the ground.
+H2O_CONC_650CM                 The water vapor concentration measured at 6.5 m
+                               above the ground.
+H2O_CONC_950CM                 The water vapor concentration measured at 9.5 m
+                               above the ground.
+H2O_CONC_1250CM                The water vapor concentration measured at 12.5 m
+                               above the ground.
+H2O_CONC_1800CM                The water vapor concentration measured at 18 m 
+                               above the ground.
+H2O_CONC_ABV_CNPY              The water vapor concentration measured above the
+                               canopy.
+CRTFCN_CODE                    The BOREAS certification level of the data. 
+                               Examples are CPI (Checked by PI), CGR (Certified
+                               by Group), PRE (Preliminary), and CPI-??? (CPI
+                               but questionable).
+REVISION_DATE                  The most recent date when the information in the
+                               referenced data base table record was revised.
+
+
+
+7.3.3 Unit of Measurement
+
+The measurement units for the parameters contained in the flux data files on
+the CD-ROM are:
+
+         Column Name                                Units
+------------------------------ ------------------------------------------------
+SITE_NAME                      [none]
+SUB_SITE                       [none]
+DATE_OBS                       [DD-MON-YYYY]
+TIME_OBS                       [HHMM GMT]
+SENSIBLE_HEAT_FLUX_ABV_CNPY    [Watts][meter^-2]
+CALC_SENSIBLE_HEAT_FLUX        [Watts][meter^-2]
+LATENT_HEAT_FLUX_ABV_CNPY      [Watts][meter^-2]
+CALC_LATENT_HEAT_FLUX          [Watts][meter^-2]
+NET_RAD_ABV_CNPY               [Watts][meter^-2]
+SOIL_HEAT_FLUX_7CM             [Watts][meter^-2]
+CO2_FLUX_ABV_CNPY              [micromoles][meter^-2][second^-1]
+CALC_CO2_FLUX                  [micromoles][meter^-2][second^-1]
+CO2_CONC_ABV_CNPY              [parts per million]
+CO2_STORAGE                    [micromoles][meter^-2][second^-1]
+DOWN_PPFD_ABV_CNPY             [micromoles][meter^-2][second^-1]
+UP_PPFD_ABV_CNPY               [micromole][meter^-2][second^-1]
+WIND_DIR_ABV_CNPY              [degrees from North]
+WIND_SPEED_ABV_CNPY            [meters][second^-1]
+FRICTION_VELOC_ABV_CNPY        [meters][second^-1]
+MOMENTUM_FLUX_ABV_CNPY         [meters^2][second^-2]
+SDEV_U_WIND_SPEED              [meters][s^-1]
+SDEV_V_WIND_SPEED              [meters][s^-1]
+SDEV_W_WIND_SPEED              [meters][s^-1]
+H2O_FLUX_ABV_CNPY              [millimole][meter^-2][second^-1]
+CALC_H2O_FLUX                  [millimoles][meter^-2][second^-1]
+AIR_TEMP_150CM                 [degrees Celsius]
+AIR_TEMP_350CM                 [degrees Celsius]
+AIR_TEMP_650CM                 [degrees Celsius]
+AIR_TEMP_950CM                 [degrees Celsius]
+AIR_TEMP_1250CM                [degrees Celsius]
+AIR_TEMP_18M                   [degrees Celsius]
+AIR_TEMP_ABV_CNPY              [degrees Celsius]
+NET_RAD_BELOW_CNPY             [Watts][meter^-2]
+SOIL_TEMP_25MM                 [degrees Celsius]
+SOIL_TEMP_5CM                  [degrees Celsius]
+SOIL_TEMP_10CM                 [degrees Celsius]
+SOIL_TEMP_20CM                 [degrees Celsius]
+SOIL_TEMP_50CM                 [degrees Celsius]
+SOIL_TEMP_100CM                [degrees Celsius]
+VAPOR_PRESS_ABV_CNPY           [kiloPascals]
+VAPOR_PRESS_BELOW_CNPY         [kiloPascals]
+RAINFALL                       [millimeters]
+DOWN_SOLAR_RAD_ABV_CNPY        [Watts][meter^-2]
+UP_SOLAR_RAD_ABV_CNPY          [Watts][meter^-2]
+CO2_CONC_50CM                  [parts per million]
+CO2_CONC_150CM                 [parts per million]
+CO2_CONC_300CM                 [parts per million]
+CO2_CONC_350CM                 [parts per million]
+CO2_CONC_600CM                 [parts per million]
+CO2_CONC_650CM                 [parts per million]
+CO2_CONC_950CM                 [parts per million]
+CO2_CONC_1200CM                [parts per million]
+CO2_CONC_1250CM                [parts per million]
+CO2_CONC_1800CM                [parts per million]
+H2O_CONC_50CM                  [parts per thousand]
+H2O_CONC_150CM                 [parts per thousand]
+H2O_CONC_350CM                 [parts per thousand]
+H2O_CONC_650CM                 [parts per thousand]
+H2O_CONC_950CM                 [parts per thousand]
+H2O_CONC_1250CM                [parts per thousand]
+H2O_CONC_1800CM                [parts per thousand]
+H2O_CONC_ABV_CNPY              [parts per thousand]
+CRTFCN_CODE                    [none]
+REVISION_DATE                  [DD-MON-YYYY]
+
+
+
+7.3.4 Data Source
+
+The source of the parameter values contained in the flux data files on
+the CD-ROM are:
+
+         Column Name                             Data Source
+------------------------------ ------------------------------------------------
+SITE_NAME                      [Assigned by BORIS.]
+SUB_SITE                       [Assigned by BORIS.]
+DATE_OBS                       [Supplied by Investigator.]
+TIME_OBS                       [Supplied by Investigator.]
+SENSIBLE_HEAT_FLUX_ABV_CNPY    [Solent anemometer]
+CALC_SENSIBLE_HEAT_FLUX        [Supplied by Investigator.]
+LATENT_HEAT_FLUX_ABV_CNPY      [Infrared Gas Analyzer]
+CALC_LATENT_HEAT_FLUX          [Supplied by Investigator.]
+NET_RAD_ABV_CNPY               [Net radiometer]
+SOIL_HEAT_FLUX_7CM             [Heat flux plates]
+CO2_FLUX_ABV_CNPY              [Infrared Gas Analyzer]
+CALC_CO2_FLUX                  [Supplied by Investigator.]
+CO2_CONC_ABV_CNPY              [Infrared Gas Analyzer]
+CO2_STORAGE                    [Infrared Gas Analyzer]
+DOWN_PPFD_ABV_CNPY             [quantum sensor]
+UP_PPFD_ABV_CNPY               [quantum sensor]
+WIND_DIR_ABV_CNPY              [windvane]
+WIND_SPEED_ABV_CNPY            [cup anemometer]
+FRICTION_VELOC_ABV_CNPY        [Solent anemometer]
+MOMENTUM_FLUX_ABV_CNPY         [Solent anemometer]
+SDEV_U_WIND_SPEED              [Solent anemometer]
+SDEV_V_WIND_SPEED              [Solent anemometer]
+SDEV_W_WIND_SPEED              [Solent anemometer]
+H2O_FLUX_ABV_CNPY              [Infrared Gas Analyzer]
+CALC_H2O_FLUX                  [Supplied by Investigator.]
+AIR_TEMP_150CM                 [ventilated psychrometer]
+AIR_TEMP_350CM                 [ventilated psychrometer]
+AIR_TEMP_650CM                 [ventilated psychrometer]
+AIR_TEMP_950CM                 [ventilated psychrometer]
+AIR_TEMP_1250CM                [ventilated psychrometer]
+AIR_TEMP_18M                   [ventilated psychrometer]
+AIR_TEMP_ABV_CNPY              [ventilated psychrometer]
+NET_RAD_BELOW_CNPY             [Net radiometer]
+SOIL_TEMP_25MM                 [Soil temperature probe]
+SOIL_TEMP_5CM                  [Soil temperature probe]
+SOIL_TEMP_10CM                 [Soil temperature probe]
+SOIL_TEMP_20CM                 [Soil temperature probe]
+SOIL_TEMP_50CM                 [Soil temperature probe]
+SOIL_TEMP_100CM                [Soil temperature probe]
+VAPOR_PRESS_ABV_CNPY           [ventilated psychrometer]
+VAPOR_PRESS_BELOW_CNPY         [ventilated psychrometer]
+RAINFALL                       [tipping bucket rain gauge]
+DOWN_SOLAR_RAD_ABV_CNPY        [solarimeter]
+UP_SOLAR_RAD_ABV_CNPY          [solarimeter]
+CO2_CONC_50CM                  [Infrared Gas Analyzer]
+CO2_CONC_150CM                 [Infrared Gas Analyzer]
+CO2_CONC_300CM                 [Infrared Gas Analyzer]
+CO2_CONC_350CM                 [Infrared Gas Analyzer]
+CO2_CONC_600CM                 [Infrared Gas Analyzer]
+CO2_CONC_650CM                 [Infrared Gas Analyzer]
+CO2_CONC_950CM                 [Infrared Gas Analyzer]
+CO2_CONC_1200CM                [Infrared Gas Analyzer]
+CO2_CONC_1250CM                [Infrared Gas Analyzer]
+CO2_CONC_1800CM                [Infrared Gas Analyzer]
+H2O_CONC_50CM                  [Infrared Gas Analyzer]
+H2O_CONC_150CM                 [Infrared Gas Analyzer]
+H2O_CONC_350CM                 [Infrared Gas Analyzer]
+H2O_CONC_650CM                 [Infrared Gas Analyzer]
+H2O_CONC_950CM                 [Infrared Gas Analyzer]
+H2O_CONC_1250CM                [Infrared Gas Analyzer]
+H2O_CONC_1800CM                [Infrared Gas Analyzer]
+H2O_CONC_ABV_CNPY              [Infrared Gas Analyzer]
+CRTFCN_CODE                    [Assigned by BORIS.]
+REVISION_DATE                  [Assigned by BORIS.]
+
+
+
+7.3.5  Data Range
+
+The following table gives information about the parameter values found in
+the flux data files on the CD-ROM.
+
+                     Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            SSA-OBS-FLXTR  SSA-OBS-FLXTR  None    None   None    None
+SUB_SITE             9TF09-FLX01    9TF09-FLX01    None    None   None    None
+DATE_OBS             23-MAY-1994    29-NOV-1996    None    None   None    None
+TIME_OBS             0              2330           None    None   None    None
+SENSIBLE_HEAT_FLUX_  -202.958       1349.93        None    None   None    Blank
+ABV_CNPY
+CALC_SENSIBLE_HEAT_  -202.958       701.344        None    None   None    Blank
+FLUX
+LATENT_HEAT_FLUX_ABV_ -421.47        436.37         None    None   None    Blank
+CNPY
+CALC_LATENT_HEAT_    -57.194        409.343        None    None   None    Blank
+FLUX
+NET_RAD_ABV_CNPY     -145.8         759            None    None   None    Blank
+SOIL_HEAT_FLUX_7CM   -11.071        54.72          None    None   None    Blank
+CO2_FLUX_ABV_CNPY    -75.4          47.97          None    None   None    Blank
+CALC_CO2_FLUX        -18.9484       34.0627        None    None   None    Blank
+CO2_CONC_ABV_CNPY    334.1333       447.7667       None    None   None    Blank
+CO2_STORAGE          -47.18         27.52          None    None   None    Blank
+DOWN_PPFD_ABV_CNPY   0              1936           None    None   None    Blank
+UP_PPFD_ABV_CNPY     -7.44          151.9          None    None   None    Blank
+WIND_DIR_ABV_CNPY    0              360            None    None   None    Blank
+WIND_SPEED_ABV_CNPY  0              11.13          None    None   None    Blank
+FRICTION_VELOC_ABV_  0              1.4812         None    None   None    Blank
+CNPY
+MOMENTUM_FLUX_ABV_   -2.194         1.83           None    None   None    Blank
+CNPY
+SDEV_U_WIND_SPEED    .05            5.47           None    None   None    Blank
+SDEV_V_WIND_SPEED    .04            4.96           None    None   None    Blank
+SDEV_W_WIND_SPEED    .01            2.2            None    None   None    Blank
+H2O_FLUX_ABV_CNPY    -9.53          9.87           None    None   None    Blank
+CALC_H2O_FLUX        -1.2794        9.2129         None    None   None    Blank
+AIR_TEMP_150CM       -30.91         32.74          None    None   None    Blank
+AIR_TEMP_350CM       -30.99         33.48          None    None   None    Blank
+AIR_TEMP_650CM       -31.1          32.72          None    None   None    Blank
+AIR_TEMP_950CM       -27.58         32.2           None    None   None    Blank
+AIR_TEMP_1250CM      -24.13         32.31          None    None   None    Blank
+AIR_TEMP_18M         -24.06         32.48          None    None   None    Blank
+AIR_TEMP_ABV_CNPY    -24.39         31.46          None    None   None    Blank
+NET_RAD_BELOW_CNPY   -99.6          606            None    None   None    Blank
+SOIL_TEMP_25MM       .18            29.42          None    None   None    Blank
+SOIL_TEMP_5CM        -12.397        22.56          None    None   None    Blank
+SOIL_TEMP_10CM       -7.206         17.118         None    None   None    Blank
+SOIL_TEMP_20CM       -1.035         12.414         None    None   None    Blank
+SOIL_TEMP_50CM       -.22           9.111          None    None   None    Blank
+SOIL_TEMP_100CM      -.03           7.926          None    None   None    Blank
+VAPOR_PRESS_ABV_CNPY .0026          3.15           None    None   None    Blank
+VAPOR_PRESS_BELOW_   -.007          3.585          None    None   None    Blank
+CNPY
+RAINFALL             0              11.4           None    None   None    Blank
+DOWN_SOLAR_RAD_ABV_  -7.37          1007           None    None   None    Blank
+CNPY
+UP_SOLAR_RAD_ABV_    .0001          108.6811       None    None   None    Blank
+CNPY
+CO2_CONC_50CM        334.333        713.6          None    None   None    Blank
+CO2_CONC_150CM       326.3          659.5          None    None   None    Blank
+CO2_CONC_300CM       296.22         567.88         None    None   None    Blank
+CO2_CONC_350CM       332.933        624.533        None    None   None    Blank
+CO2_CONC_600CM       315.78         496.78         None    None   None    Blank
+CO2_CONC_650CM       332.633        597.133        None    None   None    Blank
+CO2_CONC_950CM       333.833        463.767        None    None   None    Blank
+CO2_CONC_1200CM      283.09         433.82         None    None   None    Blank
+CO2_CONC_1250CM      333.767        440.667        None    None   None    Blank
+CO2_CONC_1800CM      334.133        440.267        None    None   None    Blank
+H2O_CONC_50CM        .15            21.25          None    None   None    Blank
+H2O_CONC_150CM       .15            21.083         None    None   None    Blank
+H2O_CONC_350CM       .143           21.193         None    None   None    Blank
+H2O_CONC_650CM       .123           21.183         None    None   None    Blank
+H2O_CONC_950CM       .13            21.317         None    None   None    Blank
+H2O_CONC_1250CM      .15            21.55          None    None   None    Blank
+H2O_CONC_1800CM      .143           21.45          None    None   None    Blank
+H2O_CONC_ABV_CNPY    .163           21.193         None    None   None    Blank
+CRTFCN_CODE          CPI            CPI            None    None   None    None
+REVISION_DATE        02-SEP-1998    02-SEP-1998    None    None   None    None
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to
+                      indicate that an attempt was made to determine the
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used
+                      to indicate an attempt was made to determine the
+                      parameter value, but the value was deemed to be
+                      unreliable by the analysis personnel.
+Below Detect Limit -- The value that indicates parameter values below the
+                      instruments detection limits.  This is used to
+                      indicate that an attempt was made to determine the
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to
+                      determine the parameter value.  This usually
+                      indicates that BORIS combined several similar but
+                      not identical data sets into the same data base table
+                      but this particular science team did not
+                      measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+--------------------------------------------------------------------------------
+
+
+7.4 Sample Data Record
+
+Sample data record for flux data files.
+
+SITE_NAME,SUB_SITE,DATE_OBS,TIME_OBS,SENSIBLE_HEAT_FLUX_ABV_CNPY,
+CALC_SENSIBLE_HEAT_FLUX,LATENT_HEAT_FLUX_ABV_CNPY,CALC_LATENT_HEAT_FLUX,
+NET_RAD_ABV_CNPY,SOIL_HEAT_FLUX_7CM,CO2_FLUX_ABV_CNPY,CALC_CO2_FLUX,
+CO2_CONC_ABV_CNPY,CO2_STORAGE,DOWN_PPFD_ABV_CNPY,UP_PPFD_ABV_CNPY,
+WIND_DIR_ABV_CNPY,WIND_SPEED_ABV_CNPY,FRICTION_VELOC_ABV_CNPY,
+MOMENTUM_FLUX_ABV_CNPY,SDEV_U_WIND_SPEED,SDEV_V_WIND_SPEED,SDEV_W_WIND_SPEED,
+H2O_FLUX_ABV_CNPY,CALC_H2O_FLUX,AIR_TEMP_150CM,AIR_TEMP_350CM,AIR_TEMP_650CM,
+AIR_TEMP_950CM,AIR_TEMP_1250CM,AIR_TEMP_18M,AIR_TEMP_ABV_CNPY,
+NET_RAD_BELOW_CNPY,SOIL_TEMP_25MM,SOIL_TEMP_5CM,SOIL_TEMP_10CM,SOIL_TEMP_20CM,
+SOIL_TEMP_50CM,SOIL_TEMP_100CM,VAPOR_PRESS_ABV_CNPY,VAPOR_PRESS_BELOW_CNPY,
+RAINFALL,DOWN_SOLAR_RAD_ABV_CNPY,UP_SOLAR_RAD_ABV_CNPY,CO2_CONC_50CM,
+CO2_CONC_150CM,CO2_CONC_300CM,CO2_CONC_350CM,CO2_CONC_600CM,CO2_CONC_650CM,
+CO2_CONC_950CM,CO2_CONC_1200CM,CO2_CONC_1250CM,CO2_CONC_1800CM,H2O_CONC_50CM,
+H2O_CONC_150CM,H2O_CONC_350CM,H2O_CONC_650CM,H2O_CONC_950CM,H2O_CONC_1250CM,
+H2O_CONC_1800CM,H2O_CONC_ABV_CNPY,CRTFCN_CODE,REVISION_DATE
+'SSA-OBS-FLXTR','9TF09-FLX01',23-MAY-1994,30,-999.0,-999.0,-999.0,-999.0,-999.0,
+-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,.35,-.12,.79,.74,
+.46,-999.0,-999.0,,,,,,,-999.0,,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,
+1.0385,,-999.0,-999.0,-999.0,,-999.0,-999.0,,-999.0,,,-999.0,,,,,,,,,,,'CPI',
+22-SEP-1998
+'SSA-OBS-FLXTR','9TF09-FLX01',23-MAY-1994,100,-999.0,-999.0,-999.0,-999.0,
+-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,.44,-.19,
+.94,.63,.46,-999.0,-999.0,,,,,,,-999.0,,.73,2.97,4.53,-.17,-.19,0.0,1.0394,,0.0,
+-999.0,-999.0,,-999.0,-999.0,,-999.0,,,-999.0,,,,,,,,,,,'CPI',22-SEP-1998
+
+
+
+
+
+
+
+7.3 Data Characteristics for the Soil Temperature Data
+
+7.3.1 Parameter/Variable
+
+
+The parameters contained in the soil temperature data files on the CD-ROM are:
+
+         Column Name
+------------------------------
+SITE_NAME
+SUB_SITE
+DATE_OBS
+TIME_OBS
+SOIL_HEAT_FLUX_7CM
+SOIL_TEMP_5CM
+SOIL_TEMP_10CM
+SOIL_TEMP_20CM
+SOIL_TEMP_50CM
+SOIL_TEMP_100CM
+CRTFCN_CODE
+REVISION_DATE
+
+
+7.3.2 Variable Description/Definition
+
+
+The descriptions of the parameters contained in the soil temperature data files 
+on the CD-ROM are:
+
+         Column Name                             Description
+------------------------------ ------------------------------------------------
+SITE_NAME                      The identifier assigned to the site by BOREAS, in
+                               the format SSS-TTT-CCCCC, where SSS identifies
+                               the portion of the study area: NSA, SSA, REG, 
+                               TRN, and TTT identifies the cover type for the 
+                               site, 999 if unknown, and CCCCC is the identifier
+                               for site, exactly what it means will vary with 
+                               site type.
+SUB_SITE                       The identifier assigned to the sub-site by 
+BOREAS,
+                               in the format GGGGG-IIIII, where GGGGG is the
+                               group associated with the sub-site instrument,
+                               e.g. HYD06 or STAFF, and IIIII is the identifier
+                               for sub-site, often this will refer to an 
+                               instrument.
+DATE_OBS                       The date on which the data were collected.
+TIME_OBS                       The Greenwich Mean Time (GMT) of the start of the
+                               data collection.
+SOIL_HEAT_FLUX_7CM             The soil heat flux measured at 7 cm depth.
+SOIL_TEMP_5CM                  Soil temperature measured at a depth of 5 cm.
+SOIL_TEMP_10CM                 Soil temperature at 10 cm depth.
+SOIL_TEMP_20CM                 Soil temperature at 20 cm depth.
+SOIL_TEMP_50CM                 Soil temperature measured at 50 cm depth.
+SOIL_TEMP_100CM                The soil temperature recorded at 1 m in depth.
+CRTFCN_CODE                    The BOREAS certification level of the data.  
+                               Examples are CPI (Checked by PI), CGR (Certified 
+                               by Group), PRE (Preliminary), and CPI-??? (CPI 
+                               but questionable).
+REVISION_DATE                  The most recent date when the information in the
+                               referenced data base table record was revised.
+
+
+7.3.3 Unit of Measurement
+
+
+The measurement units for the parameters contained in the soil temperature data 
+files on the CD-ROM are:
+
+         Column Name                                Units
+------------------------------ ------------------------------------------------
+SITE_NAME                      [none]
+SUB_SITE                       [none]
+DATE_OBS                       [DD-MON-YYYY]
+TIME_OBS                       [HHMM GMT]
+SOIL_HEAT_FLUX_7CM             [Watts][meter^-2]
+SOIL_TEMP_5CM                  [degrees Celsius]
+SOIL_TEMP_10CM                 [degrees Celsius]
+SOIL_TEMP_20CM                 [degrees Celsius]
+SOIL_TEMP_50CM                 [degrees Celsius]
+SOIL_TEMP_100CM                [degrees Celsius]
+CRTFCN_CODE                    [none]
+REVISION_DATE                  [DD-MON-YYYY]
+
+
+7.3.4 Data Source
+
+
+The source of the parameter values contained in the soil temperature data files 
+on the CD-ROM are:
+
+         Column Name                             Data Source
+------------------------------ ------------------------------------------------
+SITE_NAME                      [Assigned by BORIS.]
+SUB_SITE                       [Assigned by BORIS.]
+DATE_OBS                       [Supplied by Investigator.]
+TIME_OBS                       [Supplied by Investigator.]
+SOIL_HEAT_FLUX_7CM             [Heat flux plates]
+SOIL_TEMP_5CM                  [Soil temperature probe]
+SOIL_TEMP_10CM                 [Soil temperature probe]
+SOIL_TEMP_20CM                 [Soil temperature probe]
+SOIL_TEMP_50CM                 [Soil temperature probe]
+SOIL_TEMP_100CM                [Soil temperature probe]
+CRTFCN_CODE                    [Assigned by BORIS.]
+REVISION_DATE                  [Assigned by BORIS.]
+
+
+7.3.5  Data Range
+
+The following table gives information about the parameter values found in
+the soil temperature data files on the CD-ROM.
+
+                     Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            SSA-OBS-FLXTR  SSA-OBS-FLXTR  None    None   None    None
+SUB_SITE             9TF09-FLX01    9TF09-FLX01    None    None   None    None
+DATE_OBS             15-NOV-1995    23-MAR-1996    None    None   None    None
+TIME_OBS             0              2330           None    None   None    None
+SOIL_HEAT_FLUX_7CM   -11.009        2.161          None    None   None    None
+SOIL_TEMP_5CM        -7.872         1.338          None    None   None    None
+SOIL_TEMP_10CM       -4.328         1.298          None    None   None    None
+SOIL_TEMP_20CM       -.836          1.271          None    None   None    None
+SOIL_TEMP_50CM       .624           2.399          None    None   None    None
+SOIL_TEMP_100CM      1.147          3.004          None    None   None    None
+CRTFCN_CODE          CPI            CPI            None    None   None    None
+REVISION_DATE        03-SEP-1998    03-SEP-1998    None    None   None    None
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to
+                      indicate that an attempt was made to determine the
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used
+                      to indicate an attempt was made to determine the
+                      parameter value, but the value was deemed to be
+                      unreliable by the analysis personnel.
+Below Detect Limit -- The value that indicates parameter values below the
+                      instruments detection limits.  This is used to
+                      indicate that an attempt was made to determine the
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to
+                      determine the parameter value.  This usually
+                      indicates that BORIS combined several similar but
+                      not identical data sets into the same data base table
+                      but this particular science team did not
+                      measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+--------------------------------------------------------------------------------
+
+
+7.4 Sample Data Record
+
+For Soil Temperature Data
+
+SITE_NAME,SUB_SITE,DATE_OBS,TIME_OBS,SOIL_HEAT_FLUX_7CM,SOIL_TEMP_5CM,
+SOIL_TEMP_10CM,SOIL_TEMP_20CM,SOIL_TEMP_50CM,SOIL_TEMP_100CM,CRTFCN_CODE,
+REVISION_DATE
+'SSA-OBS-FLXTR','9TF09-FLX01',15-NOV-1995,2130,-3.305,-2.73,-1.217,.858,2.347,
+2.991,'CPI',03-SEP-1998
+'SSA-OBS-FLXTR','9TF09-FLX01',15-NOV-1995,2230,-3.094,-2.503,-1.071,.929,2.399,
+3.004,'CPI',03-SEP-1998
+

@@ -1,0 +1,711 @@
+BOREAS TGB-01 NSA CH4 and CO2 Chamber Flux Data
+
+Summary
+
+The BOREAS TGB-01 team made methane (CH4) and carbon dioxide (CO2) dark chamber 
+flux measurements at the NSA-OJP, NSA-OBS, NSA-BP, and NSA-YJP sites from 16-
+May-1994 through 13-Sep-1994. Gas samples were extracted approximately every 7 
+days from dark chambers and analyzed at the NSA lab facility.  The data are 
+provided in tabular ASCII files.
+
+Table of Contents
+   *  1 Data Set Overview
+   *  2 Investigator(s)
+   *  3 Theory of Measurements
+   *  4 Equipment
+   *  5 Data Acquisition Methods
+   *  6 Observations
+   *  7 Data Description
+   *  8 Data Organization
+   *  9 Data Manipulations
+   *  10 Errors
+   *  11 Notes
+   *  12 Application of the Data Set
+   *  13 Future Modifications and Plans
+   *  14 Software
+   *  15 Data Access
+   *  16 Output Products and Availability
+   *  17 References
+   *  18 Glossary of Terms
+   *  19 List of Acronyms
+   *  20 Document Information
+
+1. Data Set Overview
+
+1.1 Data Set Identification
+
+BOREAS TGB-01 NSA CH4 and CO2 Chamber Flux Data
+
+1.2 Data Set Introduction
+
+Chamber flux measurements were taken at the Northern Study Area (NSA) Old Jack 
+Pine (OJP), Young Jack Pine (YJP), Old Black Spruce (OBS), and Beaver Pond (BP) 
+sites during the summer of 1994 by the BOReal Ecosystem-Atmosphere Study 
+(BOREAS) Trace Gas Biogeochemistry (TGB)-01 team.  The values represent the 
+average/mean flux from five values taken at 20-minute intervals.
+
+1.3 Objective/Purpose
+
+The purpose of these measurements was to examine the trace gas exchange between 
+the atmosphere and the boreal soils.
+
+1.4 Summary of Parameters
+
+CH4 and CO2 chamber fluxes were measured at the NSA OJP, YJP, OBS, and BP sites.  
+Temperatures of the chamber, 1-cm soil depth, and 10-cm soil depth were recorded 
+at the OJP, YJP, and OBS (Patrick Crill) sites.  At the OBS (Dean Moosavi) and 
+BP sites, temperatures at 5-, 10-, and 20-cm soil depths were recorded.
+
+1.5 Discussion
+
+The chamber flux data are provided in American Standard Code for Information 
+Interchange (ASCII) comma delimited text files.  The data are a compilation of 
+measurements from the aluminum chamber and collar sites at OJP, YJP and OBS 
+(Patrick Crill) and the plastic chamber and collar sites at OBS (Dean Moosavi) 
+and BP sites.  Another part of the data is a diurnal study completed 08-Jul-94 
+and 09-Jul-1994 at the BP plastic collar and chamber sites.
+
+1.6 Related Data Sets
+
+BOREAS TGB01 CH4 Tower flux data over NSA
+BOREAS TGB01 Soil CH4 and CO2 concentration data over the NSA.
+
+2. Investigator(s)
+
+2.1 Investigator(s) Name and Title
+
+Dr. Patrick M. Crill
+Research Associate Professor
+University of New Hampshire
+
+2.2 Title of Investigation
+
+Magnitude and Control of Trace Gas Exchange in Boreal Ecosystems
+
+2.3 Contact Information
+
+     Contact 1
+     Dr. Patrick M. Crill
+     Institute for the Study of Earth, Oceans, and Space
+     Complex Systems Research Center
+     University of New Hampshire
+     Durham, NH 
+     (603) 862-3519
+     (603) 862-0188 (fax)
+
+     Contact 2
+     Sadredin C. Moosavi
+     Graduate Student
+     Institute for the Study of Earth, Oceans, and Space
+     Complex Systems Research Center
+     University of New Hampshire
+     Durham, NH 
+     (603) 862-2927
+     (603) 862-0188 (fax)
+
+     Contact 3
+     Ruth K. Varner
+     Research Scientist
+     Institute for the Study of Earth, Oceans, and Space
+     Complex Systems Research Center
+     University of New Hampshire
+     Durham, NH 
+     (603) 862-2939
+     (603) 862-0188 (fax)
+
+     Contact 4
+     Sara K. Golightley
+     Raytheon STX Corporation
+     NASA GSFC
+     Greenbelt, MD  
+     301-286-2624
+     sgdight@pop900.gsfc.nasa.gov
+
+3. Theory of Measurements
+
+Chamber fluxes measure the changes in the mixing ratio of trace gases (CO2 and 
+CH4) in a closed headspace over a period of time.  This headspace is isolated 
+from the atmosphere; therefore, we can quantify the exchange of material between 
+the covered soil and the headspace can be quantified.
+
+4. Equipment
+
+4.1 Sensor/Instrument Description
+
+CH4 was quantified with a Shimadzu GC-14A Gas Chromatograph (GC) or a Shimadzu 
+GC-MINI2 with a flame ionization detector (FID) operated at 125 degrees C after 
+separation on a HayeSepQ column at 40 degrees C using ultrapure (99.999%) N2 as 
+a carrier gas flowing at 30 mL/min.  CO2 was quantified with a Shimadzu GC-14A 
+with a thermal conductivity detector (TCD) operated at 70 degrees C after 
+separation on a HayeSepQ column at 40 degrees C using ultrapure (99.999%) He as 
+a carrier gas flowing at 30 mL/min.  The oven temperature during sample analysis 
+was run at 130 degrees C and the detector at 300 degrees C. Analog signals (0-1 
+V) from the detectors were digitized at 10 Hz with a Hewlett Packard (HP) 35000D 
+A/D board and quantified and logged using HP ChemStation software.  Chamber 
+fluxes were accomplished with aluminum chambers manufactured at the University 
+of New Hampshire and designed by Patrick Crill.
+
+4.1.1 Collection Environment
+
+The chamber fluxes were collected under ambient conditions.  The GC analysis was 
+completed at the Hayes Road Lab in Thompson, Manitoba.
+
+4.1.2 Source/Platform
+
+Ground.
+
+4.1.3 Source/Platform Mission Objectives
+
+This mission objective was to determine the soil-surface exchange rates of CH4 
+and CO2 at the NSA OJP, YJP, OBS, and BP sites.
+
+4.1.4 Key Variables
+
+The key variables measured during the sampling period were CH4 and CO2 fluxes.  
+The OBS site was divided into two different sets of data.  In the SITE_COLLAR, a 
+C denotes the OBS site where Patrick Crill measured fluxes with aluminum 
+chambers and collars.  An M denotes the OBS site where Dean Moosavi measured 
+fluxes with plastic chambers and collars.  Plastic chambers and collars were 
+also used at the BP site.  Soil profile temperatures were also recorded.
+
+4.1.5 Principles of Operation
+
+The Shimadzu GC-14A GC is equipped with a hydrogen FID and a TCD.  The FID is 
+used to detect CH4, while the TCD is used to detect CO2.  The FID uses a 
+hydrogen flame in an air atmosphere to burn components as they exit the column.  
+In the flame, carbon-carbon bonds are fragmented so that various organic ions 
+and free electrons exist.  Application of a voltage across a collector electrode 
+over the flame causes an ion current to flow, which is amplified and then 
+measured as the output signal.
+
+The TCD detects CO2 by passing a sample, in a helium carrier gas, past metallic 
+filaments with current flowing through them.  The sample components with lower 
+thermal conductivity than the helium carrier gas raise the filament temperature 
+when they pass through.  The signal output from the TCD is a measurement of the 
+change in filament resistance caused by the temperature rise.  The signal output 
+from both the FID and TCD is for a data processor, integrator, recorder, or 
+computer (Instruction Manual: GC-14A; Shimadzu Corporation, Kyoto, Japan).  The 
+GC-MINI2 was equipped with a FID and operated in the same manner as the GC-14A 
+FID. 
+
+4.1.6 Sensor/Instrument Measurement Geometry
+
+Not applicable.
+
+4.1.7 Manufacturer of Sensor/Instrument
+
+Manufacturer of GC-14A FID/TCD, GC-MINI2, and GC-8A ECD
+Shimadzu Scientific Instruments, Inc.
+7102 Riverwood Drive
+Columbia, MD 21046
+(410) 381-1227
+
+4.2 Calibration
+
+4.2.1 Specifications
+
+None given.
+
+4.2.1.1 Tolerance
+
+The sensitivity of the TCD is approximately 6000 mV ml/mg.  The FID's maximum 
+sensitivity is 3 x 10-12 g/s for diphenyl.
+
+4.2.2 Frequency of Calibration
+
+The instrument is calibrated on a daily basis.  Standards are run generally 
+before and after samples on a given day of analysis.
+
+4.2.3 Other Calibration Information
+
+Signal peaks from the detectors were quantified with working standards 
+calibrated against Canadian Atmospheric Environment Services (AES) certified 
+primary standards acquired by the BOREAS project and a CO2/CH4 standard of Niwot 
+Ridge air prepared by the National Oceanic and Atmospheric Administration (NOAA) 
+Climate Monitoring and Diagnostics Laboratory (CMDL).  Uncertainty in the 
+standards’ analyses on a given day ranged from 0.1 to 0.2%.
+
+5. Data Acquisition Methods
+
+The chamber fluxes are determined by analysis of concentrations of methane (CH4) 
+and carbon dioxide (CO2) in a time series of grab samples of headspace over the 
+ground surface enclosed by a dark aluminum chamber.  The volumes of the two 
+aluminum chambers were 0.071 and 0.120 m3 over an area of 0.397 m2.  The 
+aluminum chamber was placed on the trough of an aluminum collar embedded in the 
+ground.  Water was added to the trough of the collar to create an airtight seal.  
+The volume of the plastic chambers was 0.028 m3 over an area of 0.078 m2. The 
+seal between chamber and collar was made using weather stripping or water as 
+appropriate.  Five 60-mL samples were removed from the headspace with 
+polypropylene syringes and polycarbonate/nylon stopcocks at 4-minute intervals 
+for 20 minutes (five samples). Samples were returned to the Hayes Road lab and 
+analyzed for CO2 and CH4 using gas chromatography within 12 hours after 
+collection.
+
+6. Observations
+
+6.1 Data Notes
+
+None given.
+
+6.2 Field Notes
+
+For data collected by Patrick Crill:
+25-May-94- Fans in chambers not working at OBS.  Can’t use the data.
+29-May-94- Fan in chamber not working after 20 minutes in OJPA2 flux; no fan for 
+the OJPM2 flux; no fan for the OJP1 and 2 fluxes.
+01-Jun-94- No fan for OBS12 flux.
+20-Jun-94- Thermometer probe outside of chamber for collar OBS1.
+10-Jul-94- One chamber had been filled with water and therefore the fan and 
+temperature probe aren’t working.  Used it with collars YJP1, OJPA1, OJPL2, 
+OJPM1, and OJPM2.
+16-Jul-94- No temperature still in one chamber at OJP and YJP.
+23-Jul-94- No temperature still in one chamber at OJP and YJP; Collar YJP2 
+syringe number 4 lost its stopcock.
+30-Jul-94- No temperature still in one chamber at OJP and YJP.
+01-Aug-94- Very hot, using silver mylar to reflect sun on half of the flux 
+chambers to see if it effects temperature change in chamber...it doesn’t heat up 
+as much as chambers without cover by about 10 oC.
+07-Aug-94- Fixed chamber thermometer for first few fluxes; then it went bad 
+again.
+08-Aug-94- No fan for collar OBS10 flux; no temperatures for OBS8, OBS6, OBS11, 
+OBS4, and OBS2
+12-Aug-94- No temperature still in one chamber at OJP and YJP.
+19-Aug-94- No temperature still in one chamber at OJP and YJP.
+
+For data taken by Dean Moosavi:
+19-May-94- Experiments halted due to chamber hardware problems.
+20-May-94- Screw missing in chamber for flux at collar OBS1; therefore, there 
+was a hole in chamber during the flux.  Fixed with duct tape.
+26-May-94- Problems with collar at collar BP29.
+04-Jun-94- Water levels in the fen have dropped 5-10 cm from season beginning at 
+OBS.
+10-Jun-94- Carex and other vegetation have sprouted.  Larch are out.
+20-Jun-94- Temperature probe dead!
+21-Jun-94- Fans did not work for collars 19 and 20 at BP.
+30-Jun-94- BP- Bear attack on equipment!  Collar 23 pulled up and moved 5 yards.  
+Minor tooth damage.  Collar 18 destroyed.  Lichen thermocouple uprooted and 
+destroyed.  Pond and dam level have dropped 10 cm leaving collars above the 
+water level.
+02-Aug-94- BP- Moose stepped in collar 24!
+21-Aug-94- Senescence beginning.
+24-Aug-94- Due to problems with yesterday’s samples. BP and dam were resampled 
+off collar in vicinity of site.
+31-Aug-94- BP and dam fluxes taken next to (NOT on) collars.
+13-Sep-94- BP collars 25-32 fluxes taken near (not on) collars.
+14-Sep-94- All collars and chambers removed!
+
+7. Data Description
+
+7.1 Spatial Characteristics
+
+7.1.1 Spatial Coverage
+
+The collars at the OJP tower site and profile sampling sites were located as 
+follows:  collars located on moss plots were approximately northwest of the 
+tower, while the profile corral was located a few meters south of the collars 
+(55o55’43.2” N, 98o37’29.4” W).
+
+The collars at the OJP site located on lichen plots were due west of the tower; 
+the profile trench was located about 1 m southeast of the collars (55o55’40.9” 
+N, 98o37’29.3” W).
+
+The collars at the YJP tower site were located southeast of the tower;  the gas 
+profile corral was located approximately 1 m west of the collars (55o53’42.8” 
+N, 98o17’12.7” W).
+
+The collars at the OBS tower site were located along a low to high moisture 
+gradient from the lichen to the feathermoss, the fen rim and ending at the fen 
+site.  The lichen and the feather moss collars were located along the boardwalk 
+approximately 200 m northeast of the tower.  The fen rim and fen site collars 
+were located due east of the lichen and feather moss sites about 150 m and 200 m 
+respectively.
+
+For data collected by Dean Moosavi:
+
+The collars and profile sampling sites near the OBS tower were located as 
+follows:  the OBS sampling collars were located along a moisture gradient from 
+feathermoss and lichen sites to the fen rim site and ending with the fen sites.  
+The transect ran approximately east to west and was located about 200 m 
+northeast of the tower at the OBS site.  
+
+The collars and profile sampling sites at the BP tower site were located as 
+follows:  the BP sampling sites were located along a low to high moisture 
+gradient that began with the upland lichen site, then the sphagnum moss site, 
+the mire site, and ending at the pond site.  The transect ran approximately 
+north to south and was about 60 m from the BP tower.
+
+7.1.2 Spatial Coverage Map
+
+Not available.
+
+7.1.3 Spatial Resolution
+
+Four collars were placed in the ground for each biome type.  They were 
+approximately 1 to 2 m apart depending on the site specifics.  In Section 7.3.3, 
+the cover type refers to the predominant vegetation in the collar.  These are 
+point source measurements at the locations given in Section 7.1.1.
+
+7.1.4 Projection
+
+Not applicable.
+
+7.1.5 Grid Description
+
+Not applicable.
+
+7.2 Temporal Characteristics
+
+7.2.1 Temporal Coverage
+
+Chamber fluxes were measured from 16-May-1994 through 13-Sep-1994.  One diurnal 
+study was conducted at eight collars on 8- and 9-Jul-1994 at the BP site..
+
+7.2.2 Temporal Coverage Map
+
+Not available.
+
+7.2.3 Temporal Resolution
+
+The chamber fluxes were measured approximately every 7 days from 23-May-1994 to 
+20-Sep-1994.
+
+7.3 Data Characteristics
+
+Data characteristics are defined in the companion data definition file 
+(tgb1ccfd.def).
+
+7.4 Sample Data Record
+
+Sample data format shown in the companion data definition file (tgb1ccfd.def).
+
+8. Data Organization
+
+8.1 Data Granularity
+
+All of the NSA CH4 and CO2 Chamber Flux Data are contained in one dataset.
+
+8.2 Data Format(s)
+
+The data files contain numerical and character fields of varying length 
+separated by commas. The character fields are enclosed with  a single apostrophe 
+marks. There are no spaces between the fields.  Sample data records are shown in 
+the companion data definition files (tgb1ccfd.def).
+
+9. Data Manipulations
+
+9.1 Formulae
+
+Rf = Cstd/Astd
+Cs = Rf * As
+
+Rf = Response factor
+Astd = Average of 10 standard peak areas
+Cstd = Concentration of the standard
+Cs = Concentration of the sample
+As = Peak area of sample
+
+CH4 and CO2 concentrations were calculated from the average of 10 peak areas of 
+known CH4 and CO2 standards.  The response factor was calculated as the 
+concentration of the known standard divided by the average of 10 standard peak 
+areas.  The peak area of the unknown sample was multiplied by the response 
+factor.  Fitting a regression curve to the time series of CH4 and CO2 
+concentrations made the flux calculations.  The flux rate of a gas is calculated 
+using the following equation:
+
+F= ppmv/min*(P/R*MW)*1/T*Vc/Ac*C
+
+Where:
+F = flux (mg/m2/d)
+P = Chamber pressure (atm)
+R = 8.2054 x 10-5 m3 atm mol-1K-1
+MW = Molecular weight of the analyte
+T = Chamber temperature (K)
+Vc = Chamber volume (m3)
+Ac = Chamber area (m2)
+C = (1000 mg/g*1440 min/d)
+
+Gases:
+CH4 = 16 g/mol
+CO2 = 44 g/mol
+
+At sites where oxidation of CH4 occurs, the flux starts at or near ambient CH4 
+concentrations and is depleted below ambient concentrations. If the correlation 
+coefficients were not significantly high, the flux was determined to be below 
+the detection limit and was regarded as a zero flux rate.  If there was an 
+efflux of CH4 was measured at any of these sites, those data were eliminated.
+
+For sites where CH4 and CO2 were known to have a positive flux (from the soil 
+into the atmosphere) the regressions of the time series were expected to have an 
+r2 of greater than 0.85.
+
+If -888 is present in the data set, it indicates that a measurement was taken 
+but discarded for some reason.  If -999 is present, then no data were taken.
+
+9.1.1 Derivation Techniques and Algorithms
+
+Not applicable.
+
+9.2 Data Processing Sequence
+
+Not applicable.
+
+9.2.1 Processing Steps
+
+The peak areas were taken directly from the HP ChemStation reports from the GC.  
+They were entered into spreadsheets and the concentrations were calculated by 
+the formulas in Section 9.1.  The spreadsheets then automatically calculate the 
+flux using the formulas.
+
+9.2.2 Processing Changes
+
+None given.
+
+9.3 Calculations
+
+Not applicable.
+
+9.3.1 Special Corrections/Adjustments
+
+Not applicable.
+
+9.3.2 Calculated Variables
+
+Not applicable.
+
+9.4 Graphs and Plots
+
+None.
+
+10. Errors
+
+10.1 Sources of Error
+
+Field sampling error could account for some error in the concentration of the 
+syringe samples:
+
+1.  Not flushing the sampling line from the chamber before sampling could cause 
+dilution of the sample with air from the last sampling time. 
+2.  Not completely closing the syringes or allowing them to come open during 
+transport will cause dilution from ambient air.
+3.  Placing the chamber down with much force can change the pressure inside the 
+chamber to other than ambient and can affect the mechanisms and processes 
+producing/taking up CH4 and CO2.
+(Errors such as these would have been written down in the lab/field books, and 
+those data therefore would have been edited out.)
+
+The analytical precision of the GC's is: 0.2% for CH4 and 1% for CO2.
+
+10.2 Quality Assessment
+
+10.2.1 Data Validation by Source
+
+None given.
+
+10.2.2 Confidence Level/Accuracy Judgment
+
+None given.
+
+10.2.3 Measurement Error for Parameters
+
+The analytical precision of the GC's is: 0.2% for CH4 and 1% for CO2.
+
+10.2.4 Additional Quality Assessments
+
+Not applicable.
+
+10.2.5 Data Verification by Data Center
+
+Data were examined for general consistency and clarity.
+
+11. Notes
+
+11.1 Limitations of the Data
+
+None given.
+
+11.2 Known Problems with the Data
+
+See notes under Section 6.
+
+11.3 Usage Guidance
+
+None given.
+
+11.4 Other Relevant Information
+
+None given.
+
+12. Application of the Data Set
+
+The chamber flux data can be used in connection with the tower flux data to 
+determine the CH4 and CO2 exchange between the atmosphere and the boreal soils.  
+The soil profile data can be used in comparison with the flux data to determine 
+controls on the fluxes for a certain biome.
+
+13. Future Modifications and Plans
+
+None.
+
+14. Software
+
+Not applicable.
+
+14.1 Software Description
+
+HP ChemStation.
+
+14.2 Software Access
+
+Purchase from Hewlett Packard/
+
+15. Data Access
+
+
+15.1 Contact Information
+
+Ms. Beth Nelson
+BOREAS Data Manager
+NASA GSFC
+Greenbelt, MD 
+(301) 286-4005
+(301) 286-0239 (fax)
+beth@ltpmail.gsfc.nasa.gov
+
+15.2 Data Center Identification
+
+See Section 15.1.
+
+15.3 Procedures for Obtaining Data
+
+Users may place requests by telephone, electronic mail, or fax.
+
+15.4 Data Center Status/Plans
+
+The TGB-01 CO2 and CH4 chanmber flux data are available from the Earth Observing 
+System Data and Information System (EOSDIS), Oak Ridge National Laboratory 
+(ORNL) Distributed Active Archive Center (DAAC). The BOREAS contact at ORNL is: 
+
+ORNL DAAC User Services
+Oak Ridge National Laboratory
+(865) 241-3952
+ornldaac@ornl.gov
+ornl@eos.nasa.gov
+
+
+16. Output Products and Availability
+
+16.1 Tape Products
+
+None.
+
+16.2 Film Products
+
+None.
+
+16.3 Other Products
+
+Tabular ASCII file.
+
+17. References
+
+17.1 Platform/Sensor/Instrument/Data Processing Documentation
+
+Instruction Manual:  GC-14A. Shimadzu Corporation, Kyoto, Japan.
+
+17.2 Journal Articles and Study Reports
+
+Sellers, P. and  F. Hall. 1994. Boreal Ecosystem-Atmosphere Study: Experiment 
+Plan. Version 1994-3.0, NASA BOREAS Report
+(EXPLAN 94). 
+
+Sellers, P. and F. Hall. 1996. Boreal Ecosystem-Atmosphere Study: Experiment 
+Plan. Version 1996-2.0, NASA BOREAS Report
+(EXPLAN 96). 
+
+Sellers, P., F. Hall. 1997. BOREAS Overview Paper. JGR Special Issue (1997).
+
+Sellers, P., F. Hall, and K.F. Huemmrich. 1996. Boreal Ecosystem-Atmosphere 
+Study: 1994 Operations. NASA BOREAS Report (OPS
+DOC 94). 
+
+Sellers, P., F. Hall, and K.F. Huemmrich. 1997. Boreal Ecosystem-Atmosphere 
+Study: 1996 Operations. NASA BOREAS Report (OPS
+DOC 96). 
+
+Sellers, P., F. Hall, H. Margolis, B. Kelly, D. Baldocchi, G. den Hartog, J. 
+Cihlar, M.G. Ryan, B. Goodison, P. Crill, K.J. Ranson, D. Lettenmaier, and D.E. 
+Wickland. 1995. The boreal ecosystem-atmosphere study (BOREAS): an overview and 
+early results from the 1994 field year. Bulletin of the American Meteorological 
+Society. 76(9):1549-1577. 
+
+
+17.3 Archive/DBMS Usage Documentation
+
+None.
+
+18. Glossary of Terms
+
+None given.
+
+19. List of Acronyms
+
+AES     - Atmospheric Environment Services
+ASCII   - American Standard Codes for Information
+BOREAS  - BOReal Ecosystem-Atmosphere Study
+BORIS   - BOREAS Information System
+BP      - Beaver Pond site, NSA
+CGR     - Certofoed bu Group
+CMDL    - Climate Monitoring and Diagnostics Laboratory
+CPI     - Certified by PI
+CPI-??? - Certified but questionable
+DAAC    - Distributed Active Archive Center
+ECD     - Electron Capture Detector
+EOS     - Earth Observing System
+EOSDIS  - EOS Data and Information System
+FID     - Flame Ionization Detector
+GC      - Gas Chromatograph
+GMT     - Greewich Mean Time
+GSFC    - Goddard Space Flight Center
+HP      - Hewlett Packard
+NASA    - National Aeronautics and Space Administration
+NOAA    - National Oceanic and Atmospheric Administration
+NSA     - Northern Study Area
+OBS     - Old Black Spruce site
+OJP     - Old Jack Pine
+ORNL    - Oak Ridge National Laboratory
+PANP    - Prince Albert National Park
+c
+SSA     - Southern Study Area
+TCD     - Thermal Conductivity Detector
+TGB     - Trace Gas Biogeochemistry
+URL     - Uniform Resource Locator
+YJP     - Young Jack Pine site, NSA
+
+20. Document Information
+
+20.1 Document Revision Dates
+
+Written:
+Last Updated:  20-Jul-98
+
+20.2 Document Review Dates
+
+ BORIS Review:  21-Oct-97
+ Science Review:
+
+20.3 Document ID
+
+20.4 Citation
+
+20.5 Document Curator
+
+20.6 Document URL
+
+Keywords
+
+Carbon Dioxide
+Methane
+
+
+TGB01_CO2_CH4_Chmbr.doc
+05/26/98

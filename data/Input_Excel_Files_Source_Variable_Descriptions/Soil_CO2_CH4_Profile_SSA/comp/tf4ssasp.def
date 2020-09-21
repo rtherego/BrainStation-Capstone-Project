@@ -1,0 +1,973 @@
+BOREAS TF-04 CO2 and CH4 Soil Profile Data from the SSA
+
+Each data file is described separately. Sections 7.3 and 7.4 are repeated for each data file.
+
+
+A.  [ TF04_ch4_soil_profile.dat ] 
+
+B.  [ TF04_co2_soil_profile.dat ]  
+
+C.  [ TF04_soil_carbon.dat ] 
+
+D.  [ TF04_soil_co2_isotope.dat ] 
+
+E.  [ TF04_soil_water_chem.dat ]
+
+F.  [TF04_soil_temp_moist.dat ]
+
+
+***************************************************************
+***************************************************************
+
+A.  [ TF04_ch4_soil_profile.dat ] 
+
+7.3 Data Characteristics                                                 
+
+7.3.1 Parameter/Variable                                                        
+
+[ TF04_ch4_soil_profile.dat ]
+
+The parameters contained in the data files are:                   
+
+         Column Name                                                            
+------------------------------                                                  
+SITE_NAME                                                                       
+SUB_SITE                                                                        
+DATE_OBS                                                                        
+CHAMBER_ID                                                                      
+SOIL_DEPTH                                                                      
+CH4_CONC                                                                        
+REVISION_DATE                                                                   
+CRTFCN_CODE                                                                     
+                                     
+7.3.2 Variable Description/Definition                                           
+
+The descriptions of the parameters contained in the data files on               
+the CD-ROM are:                                                                 
+
+         Column Name                             Description                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      The identifier assigned to the site by BOREAS, 
+                               in the format SSS-TTT-CCCCC, where SSS identifies 
+                               the portion of the study area: NSA, SSA, REG,  
+                               TRN, and TTT identifies the cover type for the 
+                               site, 999 if unknown, and CCCCC is the identifier  
+                               for site, exactly what it means will vary with 
+                               site type.                                        
+SUB_SITE                       The identifier assigned to the sub-site by BOREAS 
+                               in the format GGGGG-IIIII, where GGGGG is the 
+                               group associated with the sub-site instrument,  
+                               e.g. HYD06 or STAFF, and IIIII is the identifier 
+                               for sub-site, often this will refer to an
+                               instrument.                                           
+DATE_OBS                       The date on which the data were collected.       
+CHAMBER_ID                     Identifier assigned to the chamber measured      
+SOIL_DEPTH                     The depth below the soil surface at which the 
+                               measurement was taken.                             
+CH4_CONC                       CH4 concentration.                               
+CRTFCN_CODE                    The BOREAS certification level of the data.  Exa 
+                               Examples are CPI (Checked by PI), CGR (Certified 
+                               by Group), PRE (Preliminary), and CPI-??? (CPI 
+                               but questionable).                                  
+REVISION_DATE                  The most recent date when the information in the 
+                               referenced data base table record was revised.  
+
+
+7.3.3 Unit of Measurement                                                       
+
+The measurement units for the parameters contained in the data files on         
+the CD-ROM are:                                                                 
+
+         Column Name                                Units                       
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [none]                                           
+SUB_SITE                       [none]                                           
+DATE_OBS                       [DD-MON-YYYY]                                      
+CHAMBER_ID                     [none]                                           
+SOIL_DEPTH                     [millimeters]                                    
+CH4_CONC                       [parts per million]                              
+REVISION_DATE                  [DD-MON-YYYY]                                      
+CRTFCN_CODE                    [none]                                           
+               
+7.3.4 Data Source                                                               
+
+The source of the parameter values contained in the data files on               
+the CD-ROM are:                                                                 
+
+         Column Name                             Data Source                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [Assigned by BORIS Staff]
+SUB_SITE                       [Assigned by BORIS Staff]
+DATE_OBS                       [Investigator]                                
+CHAMBER_ID                     [Investigator]                                
+SOIL_DEPTH                     [Investigator]                                
+CH4_CONC                       [Gas Chromatograph]                                
+REVISION_DATE                  [Assigned by BORIS Staff]
+CRTFCN_CODE                    [Assigned by BORIS Staff]
+
+
+7.3.5  Data Range                                                               
+
+The following table gives information about the parameter values found in       
+the data files on the CD-ROM.                                                   
+
+                     Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            SSA-9JP-CLRCT  SSA-YJP-FLXTR  None    None   None    None 
+SUB_SITE             9TF04-SPR01    9TF04-SPR01    None    None   None    None 
+DATE_OBS             27-MAY-1994    21-MAR-1995    None    None   None    None 
+CHAMBER_ID           AB             YJP            None    None   None    None 
+SOIL_DEPTH           -6             0              None    None   None    None 
+CH4_CONC             .01            2.58           -999    -888   None    Blank
+REVISION_DATE        12-NOV-1998    12-NOV-1998    None    None   None    None 
+CRTFCN_CODE          CPI            CPI            None    None   None    None 
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used 
+                      to indicate an attempt was made to determine the 
+                      parameter value, but the value was deemed to be 
+                      unreliable by the analysis personnel.
+Below Detect Limit -- The value that indicates parameter values below the 
+                      instruments detection limits.  This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to 
+                      determine the parameter value.  This usually 
+                      indicates that BORIS combined several similar but 
+                      not identical data sets into the same data base table
+                      but this particular science team did not 
+                      measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+--------------------------------------------------------------------------------
+
+7.4 Sample Data Record                                                          
+
+SITE_NAME,SUB_SITE,DATE_OBS,CHAMBER_ID,SOIL_DEPTH,CH4_CONC,REVISION_DATE,CRTFCN_CODE
+'SSA-9JP-CLRCT','9TF04-SPR01',05-JUN-1994,'ST',0.0,-999.0,12-NOV-1998,'CPI'
+'SSA-9JP-CLRCT','9TF04-SPR01',05-JUN-1994,'ST',-.1,1.56,12-NOV-1998,'CPI'
+
+***************************************************************
+***************************************************************
+
+
+
+B.  [ TF04_co2_soil_profile.dat ]  
+
+7.3 Data Characteristics                                                    
+
+7.3.1 Parameter/Variable                                                        
+
+The parameters contained in the data files are:                                                        
+
+[ TF04_co2_soil_profile.dat ]
+
+Column Name                                                            
+------------------------------                                                  
+SITE_NAME                                                                       
+SUB_SITE                                                                        
+DATE_OBS                                                                        
+CHAMBER_ID                                                                      
+SOIL_DEPTH                                                                      
+CO2_CONC                                                                        
+REVISION_DATE                                                                   
+CRTFCN_CODE                                                                     
+
+7.3.2 Variable Description/Definition                                           
+
+The descriptions of the parameters contained in the data files are:                                                                 
+
+ 
+Column Name                             Description                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      The identifier assigned to the site by BOREAS, 
+                               in the format SSS-TTT-CCCCC, where SSS identifies 
+                               the portion of the study area: NSA, SSA, REG,  
+                               TRN, and TTT identifies the cover type for the 
+                               site, 999 if unknown, and CCCCC is the identifier  
+                               for site, exactly what it means will vary with 
+                               site type.                                        
+SUB_SITE                       The identifier assigned to the sub-site by BOREAS 
+                               in the format GGGGG-IIIII, where GGGGG is the 
+                               group associated with the sub-site instrument,  
+                               e.g. HYD06 or STAFF, and IIIII is the identifier 
+                               for sub-site, often this will refer to an
+                               instrument.                                           
+DATE_OBS                       The date on which the data were collected.       
+CHAMBER_ID                     Identifier assigned to the chamber measured      
+SOIL_DEPTH                     The depth below the soil surface at which the 
+                               measurement was taken.                             
+CO2_CONC                       CO2 concentration.                               
+CRTFCN_CODE                    The BOREAS certification level of the data.  Exa 
+                               Examples are CPI (Checked by PI), CGR (Certified 
+                               by Group), PRE (Preliminary), and CPI-??? (CPI 
+                               but questionable).                                  
+REVISION_DATE                  The most recent date when the information in the 
+                               referenced data base table record was revised.  
+
+
+7.3.3 Unit of Measurement                                                       
+
+The measurement units for the parameters contained in the data files are:                                                                           
+
+Column Name                                Units                       
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [none]                                           
+SUB_SITE                       [none]                                           
+DATE_OBS                       [DD-MON-YYYY]                                      
+CHAMBER_ID                     [none]                                           
+SOIL_DEPTH                     [millimeters]                                    
+CO2_CONC                       [parts per million]                              
+REVISION_DATE                  [DD-MON-YYYY]                                      
+CRTFCN_CODE                    [none]                                           
+
+7.3.4 Data Source                                                               
+
+The source of the parameter values contained in the data files are:                                                                 
+
+Column Name                             Data Source                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [Assigned by BORIS Staff]
+SUB_SITE                       [Assigned by BORIS Staff]
+DATE_OBS                       [Investigator]                                
+CHAMBER_ID                     [Investigator]                                
+SOIL_DEPTH                     [Investigator]                                
+CO2_CONC                       [PP Systems model EGM IRGA]                                
+REVISION_DATE                  [Assigned by BORIS Staff]
+CRTFCN_CODE                    [Assigned by BORIS Staff]
+
+7.3.5  Data Range                                                               
+
+The following table gives information about the parameter values found in       
+the data files.                                                   
+
+                     Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            SSA-9JP-CLRCT  SSA-YJP-FLXTR  None    None   None    None 
+SUB_SITE             9TF04-SPR01    9TF04-SPR01    None    None   None    None 
+DATE_OBS             26-MAY-1994    21-MAR-1995    None    None   None    None 
+CHAMBER_ID           MN             YJP            None    None   None    None 
+SOIL_DEPTH           -6             0              None    None   None    None 
+CO2_CONC             359            21110          -999    None   None    None 
+REVISION_DATE        12-NOV-1998    12-NOV-1998    None    None   None    None 
+CRTFCN_CODE          CPI            CPI            None    None   None    None 
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used 
+                      to indicate an attempt was made to determine the 
+                      parameter value, but the value was deemed to be 
+                      unreliable by the analysis personnel.
+Below Detect Limit -- The value that indicates parameter values below the 
+                      instruments detection limits.  This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to 
+                      determine the parameter value.  This usually 
+                      indicates that BORIS combined several similar but 
+                      not identical data sets into the same data base table
+                      but this particular science team did not 
+                      measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+--------------------------------------------------------------------------------
+
+7.4 Sample Data Record                                                          
+
+SITE_NAME,SUB_SITE,DATE_OBS,CHAMBER_ID,SOIL_DEPTH,CO2_CONC,REVISION_DATE,CRTFCN_CODE
+'SSA-9JP-CLRCT','9TF04-SPR01',05-JUN-1994,'ST',0.0,-999.0,12-NOV-1998,'CPI'
+'SSA-9JP-CLRCT','9TF04-SPR01',05-JUN-1994,'ST',-.1,570.0,12-NOV-1998,'CPI'
+
+
+***************************************************************
+***************************************************************
+
+
+
+
+
+
+C.   [ TF04_soil_carbon.dat ]  
+
+7.3 Data Characteristics                                                    
+
+7.3.1 Parameter/Variable                                                        
+
+The parameters contained in the data files are:                   
+
+TF04_soil_carbon.dat
+
+Column Name                                                            
+------------------------------                                                  
+SITE_NAME                                                                       
+SUB_SITE                                                                        
+DATE_OBS                                                                        
+DEPTH_INTERVAL                                                                  
+TOTAL_CARBON_CONTENT                                                            
+INORGANIC_CARBON_CONTENT                                                        
+CRTFCN_CODE                                                                     
+REVISION_DATE                                                                   
+
+7.3.2 Variable Description/Definition                                           
+
+The descriptions of the parameters contained in the data files are:                                                                 
+
+
+Column Name                             Description                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      The identifier assigned to the site by BOREAS, 
+                               in the format SSS-TTT-CCCCC, where SSS identifies 
+                               the portion of the study area: NSA, SSA, REG,  
+                               TRN, and TTT identifies the cover type for the 
+                               site, 999 if unknown, and CCCCC is the identifier  
+                               for site, exactly what it means will vary with 
+                               site type.                                        
+SUB_SITE                       The identifier assigned to the sub-site by BOREAS 
+                               in the format GGGGG-IIIII, where GGGGG is the 
+                               group associated with the sub-site instrument,  
+                               e.g. HYD06 or STAFF, and IIIII is the identifier 
+                               for sub-site, often this will refer to an
+                               instrument.                                           
+DATE_OBS                       The date on which the data were collected.       
+DEPTH_INTERVAL                 The range of depths at which the soil carbon 
+                               measurements were taken.                            
+TOTAL_CARBON_CONTENT           The percent total carbon content by weight of 
+                               the sample.                                        
+INORGANIC_CARBON_CONTENT       The percent inorganic carbon content by weight  
+                               of the sample.                                    
+CRTFCN_CODE                    The BOREAS certification level of the data.  Exa 
+                               Examples are CPI (Checked by PI), CGR (Certified 
+                               by Group), PRE (Preliminary), and CPI-??? (CPI 
+                               but questionable).                                  
+REVISION_DATE                  The most recent date when the information in the 
+                               referenced data base table record was revised.  
+
+7.3.3 Unit of Measurement                                                       
+
+The measurement units for the parameters contained in the data files are:                                                                     
+
+Column Name                                Units                       
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [none]                                           
+SUB_SITE                       [none]                                           
+DATE_OBS                       [DD-MON-YYYY]                                      
+DEPTH_INTERVAL                 [meters]                                         
+TOTAL_CARBON_CONTENT           [percent]                                        
+INORGANIC_CARBON_CONTENT       [percent]                                        
+CRTFCN_CODE                    [none]                                           
+REVISION_DATE                  [DD-MON-YYYY]                                      
+
+7.3.4 Data Source                                                               
+
+The source of the parameter values contained in the data files are:                                                                 
+
+Column Name                             Data Source                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [Assigned by BORIS Staff]
+SUB_SITE                       [Assigned by BORIS Staff]
+DATE_OBS                       [Investigator]                                
+DEPTH_INTERVAL                 [Investigator]                                
+TOTAL_CARBON_CONTENT           [BY WEIGHT]                                
+INORGANIC_CARBON_CONTENT       [BY WEIGHT]                                
+REVISION_DATE                  [Assigned by BORIS Staff]
+CRTFCN_CODE                    [Assigned by BORIS Staff]
+
+
+7.3.5  Data Range                                                               
+
+The following table gives information about the parameter values found in the data files.                                                   
+
+                     Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            SSA-OJP-FLXTR  SSA-YJP-FLXTR  None    None   None    None 
+SUB_SITE             9TF04-SPR01    9TF04-SPR01    None    None   None    None 
+DATE_OBS             22-MAY-1994    21-AUG-1994    None    None   None    None 
+DEPTH_INTERVAL       0-0.02         9.14           None    None   None    None 
+TOTAL_CARBON_CONTENT .0236          1.1932         -999    None   None    None 
+INORGANIC_CARBON_    0              1.159          None    None   None    None 
+CONTENT
+CRTFCN_CODE          CPI            CPI            None    None   None    None 
+REVISION_DATE        12-NOV-1998    12-NOV-1998    None    None   None    None 
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used 
+                      to indicate an attempt was made to determine the 
+                      parameter value, but the value was deemed to be 
+                      unreliable by the analysis personnel.
+Below Detect Limit -- The value that indicates parameter values below the 
+                      instruments detection limits.  This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to 
+                      determine the parameter value.  This usually 
+                      indicates that BORIS combined several similar but 
+                      not identical data sets into the same data base table
+                      but this particular science team did not 
+                      measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+--------------------------------------------------------------------------------
+
+7.4 Sample Data Record                                                          
+
+SITE_NAME,SUB_SITE,DATE_OBS,DEPTH_INTERVAL,TOTAL_CARBON_CONTENT,INORGANIC_CARBON_CONTENT,
+CRTFCN_CODE,REVISION_DATE
+'SSA-OJP-FLXTR','9TF04-SPR01',22-MAY-1994,'0-0.02',1.1932,.0094,'CPI',12-NOV-1998
+'SSA-OJP-FLXTR','9TF04-SPR01',22-MAY-1994,'0-0.1',.3754,.004,'CPI',12-NOV-1998
+
+***************************************************************
+***************************************************************
+
+
+
+
+
+D. [ TF04_soil_co2_isotope.dat ] 
+
+7.3 Data Characteristics                                                  
+
+7.3.1 Parameter/Variable                                                        
+
+The parameters contained in the data files are:                                                   
+
+TF04_soil_co2_isotope.dat
+
+Column Name                                                            
+------------------------------                                                  
+SITE_NAME                                                                       
+SUB_SITE                                                                        
+DATE_OBS                                                                        
+CHAMBER_ID                                                                      
+SOIL_DEPTH                                                                      
+DEL_13C                                                                         
+DEL_18O                                                                         
+CO2_CONC                                                                        
+CRTFCN_CODE                                                                     
+REVISION_DATE                                                                   
+
+
+7.3.2 Variable Description/Definition                                           
+
+The descriptions of the parameters contained in the data files are:                                                                 
+
+
+Column Name                             Description                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      The identifier assigned to the site by BOREAS, 
+                               in the format SSS-TTT-CCCCC, where SSS identifies 
+                               the portion of the study area: NSA, SSA, REG,  
+                               TRN, and TTT identifies the cover type for the 
+                               site, 999 if unknown, and CCCCC is the identifier  
+                               for site, exactly what it means will vary with 
+                               site type.                                        
+SUB_SITE                       The identifier assigned to the sub-site by BOREAS 
+                               in the format GGGGG-IIIII, where GGGGG is the 
+                               group associated with the sub-site instrument,  
+                               e.g. HYD06 or STAFF, and IIIII is the identifier 
+                               for sub-site, often this will refer to an
+                               instrument.                                           
+DATE_OBS                       The date on which the data were collected.       
+CHAMBER_ID                     Identifier assigned to the chamber measured      
+SOIL_DEPTH                     The depth below the soil surface at which the 
+                               measurement was taken.                             
+DEL_13C                        The del 13C is a relative difference between the 
+                               sample and the PeeDee Belemnite standard, 
+                               relative to the PeeDee Belemnite standard.            
+DEL_18O                        The del 18O is a relative difference between the 
+                               sample and the SMOW standard, relative to the  
+                               SMOW standard.                                    
+CO2_CONC                       CO2 concentration.                               
+CRTFCN_CODE                    The BOREAS certification level of the data.  Exa 
+                               Examples are CPI (Checked by PI), CGR (Certified 
+                               by Group), PRE (Preliminary), and CPI-??? (CPI 
+                               but questionable).                                  
+REVISION_DATE                  The most recent date when the information in the 
+                               referenced data base table record was revised.  
+
+
+7.3.3 Unit of Measurement                                                       
+
+The measurement units for the parameters contained in the data files are:                                                                 
+
+Column Name                                Units                       
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [none]                                           
+SUB_SITE                       [none]                                           
+DATE_OBS                       [DD-MON-YYYY]                                      
+CHAMBER_ID                     [none]                                           
+SOIL_DEPTH                     [millimeters]                                    
+DEL_13C                        [per mil]                                        
+DEL_18O                        [per mil]                                        
+CO2_CONC                       [parts per million]                              
+CRTFCN_CODE                    [none]                                           
+REVISION_DATE                  [DD-MON-YYYY]                                      
+
+7.3.4 Data Source                                                               
+
+Column Name                             Data Source                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [Assigned by BORIS Staff]
+SUB_SITE                       [Assigned by BORIS Staff]
+DATE_OBS                       [Investigator]                                
+CHAMBER_ID                     [Investigator]                                
+SOIL_DEPTH                     [Investigator]                                
+DEL_13C                        [mass spectrometry]                                
+DEL_18O                        [mass spectrometry]                                
+CO2_CONC                       [PP Systems model EGM IRGA]                                
+REVISION_DATE                  [Assigned by BORIS Staff]
+CRTFCN_CODE                    [Assigned by BORIS Staff]
+
+
+7.3.5  Data Range                                                               
+
+                     Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            SSA-YJP-FLXTR  SSA-YJP-FLXTR  None    None   None    None 
+SUB_SITE             9TF04-SPR01    9TF04-SPR01    None    None   None    None 
+DATE_OBS             23-AUG-1994    23-AUG-1994    None    None   None    None 
+CHAMBER_ID           AH 1           UZ 6           None    None   None    None 
+SOIL_DEPTH           -6             -.1            None    None   None    None 
+DEL_13C              -21.29         -10.1          None    None   None    None 
+DEL_18O              20.65          28.94          None    None   None    None 
+CO2_CONC             1941           5980           None    None   None    None 
+CRTFCN_CODE          CPI            CPI            None    None   None    None 
+REVISION_DATE                                      None    None   None    Blank
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used 
+                      to indicate an attempt was made to determine the 
+                      parameter value, but the value was deemed to be 
+                      unreliable by the analysis personnel.
+Below Detect Limit -- The value that indicates parameter values below the 
+                      instruments detection limits.  This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to 
+                      determine the parameter value.  This usually 
+                      indicates that BORIS combined several similar but 
+                      not identical data sets into the same data base table
+                      but this particular science team did not 
+                      measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+--------------------------------------------------------------------------------
+
+7.4 Sample Data Record                                                          
+
+SITE_NAME,SUB_SITE,DATE_OBS,CHAMBER_ID,SOIL_DEPTH,DEL_13C,DEL_18O,CO2_CONC,CRTFCN_CODE,
+REVISION_DATE
+'SSA-YJP-FLXTR','9TF04-SPR01',23-AUG-1994,'UZ 1',-1.0,-10.1,27.73,4232.0,'CPI',
+'SSA-YJP-FLXTR','9TF04-SPR01',23-AUG-1994,'UZ 2',-2.0,-20.41,20.68,4057.0,'CPI',
+
+***************************************************************
+***************************************************************
+
+
+E.  [ TF04_soil_water_chem.dat ]
+
+
+7.3 Data Characteristics                                                        
+
+7.3.1 Parameter/Variable                                                        
+
+The parameters contained in the data files are:                   
+
+TF04_soil_water_chem.dat
+
+Column Name                                                            
+------------------------------                                                  
+SITE_NAME                                                                       
+SUB_SITE                                                                        
+DATE_OBS                                                                        
+SOIL_DEPTH                                                                      
+TOT_ORG_C_CONC                                                                  
+TOT_INORG_C_CONC                                                                
+ACID_NEUTRALIZING_CAPACITY                                                      
+ELECTRIC_CONDUCTIVITY                                                           
+SODIUM_EQUIV                                                                    
+AMMONIUM_EQUIV                                                                  
+POTASSIUM_EQUIV                                                                 
+MAGNESIUM_EQUIV                                                                 
+CALCIUM_EQUIV                                                                   
+CHLORIDE_EQUIV                                                                  
+NITRATE_EQUIV                                                                   
+SULFATE_EQUIV                                                                   
+CRTFCN_CODE                                                                     
+REVISION_DATE                                                                   
+    
+7.3.2 Variable Description/Definition                                           
+
+The descriptions of the parameters contained in the data files are:                                                                 
+
+Column Name                             Description                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      The identifier assigned to the site by BOREAS, 
+                               in the format SSS-TTT-CCCCC, where SSS identifies 
+                               the portion of the study area: NSA, SSA, REG,  
+                               TRN, and TTT identifies the cover type for the 
+                               site, 999 if unknown, and CCCCC is the identifier  
+                               for site, exactly what it means will vary with 
+                               site type.                                        
+SUB_SITE                       The identifier assigned to the sub-site by BOREAS 
+                               in the format GGGGG-IIIII, where GGGGG is the 
+                               group associated with the sub-site instrument,  
+                               e.g. HYD06 or STAFF, and IIIII is the identifier 
+                               for sub-site, often this will refer to an
+                               instrument.                                           
+DATE_OBS                       The date on which the data were collected.       
+SOIL_DEPTH                     The depth below the soil surface at which the 
+                               measurement was taken.                             
+TOT_ORG_C_CONC                 The total organic carbon concentration in the 
+                               soil water                                         
+TOT_INORG_C_CONC               Total inorganic carbon concentration in the soil 
+                               water.                                          
+ACID_NEUTRALIZING_CAPACITY     The acid neutralizing capacity of the soil water. 
+ELECTRIC_CONDUCTIVITY          The electric conductivity of the soil sample.    
+SODIUM_EQUIV                   Microequivalents of Sodium charge per liter of  
+                               soil water                                        
+AMMONIUM_EQUIV                 Microequivalents of Ammonium charge per liter of 
+                               soil water                                      
+POTASSIUM_EQUIV                Microequivalents of Potassium charge per liter 
+                               of soil water                                     
+MAGNESIUM_EQUIV                Microequivalents of magnesium charge per liter  
+                               of soil water                                     
+CALCIUM_EQUIV                  Microequivalents of calcium charge per liter of  
+                               soil water                                       
+CHLORIDE_EQUIV                 Microequivalents of chloride charge per liter of 
+                               soil water                                      
+NITRATE_EQUIV                  Microequivalents of nitrate charge per liter of  
+                              soil water                                       
+SULFATE_EQUIV                  Microequivalents of sulfate charge per liter of  
+                               soil water                                       
+CRTFCN_CODE                    The BOREAS certification level of the data.  Exa 
+                               Examples are CPI (Checked by PI), CGR (Certified 
+                               by Group), PRE (Preliminary), and CPI-??? (CPI 
+                               but questionable).                                  
+REVISION_DATE                  The most recent date when the information in the 
+                               referenced data base table record was revised.  
+
+7.3.3 Unit of Measurement                                                       
+
+The measurement units for the parameters contained in the data files are:                                                                 
+
+Column Name                                Units                       
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [none]                                           
+SUB_SITE                       [none]                                           
+DATE_OBS                       [DD-MON-YYYY]                                      
+SOIL_DEPTH                     [millimeters]                                    
+TOT_ORG_C_CONC                 [milligrams][liter^-1 soil water]                
+TOT_INORG_C_CONC               [milligrams][liter^-1 soil water]                
+ACID_NEUTRALIZING_CAPACITY     [microequivalents][liter^-1 soil water]          
+ELECTRIC_CONDUCTIVITY          [siemens][meter^-1]                              
+SODIUM_EQUIV                   [microequivalents charge][liter^-1 soil water]   
+AMMONIUM_EQUIV                 [microequivalents charge][liter^-1 soil water]   
+POTASSIUM_EQUIV                [microequivalents charge][liter^-1 soil water]   
+MAGNESIUM_EQUIV                [microequivalents charge][liter^-1 soil water]   
+CALCIUM_EQUIV                  [microequivalents charge][liter^-1 soil water]   
+CHLORIDE_EQUIV                 [microequivalents charge][liter^-1 soil water]   
+NITRATE_EQUIV                  [microequivalents charge][liter^-1 soil water]   
+SULFATE_EQUIV                  [microequivalents charge][liter^-1 soil water]   
+CRTFCN_CODE                    [none]                                           
+REVISION_DATE                  [DD-MON-YYYY]                                      
+   
+
+7.3.4 Data Source                                                               
+
+The source of the parameter values contained in the data files are:                                                                 
+
+Column Name                             Data Source                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [Assigned by BORIS Staff]
+SUB_SITE                       [Assigned by BORIS Staff]
+DATE_OBS                       [Investigator]                                
+SOIL_DEPTH                     [Investigator]                                
+TOT_ORG_C_CONC                 [BY WEIGHT]                                
+TOT_INORG_C_CONC               [BY WEIGHT]                                
+ACID_NEUTRALIZING_CAPACITY     [PLEASE COMPLETE]                                
+ELECTRIC_CONDUCTIVITY          [Conductivity meter]                                
+SODIUM_EQUIV                   [According to Fishman and Friedman (1985)]                                
+AMMONIUM_EQUIV                 [According to Fishman and Friedman (1985)]]                                
+POTASSIUM_EQUIV                [According to Fishman and Friedman (1985)]]                                
+MAGNESIUM_EQUIV                [According to Fishman and Friedman (1985)]]                                
+CALCIUM_EQUIV                  [According to Fishman and Friedman (1985)]]                                
+CHLORIDE_EQUIV                 [According to Fishman and Friedman (1985)]]                                
+NITRATE_EQUIV                  [According to Fishman and Friedman (1985)]]                                
+SULFATE_EQUIV                  [According to Fishman and Friedman (1985)]]                                
+REVISION_DATE                  [Assigned by BORIS Staff]
+CRTFCN_CODE                    [Assigned by BORIS Staff]
+
+7.3.5  Data Range                                                               
+
+The following table gives information about the parameter values found in the data files.                                                   
+
+                     Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            SSA-YJP-FLXTR  SSA-YJP-FLXTR  None    None   None    None 
+SUB_SITE             9TF04-SPR01    9TF04-SPR01    None    None   None    None 
+DATE_OBS             19-JUL-1994    19-JUL-1994    None    None   None    None 
+SOIL_DEPTH           -1             -.1            None    None   None    None 
+TOT_ORG_C_CONC       9.05           74             None    None   None    None 
+TOT_INORG_C_CONC     .94            15.65          -999    None   None    None 
+ACID_NEUTRALIZING_   421.15         2494.7         None    None   None    None 
+CAPACITY
+ELECTRIC_            58.3           238            None    None   None    None 
+CONDUCTIVITY        
+SODIUM_EQUIV         21.018         36.233         None    None   None    None 
+AMMONIUM_EQUIV       .746           2.516          None    None   None    None 
+POTASSIUM_EQUIV      4.346          9.582          None    None   None    None 
+MAGNESIUM_EQUIV      18.843         67.865         None    None   None    None 
+CALCIUM_EQUIV        42.5           158.607        None    None   None    None 
+CHLORIDE_EQUIV       5.45           9.42           None    None   None    None 
+NITRATE_EQUIV        .88            1.24           None    None   None    None 
+SULFATE_EQUIV        4.28           14.12          None    None   None    None 
+CRTFCN_CODE          CPI            CPI            None    None   None    None 
+REVISION_DATE        10-NOV-1998    10-NOV-1998    None    None   None    None 
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used 
+                      to indicate an attempt was made to determine the 
+                      parameter value, but the value was deemed to be 
+                      unreliable by the analysis personnel.
+Below Detect Limit -- The value that indicates parameter values below the 
+                      instruments detection limits.  This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to 
+                      determine the parameter value.  This usually 
+                      indicates that BORIS combined several similar but 
+                      not identical data sets into the same data base table
+                      but this particular science team did not 
+                      measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+--------------------------------------------------------------------------------
+
+7.4 Sample Data Record                                                          
+
+SITE_NAME,SUB_SITE,DATE_OBS,SOIL_DEPTH,TOT_ORG_C_CONC,TOT_INORG_C_CONC,
+ACID_NEUTRALIZING_CAPACITY,ELECTRIC_CONDUCTIVITY,SODIUM_EQUIV,AMMONIUM_EQUIV,
+POTASSIUM_EQUIV,MAGNESIUM_EQUIV,CALCIUM_EQUIV,CHLORIDE_EQUIV,NITRATE_EQUIV,
+SULFATE_EQUIV,CRTFCN_CODE,REVISION_DATE
+'SSA-YJP-FLXTR','9TF04-SPR01',19-JUL-1994,-.3,74.0,.94,421.15,72.6,24.014,2.516,
+7.262,19.751,53.038,5.45,.91,5.79,'CPI',10-NOV-1998
+'SSA-YJP-FLXTR','9TF04-SPR01',19-JUL-1994,-.8,36.58,8.6,1408.44,158.1,21.018,.746,
+4.346,40.496,107.1,9.42,.88,14.12,'CPI',10-NOV-1998
+
+
+
+***************************************************************
+***************************************************************
+
+
+
+F.   [TF04_soil_temp_moist.dat ]
+
+7.3 Data Characteristics                                                        
+
+7.3.1 Parameter/Variable                                                        
+
+The parameters contained in the data files are:                   
+
+  
+TF04_soil_temp_moist.dat
+
+Column Name                                                            
+------------------------------                                                  
+SITE_NAME                                                                       
+SUB_SITE                                                                        
+DATE_OBS                                                                        
+TIME_OBS                                                                        
+CHAMBER_ID                                                                      
+AIR_TEMP                                                                        
+SOIL_TEMP_5CM                                                                   
+SOIL_TEMP_10CM                                                                  
+SOIL_TEMP_15CM                                                                  
+SOIL_WATER_CONTENT                                                              
+CRTFCN_CODE                                                                     
+REVISION_DATE                                                                   
+
+7.3.2 Variable Description/Definition                                           
+
+The descriptions of the parameters contained in the data files are:                                                                 
+
+ 
+Column Name                             Description                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      The identifier assigned to the site by BOREAS, 
+                               in the format SSS-TTT-CCCCC, where SSS identifies 
+                               the portion of the study area: NSA, SSA, REG,  
+                               TRN, and TTT identifies the cover type for the 
+                               site, 999 if unknown, and CCCCC is the identifier  
+                               for site, exactly what it means will vary with 
+                               site type.                                        
+SUB_SITE                       The identifier assigned to the sub-site by BOREAS 
+                               in the format GGGGG-IIIII, where GGGGG is the 
+                               group associated with the sub-site instrument,  
+                               e.g. HYD06 or STAFF, and IIIII is the identifier 
+                               for sub-site, often this will refer to an
+                               instrument.                                           
+DATE_OBS                       The date on which the data were collected.       
+TIME_OBS                       The Greenwich Mean Time (GMT) when the data were 
+                               collected.                                      
+CHAMBER_ID                     Identifier assigned to the chamber measured      
+AIR_TEMP                       The air temperature.                             
+SOIL_TEMP_5CM                  Soil temperature measured at a depth of 5 cm.    
+SOIL_TEMP_10CM                 Soil temperature at a depth of 10 cm.            
+SOIL_TEMP_15CM                 Soil temperature at a depth of 15 cm.            
+SOIL_WATER_CONTENT             The water content of the soil, measured at the  
+                               top 0.05 meters of soil, reported in percent 
+                               weight.                                              
+CRTFCN_CODE                    The BOREAS certification level of the data.  Exa 
+                               Examples are CPI (Checked by PI), CGR (Certified 
+                               by Group), PRE (Preliminary), and CPI-??? (CPI 
+                               but questionable).                                  
+REVISION_DATE                  The most recent date when the information in the 
+                               referenced data base table record was revised.  
+
+7.3.3 Unit of Measurement                                                       
+
+The measurement units for the parameters contained in the data files are:                                                                 
+
+Column Name                                Units                       
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [none]                                           
+SUB_SITE                       [none]                                           
+DATE_OBS                       [DD-MON-YYYY]                                      
+TIME_OBS                       [HHMM GMT]                                       
+CHAMBER_ID                     [none]                                           
+AIR_TEMP                       [degrees Celsius]                                
+SOIL_TEMP_5CM                  [degrees Celsius]                                
+SOIL_TEMP_10CM                 [degrees Celsius]                                
+SOIL_TEMP_15CM                 [degrees Celsius]                                
+SOIL_WATER_CONTENT             [percent]                                        
+CRTFCN_CODE                    [none]                                           
+REVISION_DATE                  [DD-MON-YYYY]                                      
+
+7.3.4 Data Source                                                               
+
+The source of the parameter values contained in the data files are:                                                                 
+
+Column Name                             Data Source                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [Assigned by BORIS Staff]
+SUB_SITE                       [Assigned by BORIS Staff]
+DATE_OBS                       [Investigator]                                
+TIME_OBS                       [INVESTIGATOR]                                
+CHAMBER_ID                     [Investigator]                                
+AIR_TEMP                       [Fluke model 51 K thermometer]                                
+SOIL_TEMP_5CM                  [Fluke model 51 K thermometer]                                
+SOIL_TEMP_10CM                 [Fluke model 51 K thermometer]                                
+SOIL_TEMP_15CM                 [Fluke model 51 K thermometer]                                
+SOIL_WATER_CONTENT             [By weight]                                
+REVISION_DATE                  [Assigned by BORIS Staff]
+CRTFCN_CODE                    [Assigned by BORIS Staff]
+
+7.3.5  Data Range                                                               
+
+The following table gives information about the parameter values found in the data files.                                                   
+
+
+                     Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            SSA-9JP-CLRCT  SSA-YJP-FLXTR  None    None   None    None 
+SUB_SITE             9TF04-SPR01    9TF04-SPR01    None    None   None    None 
+DATE_OBS             22-MAY-1994    18-SEP-1994    None    None   None    None 
+TIME_OBS             0              930            None    None   None    None 
+CHAMBER_ID           AB             WX             None    None   None    None 
+AIR_TEMP             2.4            35.1           -999    None   None    None 
+SOIL_TEMP_5CM        9.1            27.3           -999    None   None    None 
+SOIL_TEMP_10CM       8.3            21.4           -999    None   None    None 
+SOIL_TEMP_15CM       1.5            19.7           -999    None   None    None 
+SOIL_WATER_CONTENT   .89            24.58          -999    None   None    Blank
+CRTFCN_CODE          CPI            CPI            None    None   None    None 
+REVISION_DATE        12-NOV-1998    12-NOV-1998    None    None   None    None 
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used 
+                      to indicate an attempt was made to determine the 
+                      parameter value, but the value was deemed to be 
+                      unreliable by the analysis personnel.
+Below Detect Limit -- The value that indicates parameter values below the 
+                      instruments detection limits.  This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to 
+                      determine the parameter value.  This usually 
+                      indicates that BORIS combined several similar but 
+                      not identical data sets into the same data base table
+                      but this particular science team did not 
+                      measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+--------------------------------------------------------------------------------
+
+7.4 Sample Data Record                                                          
+
+SITE_NAME,SUB_SITE,DATE_OBS,TIME_OBS,CHAMBER_ID,AIR_TEMP,SOIL_TEMP_5CM,SOIL_TEMP_10CM,
+SOIL_TEMP_15CM,SOIL_WATER_CONTENT,CRTFCN_CODE,REVISION_DATE
+'SSA-9JP-CLRCT','9TF04-SPR01',26-MAY-1994,330,'ST',-999.0,16.5,13.3,11.3,8.83,'CPI',
+12-NOV-1998
+'SSA-9JP-CLRCT','9TF04-SPR01',26-MAY-1994,330,'UV',-999.0,15.1,13.7,11.5,11.91,'CPI',
+12-NOV-1998
+
+

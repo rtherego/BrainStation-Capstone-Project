@@ -1,0 +1,184 @@
+BOREAS TGB-01 CH4 & CO2 Chamber Flux Data: NSA
+
+7.3 Data Characteristics
+
+7.3.1 Parameter/Variable
+
+         Column Name
+------------------------------
+SITE_NAME
+SUB_SITE
+DATE_OBS
+TIME_OBS
+CO2_FLUX
+CH4_FLUX
+COVER_TYPE
+SOIL_TEMP_1CM
+SOIL_TEMP_5CM
+SOIL_TEMP_10CM
+SOIL_TEMP_20CM
+COLLAR_ID
+CO2_CONC
+CO2_CONC_2
+CH4_CONC
+CH4_CONC_2
+CRTFCN_CODE
+REVISION_DATE
+
+7.3.2 Variable Description/Definition   
+
+Column Name                             Description
+------------------------------ ------------------------------------------------
+SITE_NAME                      The identifier assigned to the site by BOREAS, in 
+                               the format SSS-TTT-CCCCC, where SSS identifies
+                               the portion of the study area: NSA, SSA, REG, or
+                               TRN; TTT identifies the cover type for the 
+                               site (999 if unknown); and CCCCC is the 
+                               identifier for site (exactly what it means will
+                               vary with site type).
+
+SUB_SITE                       The identifier assigned to the subsite by 
+                               BOREAS, in the format GGGGG-IIIII, where GGGGG is 
+                               the group associated with the subsite 
+                               instrument (e.g., HYD06 or STAFF), and IIIII is
+                               the identifier for the subsite, (often this will
+                               refer to an instrument).
+
+DATE_OBS                       The date on which the data were collected.
+TIME_OBS                       The Greenwich Mean Time (GMT) when the data were
+                               collected.
+
+CO2_FLUX                       Carbon dioxide flux.
+CH4_FLUX                       Methane flux.
+COVER_TYPE                     The dominant species, vegetation, or type of land
+                               cover that exists at the location.
+
+SOIL_TEMP_1CM                  Soil temperature at 1-cm depth.
+SOIL_TEMP_5CM                  Soil temperature at 5-cm depth.
+SOIL_TEMP_10CM                 Soil temperature at 10-cm depth.
+SOIL_TEMP_20CM                 Soil temperature at 20-cm depth.
+COLLAR_ID                      A TGB-01 designation for the chamber collar
+                               sites, in the form of A-BBB-##, where A = C or M 
+                               (Crill or Moosavi), BBB denotes the site and
+                               possibly microtopographic designation, and ## is
+                               a sequention collar number.
+
+CO2_CONC                       CO2 concentration.
+CO2_CONC_2                     CO2 concentration.
+CH4_CONC                       CH4 concentration.
+CH4_CONC_2                     CH4 concentration.
+CRTFCN_CODE                    The BOREAS certification level of the data. 
+                               Examples are Checked by PI (CPI), Certified 
+                               by Group (CGR), Preliminary (PRE), and CPI 
+                               but questionable (CPI-???).
+
+REVISION_DATE                  The most recent date that the information in the
+                               referenced data base table record was revised.
+
+
+7.3.3 Unit of Measurement   
+
+Column Name                                Units
+------------------------------ ------------------------------------------------
+SITE_NAME                      [none]
+SUB_SITE                       [none]
+DATE_OBS                       [DD-MON-YYYY]
+TIME_OBS                       [HHMM GMT]
+CO2_FLUX                       [micromoles][meter-2][second-1]
+CH4_FLUX                       [micromoles][meter-2][second-1]
+COVER_TYPE                     [none]
+SOIL_TEMP_1CM                  [degrees Celsius]
+SOIL_TEMP_5CM                  [degrees Celsius]
+SOIL_TEMP_10CM                 [degrees Celsius]
+SOIL_TEMP_20CM                 [degrees Celsius]
+COLLAR_ID                      [none]
+CO2_CONC                       [parts per million]
+CO2_CONC_2                     [parts per million]
+CH4_CONC                       [parts per million]
+CH4_CONC_2                     [parts per million]
+CRTFCN_CODE                    [none]
+REVISION_DATE                  [DD-MON-YYYY]
+
+7.3.4 Data Source
+
+Column Name                             Data Source
+------------------------------ ------------------------------------------------
+SITE_NAME                      Not applicable
+SUB_SITE                       Not applicable
+DATE_OBS                       Investigator
+TIME_OBS                       Investigator
+CO2_FLUX                       Calculated by investigator
+CH4_FLUX		       Calculated by investigator
+COVER_TYPE                     Determined by investigator
+SOIL_TEMP_1CM                  Thermocouple
+SOIL_TEMP_5CM                  Thermocouple
+SOIL_TEMP_10CM                 Thermocouple
+SOIL_TEMP_20CM                 Thermocouple
+COLLAR_ID                      Thermocouple
+CO2_CONC                       Shimadzu GC-14A
+CO2_CONC_2                     Shimadzu GC-14A
+CH4_CONC                       Shimadzu GC-14A
+CH4_CONC_2                     Shimadzu GC-14A
+CRTFCN_CODE                    Shimadzu GC-14A
+REVISION_DATE                  Shimadzu GC-14A
+
+7.3.5 Data Range
+
+Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            NSA-BVP-FLXTR  NSA-YJP-FLXTR  None    None   None    None
+SUB_SITE             TGB01-FLX01    TGB01-FLX01    None    None   None    None
+DATE_OBS             16-MAY-1994    13-SEP-1994    None    None   None    None
+TIME_OBS             0              2316           None    None   None    None
+CO2_FLUX             -3.9236111     10.6365741     -999    -888   None    None
+CH4_FLUX             -0.0062153      2.4537037     -999    -888   None    None
+COVER_TYPE           N/A            N/A            None    None   None    None
+SOIL_TEMP_1CM        1              40.3           -999    None   None    Blank
+SOIL_TEMP_5CM        2.8            28.4           -999    None   None    Blank
+SOIL_TEMP_10CM       -1             23.1           -999    None   None    None
+SOIL_TEMP_20CM       -1.9           99.7           -999    None   None    Blank
+COLLAR_ID            C-OBS-01       M-OBS-w-16     None    None   None    None
+CO2_CONC             363.5          472.5          None    None   None    Blank
+CO2_CONC_2           364            504.3          -999    None   None    Blank
+CH4_CONC             1.945          2.319          None    None   None    Blank
+CH4_CONC_2           2.066          2.262          -999    None   None    Blank
+CRTFCN_CODE          PRE            CPI            None    None   None    None
+REVISION_DATE        23-AUG-1996    14-JAN-1997    None    None   None    None
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to
+                      indicate that an attempt was made to determine the
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used
+                      to indicate that an attempt was made to determine the
+                      parameter value, but the analysis personnel deemed the
+                      value to be unreliable.
+Below Detect Limit -- The value that indicates parameter values below the
+                      instrument's detection limits.  This is used to
+                      indicate that an attempt was made to determine the
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to
+                      determine the parameter value.  This usually
+                      indicates that BOREAS Information System (BORIS) staff
+                      combined several similar but not identical data sets into
+                      the same data base table but this particular science team 
+                      did not measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+
+7.4 Sample Data Record
+
+SITE_NAME,SUB_SITE,DATE_OBS,TIME_OBS,CO2_FLUX,CH4_FLUX,COVER_TYPE,SOIL_TEMP_1CM,
+SOIL_TEMP_5CM,SOIL_TEMP_10CM,SOIL_TEMP_20CM,COLLAR_ID,CO2_CONC,CO2_CONC_2,
+CH4_CONC,CH4_CONC_2,CRTFCN_CODE,REVISION_DATE
+'NSA-BVP-FLXTR','TGB01-FLX01',19-MAY-1994,1731,-888.0,.00327546,'Lichen',,3.6,
+.7,-.6,'M-BP-ul-17',,,,,'CPI',13-JAN-1997
+'NSA-BVP-FLXTR','TGB01-FLX01',19-MAY-1994,1731,-888.0,0.0,'Lichen',,3.6,.7,-.6,
+'M-BP-ul-18',,,,,'CPI',13-JAN-1997

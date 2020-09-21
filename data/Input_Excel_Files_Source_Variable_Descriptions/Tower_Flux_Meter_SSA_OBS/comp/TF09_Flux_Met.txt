@@ -1,0 +1,1089 @@
+BOREAS TF-09 SSA-OBS Tower Flux, Meteorological, and Soil Temperature Data
+
+Summary
+
+The BOREAS TF-09 team collected energy, carbon dioxide and water vapor flux data 
+at the BOREAS SSA-OBS site during the growing season of 1994 and most of the 
+year for 1996.  From the winter of 1995 to 1996, soil temperature data were also 
+collected and provided.  The data are available in tabular ASCII files.
+
+Table of Contents
+
+   *  1 Data Set Overview
+   *  2 Investigator(s)
+   *  3 Theory of Measurements
+   *  4 Equipment
+   *  5 Data Acquisition Methods
+   *  6 Observations
+   *  7 Data Description
+   *  8 Data Organization
+   *  9 Data Manipulations
+   *  10 Errors
+   *  11 Notes
+   *  12 Application of the Data Set
+   *  13 Future Modifications and Plans
+   *  14 Software
+   *  15 Data Access
+   *  16 Output Products and Availability
+   *  17 References
+   *  18 Glossary of Terms
+   *  19 List of Acronyms
+   *  20 Document Information
+
+1. Data Set Overview
+
+1.1 Data Set Identification
+
+BOREAS TF-09 SSA-OBS Tower Flux, Meteorological, and Soil Temperature Data
+
+1.2  Data Set Introduction
+
+This data set includes heat, carbon dioxide, and water vapor fluxes measured by 
+eddy covariance (EC) and meteorological data all measured from the Boreal 
+Ecosystem-Atmosphere Study (BOREAS) Southern Study Area (SSA)-Old Black Spruce 
+(OBS) tower. Soil heat flux and soil temperature profiles are also included.  
+Through the winter of 1995 to 1996, soil temperature data were collected, these 
+data are stored in separate files.
+
+1.3  Objective/Purpose
+
+The objectives of this study were to measure and model the CO2 exchanges of 
+boreal black spruce forest to determine whether the soils and vegetation are 
+significant global sinks for atmospheric CO2. Stand CO2 fluxes were measured 
+using EC and the CO2 concentration profile was also measured to allow estimation 
+of the atmospheric storage of CO2 within the canopy.
+These measurements will be used to verify scaling up procedures from leaf level 
+measurements and may be scaled up to regional scales. 
+
+1.4  Summary of Parameters and Variables
+
+Latent heat flux, sensible heat flux, carbon dioxide flux, soil heat flux, 
+momentum flux, CO2 profile, water vapor profile, air temperature profile, net 
+radiation, incident and reflected Photosynthetic Photon Flux Density (PPFD), 
+incident and reflected solar radiation, wind speed and direction, friction 
+velocity, soil temperatures, precipitation amount, vapor pressures.
+
+1.5  Discussion
+
+The tower at the SSA-OBS site (53.99° N, 105.312° W) was equipped with a CO2, 
+water vapor, and sensible heat flux measuring EC system and a weather station to 
+measure flux driving environmental variables.  CO2 concentration profiles and 
+soil temperatures at various depths were also measured, as was soil heat flux.
+
+The EC system at the top of the tower consisted of a Solent 3-D sonic anemometer 
+and LI-COR LI-6262 closed-path infrared gas analyzer (IRGA).  The anemometer was 
+placed 2.6 m above the top platform (25.8 m) on a vertical pole on the SW corner 
+of the tower. The air was ducted by tube from close to the anemometer to the LI-
+6262. The data were collected and processed in 'real time' to provide near- 
+continuous measurements.
+ 
+Profiles of CO2 and H2O vapor concentrations were continuously monitored.  In 
+1994, five heights were measured; in 1996, measurements were made at eight 
+heights through the canopy.  These measurements were made using an IRGA (LI-COR 
+6262) fitted with time-switched solenoid valves.  The sample heights for 1994 
+were at 1.5, 3, 6, 12, and 26 meters, corresponding to one-eighth, one-fourth, 
+one-half, one, and two times the canopy height.  In 1996, the samples were 
+collected at eight heights above the ground at approximately 0.5, 1.5, 3.5, 6.5, 
+9.5, 12.5, 18, and 26 meters.  Air was drawn continuously through the sample 
+pipes at each of the heights, and each line was sampled in turn.  In 1994 each 
+line was sampled for 3 minutes of every 15 minutes; in 1996, each line was 
+sampled for 1 minute every 10 minutes.  Data from the beginning of each period 
+were discarded to allow for flushing of the short tube between the solenoids and 
+the analyzer.  In 1994, the first minute of data was discarded; in 1996, the 
+first 20 seconds were discarded.
+
+At the top of the tower, a simple weather station was set up to measure the 
+following environmental variables: net radiation, PPFD, shortwave solar 
+radiation, temperature, relative humidity, vapor pressure, wind speed and 
+direction, and rainfall.  In 1996, a second weather station, comprising a 
+ventilated psychrometer and net radiometer, was set up at 2 m height above the 
+ground.  Soil temperatures were measured at four locations at 0.05, 0.1, 0.2, 
+and 0.5 meters depth, using differential thermocouples referenced to thermistors 
+at 1 meter.  Soil heat flux was measured using seven soil heat flux plates, 
+buried about 7 cm below the surface. 
+
+1.6  Related Data Sets
+
+BOREAS TF-05 SSA-OJP Tower Flux, Meteorological, and Soil Temperature Data
+BOREAS TF-03 NSA-OBS Tower Flux, Meteorological, and Soil Temperature Data
+BOREAS TF-04 SSA-YJP Tower Flux, Meteorological, and Soil Temperature Data
+BOREAS TF-11 SSA Fen Tower Flux, Meteorological, and Soil Temperature Data
+
+BOREAS TF-09 SSA-OBS Branch Level Flux Data
+
+2. Investigator(s)
+
+2.1 Investigator(s) Name and Title
+
+Prof. Paul G. Jarvis and  Dr. John B. Moncrieff 
+Institute of Ecology and Resource Management 
+University of Edinburgh 
+UK
+
+2.2 Title of Investigation
+
+The CO2 Exchanges of Boreal Black Spruce Forest
+
+2.3 Contact Information
+
+Contact 1    
+---------
+Mr. Jonathan M. Massheder
+Institute of Ecology and Resource Management 
+University of Edinburgh 
+Edinburgh 
+UK 
++131 650 8746
++131 662 0478 (fax)
+J.Massheder@ed.ac.uk
+
+
+Contact 2
+---------
+Dr. John B. Moncrieff
+Institute of Ecology and Resource Management 
+University of Edinburgh 
+Edinburgh 
+UK 
++131 650 5402
++131 662 0478 (fax)
+J.Moncrieff@ed.ac.uk
+
+Contact 3
+---------
+Mr. Mark B. Rayment
+Institute of Ecology and Resource Management 
+University of Edinburgh 
+Edinburgh 
+UK 
++131 650 5423
++131 662 0478 (fax)
+M.Rayment@ed.ac.uk
+
+Contact 4
+---------
+K. Fred Huemmrich
+University of Maryland
+NASA GSFC (University of Maryland)
+Greenbelt, MD
+(301) 286-4862
+(301) 286-0239 (fax)
+Karl.Huemmrich@gsfc.nasa.gov
+
+3. Theory of Measurements 
+
+The net carbon uptake of a forest depends on the assimilation of carbon dioxide 
+by photosynthesis and on carbon dioxide emissions resulting from respiratory 
+processes.  Carbon dioxide assimilation depends on the species, age, and 
+physiological activity of the trees.  Emission depends on the respiratory cost 
+of maintenance and growth, production of litter, and turnover of organic matter 
+in the soil.  Influencing both these processes are soil, climate, and weather. 
+During the day, carbon dioxide will generally be taken up by the stand by 
+photosynthesis, while at night carbon dioxide is lost from the stand.  A 
+conservation of mass equation gives: 
+
+Fc = Fa + Fs + Fr + Fg + DS 
+
+where Fc is the net flux of carbon dioxide into (or out of) the stand from the 
+air above, Fa is the canopy assimilation (or at-night respiration), Fs is stem 
+respiration, Fr is root respiration, Fg is soil respiration, and DS is storage 
+of carbon dioxide in the air of the stand.  With EC, the carbon dioxide flux  is 
+measured through a plane above the stand (Fc), and with the carbon dioxide 
+concentration profile the change in storage (DS) can be estimated. 
+
+The flux measurements were calculated using EC and corrections were applied to 
+the covariances to correct for density effects (Webb et al., 1980).  Coordinate 
+rotation of the wind vector components ensured that the flux calculated was 
+perpendicular with respect to local streamlines, and transfer functions (Moore 
+1986; Philip, 1963) were used to correct for inadequate frequency response. 
+
+4. Equipment 
+
+4.1 Sensor/Instrument Description.
+
+4.1.1  Collection Environment
+
+Measurements were collected from late May through mid-September 1994 and early 
+April through late November of 1996.  Over that time period, temperature 
+conditions from below freezing to over 30 °C were experienced.
+
+4.1.2 Source/Platform 
+
+Above-canopy measurements were made from a 23-meter double scaffold walk-up 
+tower.
+
+The anemometer used in the EC measurements was a Solent 3-D research ultrasonic 
+anemometer.  The Solent outputs three orthogonal wind velocity components and 
+the speed of sound from which air temperature may be derived at 21 Hz.  To 
+measure CO2 and water vapor concentrations, a LI-COR LI-6262 closed-path IRGA 
+was used.  Air 5 cm from the center of the sonic anemometer's path was ducted 
+down a 32-m Dekabon tube (aluminum tube with PVC coating and polyethylene 
+lining) of 6-mm internal diameter (i.d.).  The airflow down the tube was 
+controlled by a Tylan FC2900B mass flow controller at 6 dm3 min-1, which 
+resulted in pressure in the LI-6262's sample cell typically 7 kPa less than 
+atmospheric.  The analog-to-digital (A/D) converter in the Solent was used to 
+sample the analog output from the LI-6262 at 11 Hz.  The linear outputs of the 
+LI-6262 were used, which allowed utilization of the LI-6262's processor to 
+correct for sample cell pressure and for CO2 band broadening and dilution caused 
+by water vapor.  The fully processed CO2 output of the LI-6262 is at 5 Hz and 
+for H2O at 3 Hz. The combined wind velocity and IRGA outputs were then 
+transmitted from the Solent serially and received by a notebook PC, where the 
+fluxes were calculated by the EddySol software. 
+
+All CO2 concentration data were logged on a Campbell Scientific CR10 logger, 
+which also controlled the sample line switching three-way solenoid valves 
+through a customized control circuit.  Sample pipes were of 5-mm-i.d. nylon 
+tubing; CO2 adsorption/desorption was not considered a problem since all pipes 
+were continuously purged to exhaust while not being sampled to the IRGA.  Sample 
+points consisted of a gauze mosquito cover, an inverted funnel water trap and a 
+fine particulate filter.  Sampling to the LI-COR 6252 IRGA was carried out via a 
+Charles Austin dymax pump, downstream of which was a needle valve and flow 
+meter, restricting flow to 0.5 dm3 min-1.  The downstream end of the IRGA was 
+left open to the atmosphere, ensuring operation at atmospheric pressure.  The 
+entire apparatus was housed off the ground, within an enclosed, but ventilated, 
+metal box. 
+
+Weather station: 
+
+Campbell 21x data loggers with AM416 multiplexors were used to log output from 
+the sensors listed below.
+
+Variable                        Sensor 
+============================================================== 
+Net radiation           2 x Radiation Energy Balance System (REBS) Q6 net
+                        radiometers 
+Low-level net radiation REBS Q6 net radiometers
+Total solar radiation   Kipp solarimeter, LI-COR pyranometer
+PPFD                    LI-COR quantum sensor 
+Relative humidity       Campbell Skye humidity probe 
+Wind direction          Vector Instruments windvane
+Wind speed              Vector Instruments cup anemometer
+Air temperature         DeltaT ventilated psychrometer
+Wet bulb temperature    DeltaT ventilated psychrometer 
+Soil temperatures       Probe developed at Edinburgh University
+Soil heat flux          7 x REBS heat flux plates
+Precipitation           DeltaT tipping bucket rain gauge, resolution 0.2 mm
+
+
+4.1.3 Source/Platform Mission Objectives
+
+The objective was to measure CO2, water vapor, and sensible heat fluxes and 
+related environmental variables over a black spruce stand at the southern edge 
+of the boreal forest.
+
+4.1.4 Key Variables
+
+EC: CO2 and water vapor fluxes, sensible heat, latent heat fluxes, air 
+temperature, and wind speed in nominal x, y, and z planes. 
+
+Supporting meteorological variables: net radiation, PPFD, air temperature, wet 
+bulb temperature, total solar radiation, wind direction, wind speed, soil 
+temperatures, CO2, and water vapor concentration profiles. 
+
+4.1.5 Principles of Operation 
+
+The Solent anemometer uses pulses of ultrasound to measure windspeed.  The 
+forward and reverse transit times for a pulse of ultrasound, between two 
+transducers, gives the speed of sound and the wind speed (sound travels faster 
+with a following wind).  The 3-D sonic has three pairs of transducers arranged 
+in nonparallel axes, allowing the 3-D components of the wind velocity to be 
+derived. 
+
+The LI-COR LI-6262 IRGAs are closed path instruments with reference and sample 
+cells with an infrared source at one end and a detector at the other.  Different 
+gases absorb infrared of different frequencies and filters are used to select a 
+narrow band that corresponds to an absorption band of the gas of interest.  The 
+LI-6252 measures only CO2 while the LI-6262 measures CO2 and H2O concentration.  
+A gas of known concentration is passed through a reference cell, and the gas 
+whose concentration is to be measured is passed through the sample cell.  The 
+amount of infrared reaching the detector in each cell is a function of the gas 
+concentration in the cell.  The difference in voltage produced by the detectors 
+of the reference and sample cells is then a function of the difference in 
+concentration of the gas in the cells. 
+
+Other sensors were common meteorological sensors used in a standard fashion.  
+For principles of operations of these sensors, please see a relevant textbook, 
+e.g., Pearcy et al. (1991).
+
+4.1.6 Sensor/Instrument Measurement Geometry
+
+The closed-path EC system was placed on an upright pole at the south west corner 
+of the top of the flux tower.  The southwest corner was chosen because a tramway 
+system was set up at the northern end of the tower, and the main fetch at the 
+site is from the west.  Because the equipment was 3 m above the top of the tower 
+on a pole, the tower would cause very little disturbance to the wind, whatever 
+its direction.  Therefore, EC measurements would not be especially invalidated 
+by any wind direction with respect to the tower; however, the access trail to 
+the site is to the east, and any production of CO2 by people or vehicles on the 
+trail may affect the CO2 fluxes measured if the wind is from the east.  Also, in 
+the making of the access trail extensive damage was caused to the muskeg, with 
+many trees being felled; hence, photosynthesis over this area will be 
+uncharacteristically lower and respiration similarly high. 
+
+Sample points for the CO2 concentration measurements for 1994 were at 1.5, 3, 6, 
+12, and 26 meters, corresponding to one-eighth, one-fourth, one-half, one, and 
+approximately two times the canopy height.  In 1996 the samples were collected 
+at eight heights above the ground at 0.52, 1.66, 3.36, 6.44, 9.6, 12.66, 17.74, 
+and 27.42 meters.
+
+The weather station was set up on the eastern side at the top of the tower at 24 
+m about 2.6 m horizontally from the EC system.  The rain gauge was located on 
+top of the tower which was the place that offered the least obstruction.  Two 
+net radiometers were mounted on the south side of the tower at a height of 16 m 
+extending 3 m from the tower.  This position offered more symmetry of the effect 
+of the tower on upward and downward fluxes than if the radiometers were placed 
+at the top of the tower.  Two solarimeters (CM3, Kipp & Zonen) were also mounted 
+on these booms, measuring incoming and reflected solar radiation.  The low-level 
+EC system and weather station were set up approximately 30 m to the west of the 
+main tower.  A net radiometer was positioned below the canopy, at a height of 2 
+m above the ground.
+
+In 1994, the soil temperature probe was located about 10 m from the southwest 
+corner of the tower.  In 1996, four soil temperature probes were installed, two 
+to the northeast and two to the southeast of the tower.  Two soil heat flux 
+plates were placed within 5 m of each probe. 
+
+4.1.7 Manufacturer of Sensor/Instrument 
+
+Solent sonic anemometer: 
+Gill Instruments Limited 
+Solent House 
+Cannon Street 
+Lymington, Hampshire 
+SO41 9BR 
+UK 
+
+Campbell CA27s sonic anemometer: 
+Skye Humidity probe:
+Campbell Scientific 
+P.O. Box 551 
+Logan, UT 84321 
+USA 
+
+LI-COR LI-6262 and LI-6252 IRGAs 
+Pyranometer, quantum sensor: 
+LI-COR P.O. Box 4425/4421 
+Superior Street 
+Lincoln, NE 68504 
+USA 
+
+Advanced Systems E009a IRGA: 
+Advanced Systems Inc. 
+Okayama City, Japan 
+
+Delta-T psychrometers and rain gauge:
+Delta-T Devices ltd.
+128 Low Rd., Burwell,
+Cambs CB5 0EJ
+UK
+
+Soil heat flux plate 
+Net radiometer: 
+REBS 
+P.O. Box 15512 
+Seattle, WA 98115-0512 
+Elmer NJ 08318 
+USA 
+
+Wind vane, cup anemometer: 
+Vector Instruments 
+115 Marsh Road 
+Rhyl 
+Clwyd LL18 2AB 
+UK 
+
+Rain gauge: 
+Cassella
+Regent House 
+Britannia Walk 
+London N1 7ND 
+UK 
+
+21x, CR10 Data logging system: 
+Campbell Scientific 
+P.O. Box 551, 
+Logan, UT 84321 
+USA 
+
+A/D card: 
+Strawberry Tree Inc. 
+160 S. Wolfe Rd. 
+Sunnyvale, CA 94086 
+USA 
+
+Dekabon tubing: 
+J.P. Deane & Co. Ltd.,
+91, Ormonde Crescent
+Glasgow. G44 3SW
+UK 
+
+Mass flow controller: 
+Tylan General 
+Swindon UK 
+
+4.2 Calibration
+
+4.2.1 Specifications
+
+LI-6262, closed-path EC system: 
+The output linearization of this instrument is calibrated by the manufacturer 
+and was last performed in July 1993.  The field calibration fixes the lower and 
+upper ends of the linearization function and is carried out by passing CO2 and 
+water vapor free air through the reference cell (the instrument is used in the 
+absolute mode) and setting the CO2 and water vapor channels to zero.  The upper 
+point is set by passing dry air of known CO2 or of known water vapor 
+concentration through the sample cell and adjusting the appropriate channel to 
+read the correct value.  CO2 standard gases were cross-referenced to the BOREAS 
+primary standards, and a LI-COR LI-610 dewpoint generator was used to produce 
+air of known water vapor density. 
+
+Solent anemometers: 
+These instruments have stable calibrations, and factory values were used.  The 
+calibrations have been tested in Edinburgh University's wind tunnel and were 
+found satisfactory. 
+
+LI-6262 CO2 concentration profile system: 
+The IRGA was calibrated at the outset.  The air from the uppermost height was 
+the same air that had been through the EC LI-6262 IRGA, and the analyzer was 
+calibrated whenever the difference between the two IRGAs was more then a couple 
+of ppm.  No corrections were applied to compensate water vapor cross-
+sensitivity. 
+
+Radiometers: 
+One of the radiometers was purchased new from the manufacturers: the calibration 
+factor supplied with it was assumed to be accurate, and it was used as a 
+standard against which the second one was calibrated in July 1993. 
+
+Quantum sensor: 
+This was calibrated against another quantum sensor that is kept as a standard 
+and is not used the field.  This calibration was performed in 1993. 
+
+Cup anemometer: 
+The cup anemometer was calibrated in the wind tunnel at Edinburgh University.
+
+Humidity probe: 
+The Skye temperature and humidity probe was calibrated in July 1993 by enclosing 
+it in flasks containing salt solutions of known equilibrium water vapor 
+pressures as supplied by Campbell. 
+
+Psychrometer: 
+1994: The psychrometer was calibrated in July 1993.
+1996: The psychrometer were purchased new, and the manufacturer's calibration 
+factors for the temperature sensors were assumed to be accurate. 
+
+Wind vane:
+This was purchased new, and the manufacturer's calibration factors were used. 
+
+Pyranometer: 
+This was purchased new, and the manufacturer's calibration factors were used.
+
+4.2.1.1 Tolerance
+
+None given. 
+
+4.2.2 Frequency of calibrations 
+
+The LI-6262 was usually calibrated, every 4 to 7 days. Typical CO2 drift was 1 
+ppm drift in span and offset. Typical drift for the water vapor was 0.1 kPa in 
+span and offset.
+
+4.2.3 Other Calibration Information
+
+None given.
+
+5. Data Acquisition Methods
+
+Closed-path EC system: Analog output from the LI-6262 IRGA (CO2 and water vapor 
+concentrations) was digitized by the Solent anemometer at 11 Hz (which has 
+provision for up to five analog inputs).  The three wind velocity components and 
+speed of sound at 21 Hz were added, and 20 of these records were transmitted in 
+a packet together almost every second to a computer (PC) using a serial (RS232) 
+link.  The software (EddySol) then computed fluxes in real time, including 
+coordinate rotation but not frequency response corrections.  Corrections for the 
+effect of water vapor density on CO2 density were carried out by the LI-6262's 
+internal software.  The Solent digitization is 11 bit with input voltage between 
+0 and 5 V.  The LI-6262 output A/D converters were set for a 0 to 5 V range to 
+correspond with a 300 to 500 ppm CO2 concentration range and a 0 to 25 kPa vapor 
+pressure range.  Primary data and computed fluxes were stored on hard disk. 
+Primary data were periodically offloaded onto removable Syquest hard disk 
+cartridges. 
+
+Three Campbell Scientific 21x data loggers were employed to log the data: one 
+for the soil temperature probes and soil heat flux plates, one for the CO2 and 
+H2O concentration profiles and one for the rest of the weather station.  The raw 
+signal from each sensor was converted into the appropriate units in the data 
+logger program. 
+
+6. Observations
+
+6.1 Data Notes 
+
+None
+
+6.2 Field Notes. 
+
+None
+
+7. Data Description
+
+7.1 Spatial Characteristics
+
+7.1.1 Spatial Coverage
+
+All data were collected at the BOREAS SSA-OBS site.  North American Datum 1983 
+(NAD83) coordinates for the site are latitude 53.98717° N, longitude 105.11779° 
+W, and elevation of 628.94 m.
+
+7.1.2 Spatial Coverage Map
+
+Not applicable.
+
+7.1.3 Spatial Resolution
+
+The EC, CO2 concentration profile, and water vapor measurements are all point 
+measurements but the concentrations of CO2 and water vapor and the temperature 
+at a point are influenced by a certain area downwind, sometimes referred to as a 
+'footprint'.  Other related terms are Wind Aligned Blob (WAB) and fetch, and 
+their use is sometimes confused.
+
+The footprint is the roughly pear-shaped (broad end toward the measurement 
+point) area contributing to a particular measurement and its size and shape 
+depends on measurement height, wind speed, sensible heat flux, and surface 
+roughness during the measurement period.  The contribution to the measurement by 
+a point upwind is a logarithmic function of distance .  The theoretical 
+footprint is infinite, but to make the concept of a footprint more useful, the 
+footprint should be defined as the area contributing to a certain proportion of 
+the measured quantity; e.g., 95%. 
+
+The term WAB as used in BOREAS is the area contributing to measurements over the 
+period of the field campaign; i.e., the area occupied by the footprints of many 
+measurements.  The shape of such a WAB is circular, though often with a sector 
+discarded because either the wind rarely comes from that direction or 
+contamination is expected from that direction. 
+
+The fetch is the distance the wind travels over a certain surface type before it 
+reaches a particular (e.g., the measurement) point.  Therefore, if one is trying 
+to make measurements pertaining to a certain vegetation type, the length of the 
+footprint should be less than or equal to the fetch over that vegetation. 
+
+As the measurement is influenced by a large area downwind (the footprint) if the 
+wind flow and vegetation over that area are homogenous, the measurements will be 
+representative for that area; hence, the stringent requirements for EC sites. 
+
+The CO2 concentrations are point data, vertically spread below the EC system 
+with footprints similar to that of the top EC system but smaller and complicated 
+by the less homogenous turbulence within the canopy compared to that above. 
+
+7.1.4 Projection
+
+None.
+
+7.1.5 Grid Description
+
+None.
+
+7.2 Temporal Characteristics
+
+7.2.1 Temporal Coverage 
+
+The data were collected from 24-May to 19-September-1995 and from 24-March to 
+29-November-1996.  Soil temperatures and heat fluxes were measured from 15-
+November-1995 to 29-November-1996.
+
+7.2.2 Temporal Coverage Map
+
+None.
+
+7.2.3 Temporal Resolution
+
+The values are half hour averages except for rainfall, which is a half hour 
+total.  Soil temperatures in 1996 before 11-April-1996 are hourly averages.
+
+7.3 Data Characteristics
+
+Data characteristics are defined in the companion data definition file 
+(tf9tflxd.def).
+
+7.4 Sample Data Record
+
+Sample data format shown in the companion data definition file (tf9tflxd.def).
+
+8. Data Organization
+
+8.1 Data Granularity
+
+All of the SSA-OBS Tower Flux, Meteorological, and Soil Temperature Data are 
+contained in one dataset.
+
+
+8.2 Data Format
+
+The data files contain numerical and character fields of varying length 
+separated by commas. The character fields are enclosed with single apostrophe 
+marks. There are no spaces between the fields. Sample data records are shown in 
+the companion data definition file (tf9tflxd.def).
+
+9. Data Manipulations
+
+9.1 Formulae
+
+Fluctuations were calculated using an autoregressive moving average (digital 
+filter).  These fluctuations were used to calculate the covariances and 
+variances.  Coordinate rotation was a geometric transformation.  The speed of 
+sound was corrected for wind speed normal to the transducer path (Kaimal and 
+Gaynor, 1990) with geometric transformations to allow for the nonorthogonal 
+arrangement of transducer in the Solent anemometer.  Sonic temperature was 
+calculated from the speed of sound, and corrections to sensible heat flux 
+calculated using sonic rather than absolute temperature were made (Schotanus et 
+al., 1983).  Corrections for nonideal response were applied (Moore, 1986; 
+Philip, 1963).
+
+9.1.1 Derivation Techniques and Algorithms
+
+None.
+
+9.2 Data Processing Sequence
+
+Moving averages, variances, and covariances were calculated in real time, and 
+coordinate rotation was applied on the half-hourly covariances and variances. 
+Corrections for the use of sonic temperature were applied after data collection.
+
+9.2.1 Processing Steps
+
+BORIS staff processed these data by:
+
+1) Reviewing the initial data files and loading them online for BOREAS team 
+access.
+2) Designing relational data base tables to inventory and store the data.
+3) Loading the data into the relational data base tables.
+4) Working with the team to document the data set.
+5) Extracting the data into logical files.
+
+9.2.2 Processing Changes
+
+None.
+
+9.3 Calculations
+
+9.3.1 Special Corrections/Adjustments
+
+None.
+
+9.3.2 Calculated Variables
+
+The eddy flux measurements on calm nights underestimate the surface fluxes.  
+Inspection of the CO2 storage flux also shows that storage flux does not account 
+for the underestimation by the CO2 eddy flux.  To provide estimates of the 
+surface fluxes of CO2, H2O, sensible heat, and latent heat fluxes, the variables 
+FILLED_CO2_FLUX_26M, FILLED_SENSIBLE_HEAT_26M, FILLED_LATENT_HEAT_26M, and 
+FILLED_H2O_FLUX_26M have been added to the data set.  These variables are equal 
+to the corresponding eddy flux values except on calm nights as defined below.  
+Gaps in the eddy flux measurements have also been "filled in" by use of 
+regression equations of eddy flux against meteorological variables.  Below is 
+the SAS (SAS Institute, NC) program that was used to calculate these variables. 
+
+/**************** SAS PROGRAM ************************/
+data boreas96.boris96f;
+  merge boreas96.boris96m boreas96.amodel;
+    by end_time;
+  SVP = 0.611 * exp(17.27*Tskye/(Tskye+237.15));  * saturated vapour pressure
+                                                  * Tskye is AIR_TEMP_26M
+  VPD = SVP - VP;      * VPD is saturated vapour pressure deficit
+                       * VP is vapour pressure
+  Rn_G = Rn - SHF;     * Rn is R_NET_16M; SHF is SOIL_HEAT_FLUX_7CM
+  if month >= 6 and month <=8 then
+    R = exp(0.6038 + 0.0833 *Ts5cm + 0.0096 * Tskye);  * Respiration
+  else
+    R = exp(0.2688 + 0.0874 *Ts5cm + 0.0413 * Tskye);
+  RTa = exp(0.403+0.0875*Tskye); 
+            * Respiration as function of AIR_TEMP_26M only
+  RTs5 = exp(0.117+0.1483*Ts5cm);
+            * Respiration as function of SOIL_TEMP_5CM only
+  retain Tmin -3 Topt 18 Tmax 32;
+  P = (Tmax-Topt)/(Topt-Tmin);
+  if Tskye > Tmin and Tskye < Tmax then 
+    At = ((Tskye - Tmin)*((Tmax-Tskye)**P)) / ((Topt-Tmin)*((Tmax-Topt)**P));
+  else At = 0;        * At is assimilation =(CO2 flux - respiration) as
+                      * normalised function of AIR_TEMP_26M
+  if VPD < 1.3 then Ad = 1;            * Ad is assimilation as a normalised
+  else if VPD > 5 then Ad = 0;         * function of VPD
+  else Ad = 1 -1/(5- 1.3)*(VPD - 1.3);
+  if month =3 then qfe = 0.0002;       * Quantum flux efficiency
+  if month =4 then qfe = 0.004;
+  if month =5 then qfe = 0.013;
+  if month =6 then qfe = 0.027;
+  if month =7 then qfe = 0.035;
+  if month =8 then qfe = 0.032;
+  if month =9 then qfe = 0.031;
+  if month =10 then qfe = 0.011;
+  if month =11 then qfe = 0.0006;
+  Amax=50; theta = 0.8;
+  Aq = ((qfe*parin+Amax) - sqrt( (qfe*parin+Amax)**2-4*theta*qfe*Amax*parin)) / 
+2*theta;        * Light response curve, NOT normalised (parin is PPFD_26M )
+  Amodel=Aq*Ad*At;     
+              * Assimilation model s function of PPFD, VPD and temperature
+  Fcmodel = -Amodel+R;   * CO2_FLUX_26M model
+
+  if parin = 0 then
+    do;
+      if Fc = . or friction < 0.35 then    * friction is FRICTION_VELOCITY
+         if R = . then
+            if Rta = . then Fc_fill = RTs5;
+            else Fc_fill = RTa;
+         else Fc_fill= R;
+      else Fc_fill = Fc;
+      if E  = . or friction < 0.35 then E_fill = 0; else E_fill = E;
+      if LE = . or friction < 0.35 then LE_fill= 0; else LE_fill = LE;
+      if H  = . or friction < 0.35 then
+         if shf = . then H_fill = Rn;
+         else H_fill = Rn_G;
+      else H_fill = H;
+    end;
+  else
+/* if parin > 0;  */
+    do;
+      if Fc = . then
+        if Ts5cm = . then
+          Fc_fill = -Amodel + RTa;
+        else
+          Fc_fill = Fcmodel;
+      else Fc_fill = Fc;
+      if LE = . then
+        if month = 3 then
+          if shf = . then LE_fill = 0.04 * Rn;
+          else LE_fill = 0.04*Rn_G;
+        else if shf = . then LE_fill = 0.30 * Rn;
+             else LE_fill = 0.30*Rn_G;
+      else LE_fill = LE;
+      if E  = . then E_fill  = LE_fill/44.4; else E_fill = E;
+      if H  = . then
+         if shf = . then H_fill = 0.62 *Rn;
+         else H_fill  = 0.62 * Rn_G;
+      else H_fill = H;
+    end;
+
+  drop VPD CUMTEMP AD AT AQ AQlonly AMMAX LNAMMAX weeks2 week qfe amax
+       theta fcres Rn_G Amodel Fcmodel R RTa RTs5 A P Tmin Topt Tmax SVP;
+
+run;
+/*************************************************************************/
+
+9.4 Graphs and Plots 
+
+None.
+
+10. Errors
+
+10.1 Sources of Error
+
+The EC system was placed on an upright pole 3 m above the top of the tower so 
+that the tower would cause very little disturbance to the wind, whatever its 
+direction.  Therefore, EC measurements would not be especially invalidated by 
+any wind direction with respect to the tower; however, the access trail to the 
+site is to the east, and any production of CO2 by people or vehicles on the 
+trail may affect the CO2 fluxes measured if the wind is from the east.  Also, in 
+the making of the access trail, extensive damage was caused to the muskeg, with 
+many trees being felled; hence, photosynthesis over this area will be 
+uncharacteristically lower and respiration similarly high.
+
+The eddy flux measurements on calm nights underestimate the surface fluxes.  
+This problem is address in the filled data columns.
+
+10.2 Quality Assessment
+
+10.2.1 Data Validation by Source
+
+None given.
+
+10.2.2 Confidence Level/Accuracy Judgment
+
+None given.
+
+10.2.3 Measurement Error for Parameters
+
+None given.
+
+10.2.4 Additional Quality Assessments
+
+None given.
+
+10.2.5 Data Verification by Data Center
+
+Data were examined to check for spikes, values that are four standard deviations 
+from the mean, long periods of constant values, and missing data.
+
+11. Notes 
+
+11.1 Limitations of the Data
+
+See Section 10.1.
+
+11.2 Known Problems with the Data
+
+For the 1994 data:
+Soil temperature at 1 m: before 1-July-1994 this was measured using a thermistor 
+from which the signal was very noisy.  On 1-July-1994 at 22:30 Greenwich Mean 
+Time (GMT) this thermistor was replaced by a thermocouple with a much more 
+accurate output.  There was no trend in the soil temperature at 1 m before 15-
+June-1994 at 02:00 with a mean of 0 °C and the noisy values for this period have 
+been replaced with 0 °C.  From 1-June 02:00 GMT until 1-July-1994 20:00 GMT, the 
+signal has been smoothed.  Any true diurnal trend has been removed by this 
+substitution, but the values are estimated to be within 0.3 °C.
+
+EC measurements: The data acquisition software missed the flux averaging times 
+shown below. (This failure was caused by a fragmented hard disk making disk 
+access slow.)  Data were not lost, although the fluxes were not averaged at the 
+end of the half hour, but at the end of an hour.  Therefore, the missing 
+averages (at the times shown below) have been substituted with the value 
+calculated at the next half hour  (times given as GMT):
+Day:  26/07/94
+  Times: 03:30, 05:30, 07:30, 09:30, 11:30, 13:30, 15:30, 21:30, 23:30
+Day:  27/07/94
+  Times: 00:30 01:30 03:30 05:30 06:00 07:30 09:30 11:30 13:30 19:00 21:00 23:00 
+Day:  28/07/94
+  Times: 00:00, 01:00, 03:00, 07:00, 09:00, 12:30, 13:00, 14:30, 15:00, 15:30,
+        16:30, 18:30, 20:30, 22:30
+Day:  29/07/94
+  Times: 00:30, 02:30, 04:30, 06:30, 08:30, 10:30, 12:30, 14:30, 15:00, 16:30,
+         18:30, 20:30, 21:00, 22:30, 23:00 
+Day:  30/07/94   Times: 00:30, 02:30, 03:00, 04:30 
+Day:  09/08/94   Times: 18:00, 22:00
+Day:  10/08/94 
+  Times: 04:00, 06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00, 22:00, 
+         23:30 
+Day:  11/08/94 
+  Times: 00:00, 01:30, 02:00, 03:30, 04:00, 06:00, 08:00, 09:30, 10:00, ,11:30, 
+         12:00, 14:00, 16:00, 18:00, 20:00, 21:30, 22:00, 23:30 
+Day:  12/08/94   Times: 00:00, 01:30, 02:00, 03:30, 04:00 
+Day:  29/08/94   Times: 17:30, 19:30, 21:30, 23:30
+Day:  30/08/94 
+  Times: 01:30, 03:30, 05:30, 07:30, 09:30, 11:30, 13:30, 15:00, 15:30, ,17:00, 
+         17:30, 19:30, 21:30, 23:00, 23:30 
+Day:  31/08/94   Times: 01:00, 01:30, 02:00 
+Day:  09/09/94   Times: 02:00, 04:00, 12:00, 14:00, 16:00, 18:00, 20:00, 22:00
+Day:  10/09/94   Times: 00:00, 02:00, 04:00, 06:00, 08:00, 10:00, 12:00, 14:00, 
+                        16:00, 18:00 
+Day:  17/09/94   Times: 06:00, 18:00, 21:30 
+Day:  18/09/94 
+  Times: 01:30, 03:30, 05:30, 07:30, 09:30, 11:30, 13:30, 15:30, 17:30, ,19:30, 
+         21:30, 23:30 
+Day:  19/09/94   Times: 01:30, 03:30, 05:30, 07:30 
+
+11.3 Usage Guidance
+
+None given.
+
+11.4 Other Relevant Information
+
+None given.
+
+12. Application of the Data Set
+
+These data are useful for the study of water, energy, and carbon exchange in a 
+mature black spruce forest.
+
+13. Future Modifications and Plans
+
+None.
+
+14. Software
+
+14.1 Software Description
+
+Some samples of code used in the analysis are shown in Section 9.3.2.
+
+14.2 Software Access
+
+None given.
+
+15. Data Access
+
+15.1 Contact Information
+
+Ms. Beth Nelson
+BOREAS Data Manager
+NASA GSFC
+Greenbelt, MD 
+(301) 286-4005
+(301) 286-0239 (fax)
+Elizabeth.Nelson@gsfc.nasa.gov
+
+15.2 Data Center Identification
+
+See Section 15.1.
+
+15.3 Procedures for Obtaining Data
+
+Users may place requests by telephone, electronic mail, or fax.
+
+15.4 Data Center Status/Plans
+
+These data are available from the Earth Observing System Data and Information 
+System (EOSDIS) Oak Ridge National Laboratory (ORNL) Distributed Active Archive 
+Center (DAAC).
+
+The BOREAS contact at ORNL is:
+ORNL DAAC User Services
+Oak Ridge National Laboratory
+(865) 241-3952
+ornldaac@ornl.gov
+ornl@eos.nasa.gov
+
+16. Output Products and Availability
+
+16.1 Tape Products
+
+None.
+
+16.2 Film Products
+
+None.
+
+16.3 Other Products
+
+The data are available as tabular American Standard Code for Information 
+Interchange (ASCII) text files.
+
+17. References
+
+17.1 Platform/Sensor/Instrument/Data Processing Documentation
+
+None.
+
+17.2 Journal Articles and Study Reports
+
+Jarvis, P.G., J.M. Massheder, S.E. Hale, J.G. Moncrieff, M. Rayment, and S. L. 
+Scott. 1997. Seasonal variation of carbon dioxide, water vapour and
+energy exchanges of a boreal black spruce forest.  JGR. 102(D24):28953-28966. 
+
+Kaimal, J.C. and Gaynor, J.E. 1991. Another look at sonic thermometry. Bound. 
+Layer Meteorol. 56:401-410. 
+
+Moore, C.J. 1986. Frequency response corrections for eddy correlation systems. 
+Bound. Layer Meteorol. 37:17-35. 
+
+Pearcy, R.W., J. Ehleringer, H. A. Mooney, and P.W. Rundel. 1991. Plant 
+Physiological Ecology: Field methods and instrumentation. Chapman and Hall, 
+London and New York. 
+
+Philip, J.R. 1963. The damping of a fluctuating concentration by continuous 
+sampling through a tube. Aust. J. Phys. 16:454-463. 
+
+Scheupp, P.H., M.Y. Leclerc, J.I. Macpherson, and R.L. Desjardins, R.L. 1990. 
+Bound. Layer Meteorol. 50:355-373. 
+
+Schotanus, P., F.T.M. Nieuwstadt, and H.A.R. de Bruin. 1983. Temperature 
+measurement with a sonic anemometer and its application to heat and moisture 
+fluxes. Bound. Layer Meteorol. 26:81-93.
+
+Sellers, P.and  F. Hall. 1994. Boreal Ecosystem-Atmosphere Study: Experiment 
+Plan. Version 1994-3.0, NASA BOREAS Report (EXPLAN 94). 
+
+Sellers, P., F. Hall, H. Margolis, B. Kelly, D. Baldocchi, G. den Hartog, J. 
+Cihlar, M.G. Ryan, B. Goodison, P. Crill, K.J. Ranson, D. Lettenmaier, and D.E. 
+Wickland. 1995. The boreal ecosystem-atmosphere study (BOREAS): an overview and 
+earlyresults from the 1994 field year. Bulletin of the American Meteorological 
+Society. 76(9):1549-1577. 
+
+Sellers, P., F. Hall, and K.F. Huemmrich. 1996. Boreal Ecosystem-Atmosphere 
+Study: 1994 Operations. NASA BOREAS Report (OPSDOC 94). 
+
+Sellers, P.and F. Hall. 1996. Boreal Ecosystem-Atmosphere Study: Experiment 
+Plan. Version 1996-2.0, NASA BOREAS Report (EXPLAN 96). 
+
+Sellers, P., F. Hall, and K.F. Huemmrich. 1997. Boreal Ecosystem-Atmosphere 
+Study: 1996 Operations. NASA BOREAS Report (OPSDOC 96). 
+
+Sellers, P. J., F. G. Hall, R. D. Kelly, A. Black, D. Baldocchi, J. Berry,
+M. Ryan, K. J. Ranson, P. M. Crill, D. P. Lettenmaier, H. Margolis, J.
+Cihlar, J. Newcomer, D. Fitzjarrald, P. G. Jarvis, S. T. Gower, D.
+Halliwell, D. Williams, B. Goodison, D. E. Wickland, and F. E. Guertin,
+BOREAS in 1997: Experiment overview, scientific results, and future
+directions, Journal of Geophysical Research, 102 (D24), 28731-28769, 1997.
+Webb, E.K., G.I. Pearman, and R. Leuning. 1980. Correction of flux measurements 
+density effects due to heat and water vapour transfer. Quart. J. R. Met. Soc. 
+106:85-100 
+
+17.3 Archive/DBMS Usage Documentation
+
+None.
+
+18. Glossary of Terms
+
+None.
+
+19. List of Acronyms
+
+    A/D     - Analog to Digital
+    ASCII   - American Standard Code for Information Interchange
+    BOREAS  - BOReal Ecosystem-Atmosphere Study
+    BORIS   - BOREAS Information System
+    DAAC    - Distributed Active Archive Center
+    EC      - Eddy Covariance
+    EOS     - Earth Observing System
+    EOSDIS  - EOS Data and Information System
+    GMT     - Greenwich Mean Time
+    GSFC    - Goddard Space Flight Center
+    i.d.    - internal diameter
+    IRGA    - Infrared Gas Analyzer
+    NASA    - National Aeronautics and Space Administration
+    NSA     - Northern Study Area
+    OBS     - Old Black Spruce
+    ORNL    - Oak Ridge National Laboratory
+    PANP    - Prince Albert National Park
+    PAR     - Photosynthetically Active Radiation
+    PC      - Personal Computer
+    PPFD    - Photosynthetic Photon Flux Density
+    REBS    - Radiation Energy Balance Systems
+    SSA     - Southern Study Area
+    TF      - Tower Flux
+    URL     - Uniform Resource Locator
+    WAB     - Wind Aligned Blob
+    WMO     - World Meteorological Organization
+
+20. Document Information
+
+20.1 Document Revision Date
+
+     Written: 22-May-1998
+     Revised: 06-Oct-1998
+
+20.2 Document Review Date(s)
+
+     BORIS Review: 06-Oct-1998
+     Science Review: 
+
+20.3 Document ID
+
+20.4 Citation
+
+P.G. Jarvis, J.M. Massheder, J.B. Moncrieff, and M.B. Rayment, Institute of 
+Ecology and Resource Management, Edinburgh University. 
+
+20.5 Document Curator
+
+20.6 Document URL
+
+
+Keywords
+
+BLACK SPRUCE
+TOWER FLUX
+METEOROLOGY
+SENSIBLE HEAT FLUX
+LATENT HEAT FLUX
+CARBON DIOXIDE FLUX
+CARBON DIOXIDE CONCENTRATION
+PHOTOSYNTHETIC PHOTON FLUX DENSITY
+PHOTOSYNTHETICALLY ACTIVE RADIATION
+PPFD
+PAR
+NET RADIATION
+AIR TEMPERATURE
+SOIL TEMPERATURE
+VAPOR PRESSURE
+WIND SPEED
+RAINFALL
+
+TF09_Flux_Met.doc
+10/09/98

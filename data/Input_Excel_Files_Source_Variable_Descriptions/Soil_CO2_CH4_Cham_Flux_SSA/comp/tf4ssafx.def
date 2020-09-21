@@ -1,0 +1,433 @@
+BOREAS TF-04 CO2 and CH4 Chamber Flux Data from the SSA
+
+
+The three data files are described separately. The Sections 7.3 - 7.4 are
+repeated for each data file.
+
+A.  [ TF04_ch4_chamber_flux.dat ]    
+                                   
+B.  [ TF04_gross_co2_chamb_flux.dat ]
+
+C.  [ TF04_net_co2_chamber_flux.dat ]
+
+                                       
+****************************************************************************
+****************************************************************************
+
+
+A.  [ TF04_ch4_chamber_flux.dat ]                                       
+
+7.3 Data Characteristics     
+
+7.3.1 Parameter/Variable                                                        
+
+TF04_ch4_chamber_flux.dat
+
+The parameters contained in the data files are:                   
+
+         Column Name                                                            
+------------------------------                                                  
+SITE_NAME                                                                       
+SUB_SITE                                                                        
+DATE_OBS                                                                        
+TIME_OBS                                                                        
+CHAMBER_ID                                                                      
+CH4_FLUX                                                                        
+REVISION_DATE                                                                   
+CRTFCN_CODE                                                                     
+
+
+7.3.2 Variable Description/Definition                                           
+                                                                                
+The descriptions of the parameters contained in the data files are:                                                                 
+                                                                                
+         Column Name                             Description                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      The identifier assigned to the site by BOREAS, 
+                               in the format SSS-TTT-CCCCC, where SSS identifies 
+                               the portion of the study area: NSA, SSA, REG,  
+                               TRN, and TTT identifies the cover type for the 
+                               site, 999 if unknown, and CCCCC is the identifier  
+                               for site, exactly what it means will vary with 
+                               site type.                                        
+SUB_SITE                       The identifier assigned to the sub-site by BOREAS 
+                               in the format GGGGG-IIIII, where GGGGG is the 
+                               group associated with the sub-site instrument,  
+                               e.g. HYD06 or STAFF, and IIIII is the identifier 
+                               for sub-site, often this will refer to an
+                               instrument.                                           
+DATE_OBS                       The date on which the data were collected.       
+TIME_OBS                       The Greenwich Mean Time (GMT) when the data were 
+                               collected.                                      
+CHAMBER_ID                     Identifier assigned to the chamber measured      
+CH4_FLUX                       Methane flux.                                    
+REVISION_DATE                  The most recent date when the information in the 
+                               referenced data base table record was revised.  
+CRTFCN_CODE                    The BOREAS certification level of the data.  Exa 
+                               Examples are CPI (Checked by PI), CGR (Certified 
+                               by Group), PRE (Preliminary), and CPI-??? (CPI 
+                               but questionable).                                  
+
+7.3.3 Unit of Measurement                                                       
+
+The measurement units for the parameters contained in the data files are:                                                                 
+
+         Column Name                                Units                       
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [none]                                           
+SUB_SITE                       [none]                                           
+DATE_OBS                       [DD-MON-YYYY]                                      
+TIME_OBS                       [HHMM GMT]                                       
+CHAMBER_ID                     [none]                                           
+CH4_FLUX                       [micromoles][meter^-2][second^-1]                
+REVISION_DATE                  [DD-MON-YYYY]                                      
+CRTFCN_CODE                    [none]                                           
+
+7.3.4 Data Source                                                               
+
+The source of the parameter values contained in the data files are:                                                                 
+
+         Column Name                             Data Source                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [Assigned by BORIS Staff]
+SUB_SITE                       [Assigned by BORIS Staff]
+DATE_OBS                       [Investigator]                                
+TIME_OBS                       [Investigator]
+CHAMBER_ID                     [Investigator]                                
+CH4_FLUX                       [Gas Chromatograph]                                
+REVISION_DATE                  [Assigned by BORIS Staff]
+CRTFCN_CODE                    [Assigned by BORIS Staff]
+
+7.3.5  Data Range                                                               
+
+The following table gives information about the parameter values found in       
+the data files.                                                   
+
+                     Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            SSA-9JP-CLRCT  SSA-YJP-FLXTR  None    None   None    None 
+SUB_SITE             9TF04-FLX01    9TF04-FLX02    None    None   None    None 
+DATE_OBS             31-MAY-1994    21-MAR-1995    None    None   None    None 
+TIME_OBS             1420           2341           None    None   None    None 
+CHAMBER_ID           A              X              None    None   None    None 
+CH4_FLUX             -643           0              None    None   None    None 
+REVISION_DATE        09-NOV-1998    10-NOV-1998    None    None   None    None 
+CRTFCN_CODE          CPI            CPI            None    None   None    None 
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used 
+                      to indicate an attempt was made to determine the 
+                      parameter value, but the value was deemed to be 
+                      unreliable by the analysis personnel.
+Below Detect Limit -- The value that indicates parameter values below the 
+                      instruments detection limits.  This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to 
+                      determine the parameter value.  This usually 
+                      indicates that BORIS combined several similar but 
+                      not identical data sets into the same data base table
+                      but this particular science team did not 
+                      measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+--------------------------------------------------------------------------------
+
+7.4 Sample Data Record                                                          
+
+SITE_NAME,SUB_SITE,DATE_OBS,TIME_OBS,CHAMBER_ID,CH4_FLUX,REVISION_DATE,CRTFCN_CODE
+'SSA-9JP-CLRCT','9TF04-FLX01',10-JUN-1994,1620,'S',-101.0,09-NOV-1998,'CPI'
+'SSA-9JP-CLRCT','9TF04-FLX01',10-JUN-1994,1621,'T',-172.0,09-NOV-1998,'CPI'
+
+
+****************************************************************************
+****************************************************************************
+
+
+
+
+B.  [ TF04_gross_co2_chamb_flux.dat ]
+
+                                   
+7.3 Data Characteristics     
+
+7.3.1 Parameter/Variable                                                        
+
+TF04_gross_co2_chamb_flux.dat
+
+The parameters contained in the data files are:                   
+
+Column Name                                                            
+------------------------------                                                  
+SITE_NAME                                                                       
+SUB_SITE                                                                        
+DATE_OBS                                                                        
+TIME_OBS                                                                        
+CHAMBER_ID                                                                      
+GROSS_CO2_FLUX                                                                  
+REVISION_DATE                                                                   
+CRTFCN_CODE                                                                     
+
+
+7.3.2 Variable Description/Definition                                           
+                                                                                
+The descriptions of the parameters contained in the data files are:                                                                 
+                                                                                
+Column Name                             Description                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      The identifier assigned to the site by BOREAS, 
+                               in the format SSS-TTT-CCCCC, where SSS identifies 
+                               the portion of the study area: NSA, SSA, REG,  
+                               TRN, and TTT identifies the cover type for the 
+                               site, 999 if unknown, and CCCCC is the identifier  
+                               for site, exactly what it means will vary with 
+                               site type.                                        
+SUB_SITE                       The identifier assigned to the sub-site by BOREAS 
+                               in the format GGGGG-IIIII, where GGGGG is the 
+                               group associated with the sub-site instrument,  
+                               e.g. HYD06 or STAFF, and IIIII is the identifier 
+                               for sub-site, often this will refer to an
+                               instrument.                                           
+DATE_OBS                       The date on which the data were collected.       
+TIME_OBS                       The Greenwich Mean Time (GMT) when the data were 
+                               collected.                                      
+CHAMBER_ID                     Identifier assigned to the chamber measured      
+GROSS_CO2_FLUX                 The gross CO2 flux measured within the chamber.  
+REVISION_DATE                  The most recent date when the information in the 
+                               referenced data base table record was revised.  
+CRTFCN_CODE                    The BOREAS certification level of the data.  Exa 
+                               Examples are CPI (Checked by PI), CGR (Certified 
+                               by Group), PRE (Preliminary), and CPI-??? (CPI 
+                               but questionable).                                  
+
+7.3.3 Unit of Measurement                                                       
+
+The measurement units for the parameters contained in the data files are:                                                                 
+
+Column Name                                Units                       
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [none]                                           
+SUB_SITE                       [none]                                           
+DATE_OBS                       [DD-MON-YYYY]                                      
+TIME_OBS                       [HHMM GMT]                                       
+CHAMBER_ID                     [none]                                           
+GROSS_CO2_FLUX                 [micromoles][meters^-2][second^-1]               
+REVISION_DATE                  [DD-MON-YYYY]                                      
+CRTFCN_CODE                    [none]                                           
+
+7.3.4 Data Source                                                               
+
+The source of the parameter values contained in the data files are:                                                                 
+Column Name                             Data Source                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [Assigned by BORIS Staff]
+SUB_SITE                       [Assigned by BORIS Staff]
+DATE_OBS                       [Investigator]                                
+TIME_OBS                       [Investigator]
+CHAMBER_ID                     [Investigator]                                
+GROSS_CO2_FLUX                 [LI-COR 6200 CO2 analyzer]
+REVISION_DATE                  [Assigned by BORIS Staff]
+CRTFCN_CODE                    [Assigned by BORIS Staff]
+
+7.3.5  Data Range                                                               
+
+The following table gives information about the parameter values found in       
+the data files.                                                   
+
+                     Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            SSA-9JP-CLRCT  SSA-YJP-FLXTR  None    None   None    None 
+SUB_SITE             9TF04-FLX01    9TF04-FLX02    None    None   None    None 
+DATE_OBS             26-MAY-1994    20-MAR-1995    None    None   None    None 
+TIME_OBS             0              2350           None    None   None    None 
+CHAMBER_ID           A              X              None    None   None    None 
+GROSS_CO2_FLUX       -.18           9.15           None    None   None    None 
+REVISION_DATE        10-NOV-1998    10-NOV-1998    None    None   None    Blank
+CRTFCN_CODE          CPI            CPI            None    None   None    None 
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used 
+                      to indicate an attempt was made to determine the 
+                      parameter value, but the value was deemed to be 
+                      unreliable by the analysis personnel.
+Below Detect Limit -- The value that indicates parameter values below the 
+                      instruments detection limits.  This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to 
+                      determine the parameter value.  This usually 
+                      indicates that BORIS combined several similar but 
+                      not identical data sets into the same data base table
+                      but this particular science team did not 
+                      measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+--------------------------------------------------------------------------------
+
+7.4 Sample Data Record                                                          
+
+SITE_NAME,SUB_SITE,DATE_OBS,TIME_OBS,CHAMBER_ID,GROSS_CO2_FLUX,REVISION_DATE,CRTFCN_CODE
+'SSA-9JP-CLRCT','9TF04-FLX01',26-MAY-1994,2326,'W',1.75,10-NOV-1998,'CPI'
+'SSA-9JP-CLRCT','9TF04-FLX01',26-MAY-1994,2338,'X',1.55,10-NOV-1998,'CPI'
+
+
+
+                                       
+****************************************************************************
+****************************************************************************
+
+
+C.  [ TF04_net_co2_chamber_flux.dat ]                                       
+
+7.3 Data Characteristics     
+
+7.3.1 Parameter/Variable                                                        
+
+TF04_net_co2_chamber_flux.dat 
+
+The parameters contained in the data files are:                   
+
+Column Name                                                            
+------------------------------                                                  
+SITE_NAME                                                                       
+SUB_SITE                                                                        
+DATE_OBS                                                                        
+TIME_OBS                                                                        
+CHAMBER_ID                                                                      
+NET_CO2_FLUX                                                                    
+REVISION_DATE                                                                   
+CRTFCN_CODE                                                                     
+
+7.3.2 Variable Description/Definition                                           
+                                                                                
+The descriptions of the parameters contained in the data files are:                                                                 
+
+Column Name                             Description                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      The identifier assigned to the site by BOREAS, 
+                               in the format SSS-TTT-CCCCC, where SSS identifies 
+                               the portion of the study area: NSA, SSA, REG,  
+                               TRN, and TTT identifies the cover type for the 
+                               site, 999 if unknown, and CCCCC is the identifier  
+                               for site, exactly what it means will vary with 
+                               site type.                                        
+SUB_SITE                       The identifier assigned to the sub-site by BOREAS 
+                               in the format GGGGG-IIIII, where GGGGG is the 
+                               group associated with the sub-site instrument,  
+                               e.g. HYD06 or STAFF, and IIIII is the identifier 
+                               for sub-site, often this will refer to an
+                               instrument.                                           
+DATE_OBS                       The date on which the data were collected.       
+TIME_OBS                       The Greenwich Mean Time (GMT) when the data were 
+                               collected.                                      
+CHAMBER_ID                     Identifier assigned to the chamber measured      
+NET_CO2_FLUX                   The net CO2 flux measured within the chamber.    
+REVISION_DATE                  The most recent date when the information in the 
+                               referenced data base table record was revised.  
+CRTFCN_CODE                    The BOREAS certification level of the data.  Exa 
+                               Examples are CPI (Checked by PI), CGR (Certified 
+                               by Group), PRE (Preliminary), and CPI-??? (CPI 
+                               but questionable).                                  
+
+7.3.3 Unit of Measurement                                                       
+
+The measurement units for the parameters contained in the data files are:                                                                 
+
+Column Name                                Units                       
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [none]                                           
+SUB_SITE                       [none]                                           
+DATE_OBS                       [DD-MON-YYYY]                                      
+TIME_OBS                       [HHMM GMT]                                       
+CHAMBER_ID                     [none]                                           
+NET_CO2_FLUX                   [micromoles][meter^-2][second^-1}                
+REVISION_DATE                  [DD-MON-YYYY]                                      
+CRTFCN_CODE                    [none]                                           
+
+7.3.4 Data Source                                                               
+
+The source of the parameter values contained in the data files are:                                                                 
+
+Column Name                             Data Source                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [Assigned by BORIS Staff]
+SUB_SITE                       [Assigned by BORIS Staff]
+DATE_OBS                       [Investigator]                                
+TIME_OBS                       [Investigator]
+CHAMBER_ID                     [Investigator]                                
+NET_CO2_FLUX                   [LI-COR 6200 CO2 analyzer]
+REVISION_DATE                  [Assigned by BORIS Staff]
+CRTFCN_CODE                    [Assigned by BORIS Staff]
+
+7.3.5  Data Range                                                               
+
+The following table gives information about the parameter values found in       
+the data files.                                                   
+
+                     Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            SSA-9JP-CLRCT  SSA-YJP-FLXTR  None    None   None    None 
+SUB_SITE             9TF04-FLX01    9TF04-FLX02    None    None   None    None 
+DATE_OBS             02-JUN-1994    15-SEP-1994    None    None   None    None 
+TIME_OBS             234            2308           None    None   None    None 
+CHAMBER_ID           A              X              None    None   None    None 
+NET_CO2_FLUX         -1.82          6.63           None    None   None    None 
+REVISION_DATE        10-NOV-1998    10-NOV-1998    None    None   None    None 
+CRTFCN_CODE          CPI            CPI            None    None   None    None 
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used 
+                      to indicate an attempt was made to determine the 
+                      parameter value, but the value was deemed to be 
+                      unreliable by the analysis personnel.
+Below Detect Limit -- The value that indicates parameter values below the 
+                      instruments detection limits.  This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to 
+                      determine the parameter value.  This usually 
+                      indicates that BORIS combined several similar but 
+                      not identical data sets into the same data base table
+                      but this particular science team did not 
+                      measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+--------------------------------------------------------------------------------
+
+7.4 Sample Data Record                                                          
+
+SITE_NAME,SUB_SITE,DATE_OBS,TIME_OBS,CHAMBER_ID,NET_CO2_FLUX,REVISION_DATE,CRTFCN_CODE
+'SSA-9JP-CLRCT','9TF04-FLX01',28-JUN-1994,1824,'S',1.37,10-NOV-1998,'CPI'
+'SSA-9JP-CLRCT','9TF04-FLX01',28-JUN-1994,1840,'T',1.87,10-NOV-1998,'CPI'
+
+

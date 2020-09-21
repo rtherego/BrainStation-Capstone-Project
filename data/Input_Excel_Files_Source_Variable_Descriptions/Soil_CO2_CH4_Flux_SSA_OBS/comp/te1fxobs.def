@@ -1,0 +1,166 @@
+BOREAS TE-01 CO2 and CH4 Flux data over the SSA-OBS Site
+
+7.3 Data Characteristics                                                        
+                                                                                
+7.3.1 Parameter/Variable                                                        
+                                                                                
+The parameters contained in the data files on the CD-ROM are:                   
+                                                                                
+         Column Name                                                            
+------------------------------                                                  
+SITE_NAME                                                                       
+SUB_SITE                                                                        
+DATE_OBS                                                                        
+MEAN_CH4_FLUX                                                                   
+STD_ERR_CH4                                                                     
+CH4_FLUX_NIGHT                                                                  
+STD_ERR_CH4_NIGHT                                                               
+MEAN_CO2_FLUX                                                                   
+STD_ERR_CO2                                                                     
+CO2_FLUX_NIGHT                                                                  
+STD_ERR_CO2_NIGHT                                                               
+CRTFCN_CODE                                                                     
+REVISION_DATE                                                                   
+
+                                                                                
+7.3.2 Variable Description/Definition                                           
+                                                                                
+The descriptions of the parameters contained in the data files on               
+the CD-ROM are:                                                                 
+                                                                                
+         Column Name                             Description                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      The identifier assigned to the site by BOREAS, in 
+                               the format SSS-TTT-CCCCC, where SSS identifies 
+                               the portion of the study area: NSA, SSA, REG, 
+                               TRN, and TTT identifies the cover type for the 
+                               site, 999 if unknown, and CCCCC is the identifier  
+                               for site, exactly what it means will vary with 
+                               site type.                                        
+SUB_SITE                       The identifier assigned to the sub-site by 
+                               BOREAS, in the format GGGGG-IIIII, where GGGGG is 
+                               the group associated with the sub-site 
+                               instrument, e.g. HYD06 or STAFF, and IIIII is the 
+                               identifier for sub-site, often this will refer to 
+                               an instrument.                                           
+DATE_OBS                       The date on which the data were collected.       
+MEAN_CH4_FLUX                  Mean of all daily methane flux measurements.     
+STD_ERR_CH4                    Standard error of means.                         
+CH4_FLUX_NIGHT                 Measurements done during the night of Aug 14 to  
+                               3 AM Aug 15.                                     
+STD_ERR_CH4_NIGHT              Standard error for measurements done during the  
+                               night of Aug 14 to 3 AM Aug 15.                  
+MEAN_CO2_FLUX                  Mean of the daily CO2 flux measurements.         
+STD_ERR_CO2                    Standard error of means.                         
+CO2_FLUX_NIGHT                 Measurements done during the night of Aug 14 to  
+                               3 AM Aug 15.                                     
+STD_ERR_CO2_NIGHT              Standard error for measurements done during the  
+                               night of Aug 14 to 3 AM Aug 15.                  
+CRTFCN_CODE                    The BOREAS certification level of the data.  
+                               Examples are CPI (Checked by PI), CGR (Certified 
+                               by Group), PRE (Preliminary), and CPI-??? (CPI 
+                               but questionable).                                  
+REVISION_DATE                  The most recent date when the information in the 
+                               referenced data base table record was revised.  
+
+7.3.3 Unit of Measurement                                                       
+
+The measurement units for the parameters contained in the data files on         
+the CD-ROM are:                                                                 
+
+         Column Name                                Units                       
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [none]                                           
+SUB_SITE                       [none]                                           
+DATE_OBS                       [DD-MON-YYYY]                                      
+MEAN_CH4_FLUX                  [micromoles][meter^-2][second^-1]                
+STD_ERR_CH4                    [micromoles][meter^-2][second^-1]                
+CH4_FLUX_NIGHT                 [micromoles][meter^-2][second^-1]                
+STD_ERR_CH4_NIGHT              [micromoles][meter^-2][second^-1]                
+MEAN_CO2_FLUX                  [micromoles][meter^-2][second^-1]                
+STD_ERR_CO2                    [micromoles][meter^-2][second^-1]                
+CO2_FLUX_NIGHT                 [micromoles][meter^-2][second^-1]                
+STD_ERR_CO2_NIGHT              [micromoles][meter^-2][second^-1]                
+CRTFCN_CODE                    [none]                                           
+REVISION_DATE                  [DD-MON-YYYY]                                      
+
+7.3.4 Data Source                                                               
+
+The source of the parameter values contained in the data files on               
+the CD-ROM are:                                                                 
+
+         Column Name                             Data Source                    
+------------------------------ ------------------------------------------------ 
+SITE_NAME                      [BORIS Designation]                                
+SUB_SITE                       [BORIS Designation]                                
+DATE_OBS                       [Human Observer]                                
+MEAN_CH4_FLUX                  [Laboratory Equipment]                                
+STD_ERR_CH4                    [Laboratory Equipment]                                
+CH4_FLUX_NIGHT                 [Laboratory Equipment]                                
+STD_ERR_CH4_NIGHT              [Laboratory Equipment]                                
+MEAN_CO2_FLUX                  [Laboratory Equipment]                                
+STD_ERR_CO2                    [Laboratory Equipment]                                
+CO2_FLUX_NIGHT                 [Laboratory Equipment]                                
+STD_ERR_CO2_NIGHT              [Laboratory Equipment]                                
+CRTFCN_CODE                    [BORIS Designation]                                
+REVISION_DATE                  [BORIS Designation]                                
+
+7.3.5  Data Range                                                               
+                                                                                
+The following table gives information about the parameter values found in       
+the data files on the CD-ROM.                                                   
+
+                     Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            SSA-OBS-FLXTR  SSA-OBS-FLXTR  None    None   None    None 
+SUB_SITE             9TE01-FLX01    9TE01-FLX01    None    None   None    None 
+DATE_OBS             09-JUN-1994    04-SEP-1994    None    None   None    None 
+MEAN_CH4_FLUX        -.000081       .0974537       None    None   None    None 
+STD_ERR_CH4          .00001157      .01157407      -999    None   None    None 
+CH4_FLUX_NIGHT       .01094907      .05153935      -999    None   None    None 
+STD_ERR_CH4_NIGHT    .00322917      .00322917      -999    None   None    None 
+MEAN_CO2_FLUX        -1.5966782     2.0808912      -999    None   None    None 
+STD_ERR_CO2          .02233         1.20968        -999    None   None    None 
+CO2_FLUX_NIGHT       1.4959         1.8601         -999    None   None    None 
+STD_ERR_CO2_NIGHT    .2525          .47403         -999    None   None    None 
+CRTFCN_CODE          CPI            CPI            None    None   None    None 
+REVISION_DATE        07-NOV-1996    07-NOV-1996    None    None   None    None 
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used 
+                      to indicate an attempt was made to determine the 
+                      parameter value, but the value was deemed to be 
+                      unreliable by the analysis personnel.
+Below Detect Limit -- The value that indicates parameter values below the 
+                      instruments detection limits.  This is used to 
+                      indicate that an attempt was made to determine the 
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to 
+                      determine the parameter value.  This usually 
+                      indicates that BORIS combined several similar but 
+                      not identical data sets into the same data base table
+                      but this particular science team did not 
+                      measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+--------------------------------------------------------------------------------
+
+7.4 Sample Data Record                                                          
+
+SITE_NAME,SUB_SITE,DATE_OBS,MEAN_CH4_FLUX,STD_ERR_CH4,CH4_FLUX_NIGHT,
+STD_ERR_CH4_NIGHT,MEAN_CO2_FLUX,STD_ERR_CO2,CO2_FLUX_NIGHT,STD_ERR_CO2_NIGHT,
+CRTFCN_CODE,REVISION_DATE
+'SSA-OBS-FLXTR','9TE01-FLX01',09-JUN-1994,.00018519,-999.0,.05153935,-999.0,
+-999.0,-999.0,-999.0,-999.0,'CPI',07-NOV-1996
+'SSA-OBS-FLXTR','9TE01-FLX01',09-JUN-1994,-.000081,.00001157,.01094907,
+.00322917,-999.0,-999.0,1.4959,.27341,'CPI',07-NOV-1996

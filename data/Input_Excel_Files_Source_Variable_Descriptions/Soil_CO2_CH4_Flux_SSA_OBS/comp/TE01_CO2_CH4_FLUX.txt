@@ -1,0 +1,487 @@
+BOREAS TE-01 CO2 and CH4 Flux data over the SSA-OBS Site
+
+Summary
+
+The BOREAS TE-01 team collected various data to characterize the soil-plant 
+systems in the BOREAS SSA.  Particular emphasis was placed on nutrient 
+biochemistry, the stores and transfers of organic carbon and how the 
+characteristics were related to measured methane fluxes.  The overall transect 
+in the Prince Albert National Park (Saskatchewan, Canada) included the major 
+plant communities and related soils that occurred in that section of the boreal 
+forest.  Soil physical, chemical and biological measurements along the transect 
+were used to characterize the static environment, which allowed them to be 
+related to methane fluxes.  Chamber techniques were used to provide a measure of 
+methane production/uptake.  Chamber measurements coupled with flask sampling 
+were used to determine the seasonality of methane fluxes.  This particular data 
+set contains carbon dioxide and methane flux values from the SSA-OBS site.  The 
+data were collected from 09-JUN to 04-SEP-1994. 
+
+Table of Contents
+   *  1. Data Set Overview
+   *  2. Investigator(s)
+   *  3. Theory of Measurements
+   *  4. Equipment
+   *  5. Data Acquisition Methods
+   *  6. Observations
+   *  7. Data Description
+   *  8. Data Organization
+   *  9. Data Manipulations
+   *  10. Errors
+   *  11. Notes
+   *  12. Application of the Data Set
+   *  13. Future Modifications and Plans
+   *  14. Software
+   *  15. Data Access
+   *  16. Output Products and Availability
+   *  17. References
+   *  18. Glossary of Terms
+   *  19. List of Acronyms
+   *  20. Document Information
+
+1.	Data Set Overview
+
+1.1 Data Set Identification
+
+BOREAS TE-01 CO2 and CH4 Flux data over the SSA-OBS Site
+
+1.2 Data Set Introduction
+
+Particular emphasis in this study was on nutrient biochemistry, the stores and 
+transfers of organic carbon and how the characteristics were related to measured 
+methane fluxes.  The transect in Prince Albert National Park included the major 
+plant communities and related soils that occurred in that section of the boreal 
+forest.  Soil physical, chemical and biological measurements along the transect 
+was used to characterize the static environment, which allowed them to be 
+related to methane fluxes.  Chamber techniques were used to provide a measure of 
+methane production/uptake.  Chamber measurements coupled with flask sampling 
+were used to determine the seasonality of methane fluxes.
+
+1.3 Objective/Purpose
+
+The objective of the research was to characterize the methane and carbon dioxide 
+soil flux at the Southern Study Area (SSA) Old Black Spruce (OBS).
+
+1.4 Summary of Parameters
+
+The main parameters are daily and nightly CH4 and CO2 fluxes.
+
+1.5 Discussion
+
+None given.
+
+1.6 Related Data Sets
+
+BOREAS TGB-01 CH4 Tower flux data over NSA
+BOREAS TGB-01 CO2 and CH4 Chamber Flux data over the NSA
+BOREAS TGB-03 NEE and air and water temperature data over the NSA Fen
+BOREAS TGB-03 CO2 and CH4 Chamber Flux data over the NSA
+BOREAS TGB-05 CO, CO2, and CH4 Chamber Flux data over the NSA
+
+2.	Investigator(s)
+
+2.1 Investigator(s) Name and Title
+
+Dr. Darwin Anderson
+Research Professor
+University of Saskatchewan
+
+2.2 Title of Investigation
+
+Stores and Dynamics of Organic Matter in Boreal Ecosystems
+
+2.3 Contact Information
+
+Contact 1
+Dr. Darwin Anderson
+Department of Soil Science
+University of Saskatchewan
+Saskatoon, Saskatchewan
+(306)966-6827
+(306)966-6881 (fax)
+
+Contact 2
+Andrea Papagno
+Raytheon ITSS
+NASA GSFC
+Greenbelt, MD 
+(301) 286-3134
+(301) 286-0239 (fax)
+Andrea.Papagno@gsfc.nasa.gov
+
+3. Theory of Measurements
+
+None given.
+
+4.	Equipment
+
+4.1 Sensor/Instrument Description
+
+4.1.1 Collection Environment
+
+CH4 and CO2 fluxes were measured during all ambient environmental conditions at 
+the sites.
+
+4.1.2 Source/Platform
+
+Ground.
+
+4.1.3 Source/Platform Mission Objectives
+
+The mission objective was to determine the flux of CH4 and CO2 at the SSA-OBS 
+site.
+
+4.1.4 Key Variables
+
+The key variables measured during the fluxes were CH4 and CO2 flux.
+
+4.1.5 Principles of Operation
+
+None given.
+
+4.1.6 Sensor/Instrument Measurement Geometry
+
+Not applicable.
+
+4.1.7 Manufacturer of Sensor/Instrument
+
+None given.
+
+4.2 Calibration
+
+None given.
+
+4.2.1 Specifications
+
+4.2.1.1 Tolerance
+
+None given.
+
+4.2.2 Frequency of Calibration
+
+None given.
+
+4.2.3 Other Calibration Information
+
+None given.
+
+5. Data Acquisition Methods
+
+None given.
+
+6.	Observations
+
+6.1	Data Notes
+
+None given.
+
+6.2 Field Notes
+
+None given.
+
+7. Data Description
+
+7.1 Spatial Characteristics
+
+7.1.1 Spatial Coverage
+
+The North American Datum 1983 (NAD83) coordinates of the SSA-OBS flux tower 
+(site id G8I4T), close to where the measurements were taken, are 53.98717° N 
+Lat, 105.11779° W Long, Universal Transverse Mercator (UTM) Zone 13, N: 
+5,982,100.5, E: 492,276.5.
+
+7.1.2 Spatial Coverage Map
+
+Not available.
+
+7.1.3 Spatial Resolution
+
+These are point source measurements along a transect near the given location.
+
+7.1.4 Projection
+
+Not applicable.
+
+7.1.5 Grid Description
+
+Not applicable.
+
+7.2 Temporal Characteristics
+
+7.2.1 Temporal Coverage
+
+The data were collected from 09-JUN to 04-SEP-1994.
+
+7.2.2 Temporal Coverage Map
+
+Not available.
+
+7.2.3 Temporal Resolution
+
+Measurements were collected on a daily basis.  Mean flux measurements were 
+calculated every 2 to 10 days from 09-JUN to 04-SEP-1994. The mean and standard 
+deviation of the night time methane measurements were taken during the night of 
+14-AUG to 3 am 15-AUG-1994.
+
+7.3 Data Characteristics
+
+Data characteristics are defined in the companion data definition file 
+(te1fxobs.def).
+
+7.4 Sample Data Record
+
+Sample data format shown in the companion data definition file (te1fxobs.def).
+
+8. Data Organization
+
+8.1 Data Granularity
+
+All of the flux data are contained in one file. 
+
+8.2 Data Format(s)
+
+The data files contain American Standard Code for Information Interchange 
+(ASCII) numerical and character fields of varying length separated by commas. 
+The character fields are enclosed with single apostrophe marks. There are no 
+spaces between the fields. Sample data records are shown in the companion data 
+definition file (te1fxobs.def).
+
+
+9. Data Manipulations
+
+9.1 Formulae
+
+9.1.1 Derivation Techniques and Algorithms
+
+None given.
+
+9.2 Data Processing Sequence
+
+9.2.1 Processing Steps
+
+None given.
+
+9.2.2 Processing Changes
+
+None given.
+
+9.3 Calculations
+
+9.3.1 Special Corrections/Adjustments
+
+None given.
+
+9.3.2 Calculated Variables
+
+None given.
+
+9.4 Graphs and Plots
+
+None.
+
+10. Errors
+
+10.1 Sources of Error
+
+None given.
+
+10.2 Quality Assessment
+
+10.2.1 Data Validation by Source
+
+None given.
+
+10.2.2 Confidence Level/Accuracy Judgment
+
+None given.
+
+10.2.3 Measurement Error for Parameters
+
+None given.
+
+10.2.4 Additional Quality Assessments
+
+None given.
+
+10.2.5 Data Verification by Data Center
+
+Data were examined for general consistency and clarity.
+
+11. Notes
+
+11.1 Limitations of the Data
+
+None given.
+
+11.2 Known Problems with the Data
+
+None given.
+
+11.3 Usage Guidance
+
+None given.
+
+11.4 Other Relevant Information
+
+None given.
+
+12. Application of the Data Set
+
+None given.
+
+13. Future Modifications and Plans
+
+This data set is in its final format.
+
+14. Software
+
+14.1 Software Description
+
+None given.
+
+14.2 Software Access
+
+None given.
+
+15. Data Access
+
+15.1 Contact Information
+
+Ms. Beth Nelson
+BOREAS Data Manager
+NASA GSFC
+Greenbelt, MD 
+(301) 286-4005
+(301) 286-0239 (fax)
+beth@ltpmail.gsfc.nasa.gov
+
+15.2 Data Center Identification
+
+See Section 15.1.
+
+15.3 Procedures for Obtaining Data
+
+Users may place requests by telephone, electronic mail, or fax.
+
+15.4 Data Center Status/Plans
+
+These data are available from the Earth Observing System Data and Information 
+System (EOSDIS) Oak Ridge National Laboratory (ORNL) Distributed Active Archive 
+Center (DAAC). The BOREAS contact at ORNL is: 
+
+ORNL DAAC User Services
+Oak Ridge National Laboratory
+(865) 241-3952
+ornldaac@ornl.gov
+ornl@eos.nasa.gov
+
+16. Output Products and Availability
+
+16.1 Tape Products
+
+None.
+
+16.2 Film products
+
+None.
+
+16.3 Other Products
+
+Comma separated ASCII files.
+
+17. References
+
+17.1 Platform/Sensor/Instrument/Data Processing Documentation
+
+None.
+
+17.2 Journal Articles and Study Reports
+
+Sellers, P. and F. Hall.  1994.  Boreal Ecosystem-Atmosphere Study:  Experiment 
+Plan.  Version 1994-3.0, NASA BOREAS REPORT (EXPLAN 94).
+
+Sellers, P., F. Hall, H. Margolis, B. Kelly, D. Baldocchi, G. den Hartog, J. 
+Cihlar, M.G. Ryan, B. Goodison, P. Crill, K.J. Ranson, D. Lettenmaier, and D.E. 
+Wickland.  1995.  Boreal Ecosystem-Atmosphere Study (BOREAS): an overview and 
+early results from the 1994 field year.  Bulletin of the American Meteorological 
+Society.  V76:  1549-1577.
+
+Sellers, P., F. Hall, and K.F. Huemmrich.  1996.  Boreal Ecosystem-Atmosphere 
+Study:  1994 Operations.  NASA BOREAS REPORT (OPS DOC 94).
+
+Sellers, P. and F. Hall.  1996.  Boreal Ecosystem-Atmosphere Study:  Experiment 
+Plan.  Version 1996-2.0, NASA BOREAS REPORT (EXPLAN 96).
+
+Sellers, P., F. Hall, and K.F. Huemmrich.  1997.  Boreal Ecosystem-Atmosphere 
+Study:  1996 Operations.  NASA BOREAS REPORT (OPS DOC 96).
+
+Sellers, P.J., F.G. Hall, R.D.  Kelly, A.  Black, D.  Baldocchi, J. Berry, M.  
+Ryan, K.J.  Ranson, P.M.  Crill, D.P.  Lettenmaier, H. Margolis, J. Cihlar, J. 
+Newcomer, D. Fitzjarrald, P.G.  Jarvis, S.T. Gower, D. Halliwell, D. Williams, 
+B. Goodison, D.E. Wickland, and F.E. Guertin. 1997. BOREAS in 1997: Experiment 
+Overview, Scientific Results and Future Directions. Journal of Geophysical 
+Research 102 (D24): 28,731-28,770.
+
+17.3 Archive/DBMS Usage Documentation
+
+None.
+
+18. Glossary of Terms
+
+None.
+
+19. List of Acronyms
+
+    ASCII   - American Standard Code for Information Interchange
+    AES     - Atmospheric Environment Services
+    BOREAS  - BOReal Ecosystem-Atmosphere Study
+    BORIS   - BOREAS Information System
+    BP      - Beaver Pond 
+    CMDL    - Climate Monitoring and Diagnostics Laboratory
+    DAAC    - Distributed Active Archive Center
+    ECD     - Electron Capture Detector
+    EOS     - Earth Observing System
+    EOSDIS  - EOS Data and Information System
+    FID     - Flame Ionization Detector
+    GC      - Gas Chromatograph
+    GSFC    - Goddard Space Flight Center
+    HTML    - Hypertext Markup Language
+    NAD83   - North American Datum 1983
+    NASA    - National Aeronautics and Space Administration
+    NSA     - Northern Study Area
+    OBS     - Old Black Spruce
+    ORNL    - Oak Ridge National Laboratory
+    PANP    - Prince Albert National Park
+    SSA     - Southern Study Area
+    TE      - Terrestrial Ecology
+    TCD     - Thermal Conductivity Detector
+    TGB     - Trace Gas Biogeochemistry
+    URL     - Uniform Resource Locator
+    UTM     - Universal Transverse Mercator
+
+20. Document Information
+
+20.1 Document Revision Date
+
+     Written:  07-Aug-1998
+     Last Updated:  08-Dec-1998
+
+20.2 Document Review Date(s)
+
+     BORIS Review:  01-Dec-1998
+     Science Review:
+
+20.3 Document ID
+
+20.4 Citation
+
+20.5 Document Curator
+
+20.6 Document URL
+
+Keywords
+
+Methane flux
+Carbon dioxide flux
+Trace Gas
+TE01_CO2_CH4_FLUX.doc
+01/13/99

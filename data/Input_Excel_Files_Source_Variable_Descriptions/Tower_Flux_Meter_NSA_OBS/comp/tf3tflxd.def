@@ -1,0 +1,295 @@
+BOREAS TF-03 Tower Flux & Meteorological Data
+
+7.3 Data Characteristics
+
+7.3.1 Parameter/Variable
+
+The parameters contained in the data files on the CD-ROM are:
+
+         Column Name
+------------------------------
+SITE_NAME
+SUB_SITE
+DATE_OBS
+TIME_OBS
+SENSIBLE_HEAT_FLUX_ABV_CNPY
+LATENT_HEAT_FLUX_ABV_CNPY
+NET_RAD_ABV_CNPY
+CO2_FLUX_ABV_CNPY
+CO2_CONC_ABV_CNPY
+CO2_STORAGE
+DOWN_PPFD_ABV_CNPY
+DOWN_PPFD_BELOW_CNPY
+WIND_DIR_MAG_ABV_CNPY
+WIND_SPEED_ABV_CNPY
+FRICTION_VELOC_ABV_CNPY
+AIR_TEMP_ABV_CNPY
+AIR_TEMP_10M
+AIR_TEMP_2M
+SOIL_TEMP_5CM_1
+SOIL_TEMP_10CM_1
+SOIL_TEMP_20CM_1
+SOIL_TEMP_50CM_1
+SOIL_TEMP_100CM_1
+SOIL_TEMP_5CM_2
+SOIL_TEMP_10CM_2
+SOIL_TEMP_20CM_2
+SOIL_TEMP_50CM_2
+SOIL_TEMP_100CM_2
+VAPOR_PRESS_ABV_CNPY
+RAIN_RATE
+MONIN_OBUKHOV_LENGTH
+CRTFCN_CODE
+REVISION_DATE
+
+
+7.3.2 Variable Description/Definition
+
+The descriptions of the parameters contained in the data files on the CD-ROM are:
+
+         Column Name                             Description
+------------------------------ ------------------------------------------------
+SITE_NAME                      The identifier assigned to the site by BOREAS, 
+                               in the format SSS-TTT-CCCCC, where SSS identifies
+                               the portion of the study area: NSA, SSA, REG, 
+                               TRN, and TTT identifies the cover type for the 
+                               site, 999 if unknown, and CCCCC is the identifier
+                               for site, exactly what it means will vary with 
+                               site type.
+SUB_SITE                       The identifier assigned to the sub-site by BOREAS,
+                               in the format GGGGG-IIIII, where GGGGG is the
+                               group associated with the sub-site instrument,
+                               e.g. HYD06 or STAFF, and IIIII is the identifier
+                               for sub-site, often this will refer to an
+                               instrument.
+DATE_OBS                       The date on which the data were collected.
+TIME_OBS                       The Greenwich Mean Time (GMT) of the start of the 
+                               data collection.
+SENSIBLE_HEAT_FLUX_ABV_CNPY    The sensible heat flux measured above the canopy.
+LATENT_HEAT_FLUX_ABV_CNPY      The latent heat flux measured above the canopy.
+NET_RAD_ABV_CNPY               The net radiation measured above the canopy.
+CO2_FLUX_ABV_CNPY              The carbon dioxide flux measured above the canopy
+CO2_CONC_ABV_CNPY              The carbon dioxide concentration measured above
+                               the canopy.
+CO2_STORAGE                    The storage term of carbon dioxide under the eddy
+                               flux system.
+DOWN_PPFD_ABV_CNPY             The incoming photosynthetic photon flux density
+                               measured above the canopy.
+DOWN_PPFD_BELOW_CNPY           The downward photosynthetic photon flux density
+                               measured under the canopy.
+WIND_DIR_MAG_ABV_CNPY          The wind direction measured above the canopy from
+                               magnetic north.
+WIND_SPEED_ABV_CNPY            The wind speed measured above the canopy.
+FRICTION_VELOC_ABV_CNPY        The friction velocity above the canopy.
+AIR_TEMP_ABV_CNPY              The air temperature measured above the canopy.
+AIR_TEMP_10M                   The air temperature measured at 10 meters above
+                               the ground.
+AIR_TEMP_2M                    The air temperature at 2 meters above the ground
+SOIL_TEMP_5CM_1                The soil temperature recorded at 5 cm in depth at
+                               plot 1.
+SOIL_TEMP_10CM_1               The soil temperature recorded at 10 cm in depth
+                               at plot 1.
+SOIL_TEMP_20CM_1               The soil temperature recorded at 20 cm in depth
+                               at plot 1.
+SOIL_TEMP_50CM_1               The soil temperature recorded at 50 cm in depth
+                               at plot 1.
+SOIL_TEMP_100CM_1              The soil temperature recorded at 1 m in depth at
+                               plot 1.
+SOIL_TEMP_5CM_2                The soil temperature recorded at 5 cm in depth at
+                               plot 2.
+SOIL_TEMP_10CM_2               The soil temperature recorded at 10 cm in depth
+                               at plot 2.
+SOIL_TEMP_20CM_2               The soil temperature recorded at 20 cm in depth
+                               at plot 2.
+SOIL_TEMP_50CM_2               The soil temperature recorded at 50 cm in depth
+                               at plot 2.
+SOIL_TEMP_100CM_2              The soil temperature recorded at 1 m in depth at
+                               plot 2.
+VAPOR_PRESS_ABV_CNPY           The vapor pressure measured above the canopy.
+RAIN_RATE                      The rainfall rate measured in a clearing.
+MONIN_OBUKHOV_LENGTH           The Monin-Obukhov length.
+CRTFCN_CODE                    The BOREAS certification level of the data. 
+                               Examples are CPI (Checked by PI), CGR (Certified
+                               by Group), PRE (Preliminary), and CPI-??? (CPI 
+                               but questionable).
+REVISION_DATE                  The most recent date when the information in the
+                               referenced data base table record was revised.
+
+
+7.3.3 Unit of Measurement
+
+The measurement units for the parameters contained in the data files on the CD-
+ROM are:
+
+         Column Name                                Units
+------------------------------ ------------------------------------------------
+SITE_NAME                      [none]
+SUB_SITE                       [none]
+DATE_OBS                       [DD-MON-YYYY]
+TIME_OBS                       [HHMM GMT]
+SENSIBLE_HEAT_FLUX_ABV_CNPY    [Watts][meter^-2]
+LATENT_HEAT_FLUX_ABV_CNPY      [Watts][meter^-2]
+NET_RAD_ABV_CNPY               [Watts][meter^-2]
+CO2_FLUX_ABV_CNPY              [micromoles][meter^-2][second^-1]
+CO2_CONC_ABV_CNPY              [parts per million]
+CO2_STORAGE                    [micromoles][meter^-2][second^-1]
+DOWN_PPFD_ABV_CNPY             [micromoles][meter^-2][second^-1]
+DOWN_PPFD_BELOW_CNPY           [micromoles][meter^-2][second^-1]
+WIND_DIR_MAG_ABV_CNPY          [degrees from magnetic North]
+WIND_SPEED_ABV_CNPY            [meters][second^-1]
+FRICTION_VELOC_ABV_CNPY        [meters][second^-1]
+AIR_TEMP_ABV_CNPY              [degrees Celsius]
+AIR_TEMP_10M                   [degrees Celsius]
+AIR_TEMP_2M                    [degrees Celsius]
+SOIL_TEMP_5CM_1                [degrees Celsius]
+SOIL_TEMP_10CM_1               [degrees Celsius]
+SOIL_TEMP_20CM_1               [degrees Celsius]
+SOIL_TEMP_50CM_1               [degrees Celsius]
+SOIL_TEMP_100CM_1              [degrees Celsius]
+SOIL_TEMP_5CM_2                [degrees Celsius]
+SOIL_TEMP_10CM_2               [degrees Celsius]
+SOIL_TEMP_20CM_2               [degrees Celsius]
+SOIL_TEMP_50CM_2               [degrees Celsius]
+SOIL_TEMP_100CM_2              [degrees Celsius]
+VAPOR_PRESS_ABV_CNPY           [kiloPascals]
+RAIN_RATE                      [millimeters][hour^-1]
+MONIN_OBUKHOV_LENGTH           [meters]
+CRTFCN_CODE                    [none]
+REVISION_DATE                  [DD-MON-YYYY]
+
+
+7.3.4 Data Source
+
+The source of the parameter values contained in the data files on the CD-ROM are:
+
+         Column Name                             Data Source
+------------------------------ ------------------------------------------------
+SITE_NAME                      [Assigned by BORIS]
+SUB_SITE                       [Assigned by BORIS]
+DATE_OBS                       [Investigator]
+TIME_OBS                       [Investigator]
+SENSIBLE_HEAT_FLUX_ABV_CNPY    [ATI sonic anemometer]
+LATENT_HEAT_FLUX_ABV_CNPY      [Infrared Gas Analyzer]
+NET_RAD_ABV_CNPY               [Net radiometer]
+CO2_FLUX_ABV_CNPY              [Infrared Gas Analyzer]
+CO2_CONC_ABV_CNPY              [Infrared Gas Analyzer]
+CO2_STORAGE                    [Infrared Gas Analyzer]
+DOWN_PPFD_ABV_CNPY             [Quantum sensor]
+DOWN_PPFD_BELOW_CNPY           [Quantum sensor]
+WIND_DIR_MAG_ABV_CNPY          [Met One sensor]
+WIND_SPEED_ABV_CNPY            [Met One spinning cup]
+FRICTION_VELOC_ABV_CNPY        [ATI sonic anemometer]
+AIR_TEMP_ABV_CNPY              [thermocouple]
+AIR_TEMP_10M                   [thermocouple]
+AIR_TEMP_2M                    [thermocouple]
+SOIL_TEMP_5CM_1                [thermocouple]
+SOIL_TEMP_10CM_1               [thermocouple]
+SOIL_TEMP_20CM_1               [thermocouple]
+SOIL_TEMP_50CM_1               [thermocouple]
+SOIL_TEMP_100CM_1              [thermocouple]
+SOIL_TEMP_5CM_2                [thermocouple]
+SOIL_TEMP_10CM_2               [thermocouple]
+SOIL_TEMP_20CM_2               [thermocouple]
+SOIL_TEMP_50CM_2               [thermocouple]
+SOIL_TEMP_100CM_2              [thermocouple]
+VAPOR_PRESS_ABV_CNPY           [thermocouple]
+RAIN_RATE                      [Infrared Gas Analyzer]
+MONIN_OBUKHOV_LENGTH           [ATI sonic anemometer]
+CRTFCN_CODE                    [Assigned by BORIS]
+REVISION_DATE                  [Assigned by BORIS]
+
+
+7.3.5  Data Range
+
+The following table gives information about the parameter values found in the 
+data files on the CD-ROM.
+
+                     Minimum        Maximum        Missng  Unrel  Below   Data
+                     Data           Data           Data    Data   Detect  Not
+Column Name          Value          Value          Value   Value  Limit   Cllctd
+--------------------------------------------------------------------------------
+SITE_NAME            NSA-OBS-FLXTR  NSA-OBS-FLXTR  None    None   None    None
+SUB_SITE             9TF03-FLX01    9TF03-FLX01    None    None   None    None
+DATE_OBS             16-MAR-1994    31-OCT-1996    None    None   None    None
+TIME_OBS             0              2330           None    None   None    None
+SENSIBLE_HEAT_FLUX_  -192.857       661.963        -999    None   None    None
+ABV_CNPY
+LATENT_HEAT_FLUX_ABV_-182.232       514.406        -999    None   None    None
+CNPY
+NET_RAD_ABV_CNPY     -77.88         831.6          -999    None   None    None
+CO2_FLUX_ABV_CNPY    -17.964        52.586         -999    None   None    None
+CO2_CONC_ABV_CNPY    333.035        448.098        -999    None   None    None
+CO2_STORAGE          -20.49         12.09          -999    None   None    None
+DOWN_PPFD_ABV_CNPY   -41.878        2129.89        -999    None   None    None
+DOWN_PPFD_BELOW_CNPY -23.073        379.72         -999    None   None    None
+WIND_DIR_MAG_ABV_    0              360            -999    None   None    None
+CNPY
+WIND_SPEED_ABV_CNPY  .06            12.24          -999    None   None    None
+FRICTION_VELOC_ABV_  .01            1.928          -999    None   None    None
+CNPY
+AIR_TEMP_ABV_CNPY    -44.299        36.216         -999    None   None    None
+AIR_TEMP_10M         -44.81         37.268         -999    None   None    None
+AIR_TEMP_2M          -45.071        37.31          -999    None   None    None
+SOIL_TEMP_5CM_1      -10.382        33.19          -999    None   None    None
+SOIL_TEMP_10CM_1     -4.971         19.37          -999    None   None    None
+SOIL_TEMP_20CM_1     -1.686         12.582         -999    None   None    None
+SOIL_TEMP_50CM_1     -1.003         6.065          -999    None   None    None
+SOIL_TEMP_100CM_1    -.196          3.932          -999    None   None    None
+SOIL_TEMP_5CM_2      -22.327        34.565         -999    None   None    None
+SOIL_TEMP_10CM_2     -24.914        30.136         -999    None   None    None
+SOIL_TEMP_20CM_2     -13.726        20.396         -999    None   None    None
+SOIL_TEMP_50CM_2     -4.872         10.316         -999    None   None    None
+SOIL_TEMP_100CM_2    -.958          2.112          -999    None   None    None
+VAPOR_PRESS_ABV_CNPY .0423          2.8647         -999    None   None    None
+RAIN_RATE            0              6.6            -999    None   None    None
+MONIN_OBUKHOV_LENGTH -2305260       2048890        -999    None   None    None
+CRTFCN_CODE          CPI            CPI            None    None   None    None
+REVISION_DATE        05-FEB-1998    05-FEB-1998    None    None   None    None
+
+--------------------------------------------------------------------------------
+Minimum Data Value -- The minimum value found in the column.
+Maximum Data Value -- The maximum value found in the column.
+Missng Data Value  -- The value that indicates missing data. This is used to
+                      indicate that an attempt was made to determine the
+                      parameter value, but the attempt was unsuccessful.
+Unrel Data Value   -- The value that indicates unreliable data.  This is used
+                      to indicate an attempt was made to determine the
+                      parameter value, but the value was deemed to be
+                      unreliable by the analysis personnel.
+Below Detect Limit -- The value that indicates parameter values below the
+                      instruments detection limits.  This is used to
+                      indicate that an attempt was made to determine the
+                      parameter value, but the analysis personnel determined
+                      that the parameter value was below the detection
+                      limit of the instrumentation.
+Data Not Cllctd    -- This value indicates that no attempt was made to
+                      determine the parameter value.  This usually
+                      indicates that BORIS combined several similar but
+                      not identical data sets into the same data base table
+                      but this particular science team did not
+                      measure that parameter.
+
+Blank -- Indicates that blank spaces are used to denote that type of value.
+N/A   -- Indicates that the value is not applicable to the respective column.
+None  -- Indicates that no values of that sort were found in the column.
+--------------------------------------------------------------------------------
+
+
+7.4 Sample Data Record
+
+SITE_NAME,SUB_SITE,DATE_OBS,TIME_OBS,SENSIBLE_HEAT_FLUX_ABV_CNPY,
+LATENT_HEAT_FLUX_ABV_CNPY,NET_RAD_ABV_CNPY,CO2_FLUX_ABV_CNPY,CO2_CONC_ABV_CNPY,
+CO2_STORAGE,DOWN_PPFD_ABV_CNPY,DOWN_PPFD_BELOW_CNPY,WIND_DIR_MAG_ABV_CNPY,
+WIND_SPEED_ABV_CNPY,FRICTION_VELOC_ABV_CNPY,AIR_TEMP_ABV_CNPY,AIR_TEMP_10M,
+AIR_TEMP_2M,SOIL_TEMP_5CM_1,SOIL_TEMP_10CM_1,SOIL_TEMP_20CM_1,SOIL_TEMP_50CM_1,
+SOIL_TEMP_100CM_1,SOIL_TEMP_5CM_2,SOIL_TEMP_10CM_2,SOIL_TEMP_20CM_2,
+SOIL_TEMP_50CM_2,SOIL_TEMP_100CM_2,VAPOR_PRESS_ABV_CNPY,RAIN_RATE,
+MONIN_OBUKHOV_LENGTH,CRTFCN_CODE,REVISION_DATE
+'NSA-OBS-FLXTR','9TF03-FLX01',16-MAR-1994,30,-999.0,-999.0,-999.0,-999.0,-999.0,
+-999.0,-999.0,-999.0,-999,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,
+-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,
+'CPI',05-FEB-1998
+'NSA-OBS-FLXTR','9TF03-FLX01',16-MAR-1994,100,-999.0,-999.0,-999.0,-999.0,
+-999.0,-999.0,-999.0,-999.0,-999,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,
+-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,-999.0,
+-999.0,'CPI',05-FEB-1998
